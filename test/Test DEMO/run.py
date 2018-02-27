@@ -20,14 +20,21 @@
 
 
 import unittest
-
-
-def suite():
-    loader = unittest.TestLoader()
-    suite = loader.discover(r'tests\login', pattern='test_*.py') # loader rests\login文件夹下test_开头的所有文件
-    return suite
+from BeautifulReport import BeautifulReport
 
 if __name__ == '__main__':
-    suite = suite()
-    print(suite)
-    unittest.main(defaultTest='suite')
+    test_suite = unittest.defaultTestLoader.discover('tests/login', pattern='test*.py')
+    result = BeautifulReport(test_suite)
+    result.report(filename='测试报告', description='测试deafult报告', log_path='Report')
+
+
+
+# def suite():
+#     loader = unittest.TestLoader()
+#     suite = loader.discover(r'tests\login', pattern='test_*.py') # loader rests\login文件夹下test_开头的所有文件
+#     return suite
+#
+# if __name__ == '__main__':
+#     suite = suite()
+#     print(suite)
+#     unittest.main(defaultTest='suite')
