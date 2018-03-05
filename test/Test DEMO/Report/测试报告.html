@@ -7097,69 +7097,47 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "testAll": 5,
-    "totalTime": "18s",
-    "beginTime": "2018-02-27 16:52:15",
-    "testPass": 5,
     "testError": 0,
-    "testName": "测试deafult报告",
     "testSkip": 0,
+    "testName": "测试deafult报告",
+    "testFail": 0,
+    "totalTime": "24s",
+    "testPass": 3,
+    "testAll": 3,
+    "beginTime": "2018-03-05 14:45:03",
     "testResult": [
         {
-            "spendTime": "11.2 s",
-            "description": null,
+            "methodName": "test_baidu_search_is_ok",
+            "status": "成功",
+            "log": [
+                ""
+            ],
+            "description": "[百度][TEST] 在百度首页输入搜索关键字，确认返回结果正确",
+            "spendTime": "7.9 s",
+            "className": "BaiDuTestCases"
+        },
+        {
+            "methodName": "test_baidu_tieba",
+            "status": "成功",
+            "log": [
+                ""
+            ],
+            "description": "[百度][TEST] 测试搜索后，跳转到贴吧中的title与预期结果一致",
+            "spendTime": "9.48 s",
+            "className": "BaiDuTestCases"
+        },
+        {
+            "methodName": "test_config_enum_is_ok",
+            "status": "成功",
             "log": [
                 "test start with test_config_enum_is_ok",
                 ""
             ],
-            "methodName": "test_config_enum_is_ok",
-            "className": "TesterHomeCases",
-            "status": "成功"
-        },
-        {
-            "spendTime": "6.95 s",
-            "description": "展示截图在report.html中",
-            "log": [
-                "测试完成",
-                "<br></br>",
-                ""
-            ],
-            "methodName": "test_show_img_in_report",
-            "className": "TesterHomeCases",
-            "status": "成功"
-        },
-        {
-            "spendTime": "0.0 s",
-            "description": "测试1=1 为真",
-            "log": [
-                ""
-            ],
-            "methodName": "test_equal",
-            "className": "MethodTest",
-            "status": "成功"
-        },
-        {
-            "spendTime": "0.0 s",
-            "description": "测试传递信息不为None",
-            "log": [
-                ""
-            ],
-            "methodName": "test_not_null",
-            "className": "MethodTest",
-            "status": "成功"
-        },
-        {
-            "spendTime": "0.0 s",
-            "description": "测试传递信息为None",
-            "log": [
-                ""
-            ],
-            "methodName": "test_unll",
-            "className": "MethodTest",
-            "status": "成功"
+            "description": "[百度][Config] 验证百度config文件是否正确",
+            "spendTime": "6.46 s",
+            "className": "BaiDuTestCases"
         }
-    ],
-    "testFail": 0
+    ]
 };
     function details(obj) {
         if ($(obj).text() == '展开') {

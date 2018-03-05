@@ -26,8 +26,8 @@ class TesterHomeCases(unittest.TestCase):
         # self.assert_info = self.config.get('assert_xpath')[0]
 
         cls.config = Config.enum.get('login')
-        cls.url = cls.config.get('url')
         cls.img_path = 'img/'
+        cls.url = cls.config.get('url')
         cls.username = cls.config.get('username')
         cls.password = cls.config.get('password')
         cls.input_username, cls.input_password, cls.click_login_button = cls.config.get('xpath')
