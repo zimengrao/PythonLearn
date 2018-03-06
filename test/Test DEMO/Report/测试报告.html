@@ -7098,46 +7098,51 @@ body.skin-3 {
 <script type="text/javascript">
     var resultData = {
     "testError": 0,
-    "testSkip": 0,
-    "testName": "测试deafult报告",
-    "testFail": 0,
     "totalTime": "24s",
+    "beginTime": "2018-03-06 15:17:47",
+    "testName": "测试deafult报告",
     "testPass": 3,
+    "testSkip": 0,
     "testAll": 3,
-    "beginTime": "2018-03-05 14:45:03",
     "testResult": [
         {
-            "methodName": "test_baidu_search_is_ok",
+            "className": "BaiDuTestCases",
             "status": "成功",
-            "log": [
-                ""
-            ],
             "description": "[百度][TEST] 在百度首页输入搜索关键字，确认返回结果正确",
-            "spendTime": "7.9 s",
-            "className": "BaiDuTestCases"
-        },
-        {
-            "methodName": "test_baidu_tieba",
-            "status": "成功",
+            "methodName": "test_baidu_search_is_ok",
             "log": [
+                "img/",
                 ""
             ],
-            "description": "[百度][TEST] 测试搜索后，跳转到贴吧中的title与预期结果一致",
-            "spendTime": "9.48 s",
-            "className": "BaiDuTestCases"
+            "spendTime": "8.66 s"
         },
         {
-            "methodName": "test_config_enum_is_ok",
+            "className": "BaiDuTestCases",
             "status": "成功",
+            "description": "[百度][TEST] 测试搜索后，跳转到贴吧中的title与预期结果一致",
+            "methodName": "test_baidu_tieba",
             "log": [
+                "img/",
+                "在百度搜索中输入{}关键字进行查询并跳转到查询结果页面",
+                "<br></br>",
+                ""
+            ],
+            "spendTime": "9.94 s"
+        },
+        {
+            "className": "BaiDuTestCases",
+            "status": "成功",
+            "description": "[百度][Config] 验证百度config文件是否正确",
+            "methodName": "test_config_enum_is_ok",
+            "log": [
+                "img/",
                 "test start with test_config_enum_is_ok",
                 ""
             ],
-            "description": "[百度][Config] 验证百度config文件是否正确",
-            "spendTime": "6.46 s",
-            "className": "BaiDuTestCases"
+            "spendTime": "6.06 s"
         }
-    ]
+    ],
+    "testFail": 0
 };
     function details(obj) {
         if ($(obj).text() == '展开') {

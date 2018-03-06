@@ -998,3 +998,340 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7
 1520232326745	Marionette	WARN	TLS certificate errors will be ignored for this session
 1520232326868	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
 [Parent 12792, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520316385103	geckodriver	INFO	geckodriver 0.19.1
+1520316385153	geckodriver	INFO	Listening on 127.0.0.1:60329
+1520316387199	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.CXGYwuNuVEKe"
+1520316389145	Marionette	INFO	Enabled via --marionette
+1520316392490	Marionette	INFO	Listening on port 60337
+1520316393203	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1435_21122_17001_20929&req=2&csor=1&cb=jQuery110206959188931574183_1520316393997&_=1520316393999, line 1: TypeError: jQuery110206959188931574183_1520316393997 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1435_21122_17001_20929&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110206959188931574183_1520316393997&_=1520316394000, line 1: TypeError: jQuery110206959188931574183_1520316393997 is not a function
+1520316396001	geckodriver	INFO	geckodriver 0.19.1
+1520316396014	geckodriver	INFO	Listening on 127.0.0.1:60406
+1520316398088	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.VMi9SjD1Now1"
+1520316398840	Marionette	INFO	Enabled via --marionette
+1520316400866	Marionette	INFO	Listening on port 60412
+1520316401220	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1466_19037_21119_22160&req=2&csor=1&cb=jQuery110206447131858945279_1520316402101&_=1520316402103, line 1: TypeError: jQuery110206447131858945279_1520316402101 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1466_19037_21119_22160&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110206447131858945279_1520316402101&_=1520316402104, line 1: TypeError: jQuery110206447131858945279_1520316402101 is not a function
+[Parent 9856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520316405264	geckodriver	INFO	geckodriver 0.19.1
+1520316405277	geckodriver	INFO	Listening on 127.0.0.1:60504
+1520316407277	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.YpOcZlhVV0LD"
+1520316408133	Marionette	INFO	Enabled via --marionette
+1520316410309	Marionette	INFO	Listening on port 60514
+1520316410430	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520316410553	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520316797206	geckodriver	INFO	geckodriver 0.19.1
+1520316797218	geckodriver	INFO	Listening on 127.0.0.1:60692
+1520316799295	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.RuYOar56FNP6"
+1520316800087	Marionette	INFO	Enabled via --marionette
+1520316802398	Marionette	INFO	Listening on port 60698
+1520316802462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1461_22533_21102_18559&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110205292600446307357_1520316803551&_=1520316803554, line 1: TypeError: jQuery110205292600446307357_1520316803551 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1461_22533_21102_18559&req=2&csor=1&cb=jQuery110205292600446307357_1520316803551&_=1520316803553, line 1: TypeError: jQuery110205292600446307357_1520316803551 is not a function
+1520316805396	geckodriver	INFO	geckodriver 0.19.1
+1520316805407	geckodriver	INFO	Listening on 127.0.0.1:60762
+1520316807467	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.QFLE1VKSXV5O"
+1520316808223	Marionette	INFO	Enabled via --marionette
+1520316810532	Marionette	INFO	Listening on port 60768
+1520316810596	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1427_21121&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110202960509220584048_1520316811633&_=1520316811636, line 1: TypeError: jQuery110202960509220584048_1520316811633 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1427_21121&req=2&csor=1&cb=jQuery110202960509220584048_1520316811633&_=1520316811635, line 1: TypeError: jQuery110202960509220584048_1520316811633 is not a function
+1520316815350	geckodriver	INFO	geckodriver 0.19.1
+1520316815360	geckodriver	INFO	Listening on 127.0.0.1:60860
+1520316817440	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.CahREtIk3mGQ"
+1520316818218	Marionette	INFO	Enabled via --marionette
+1520316820478	Marionette	INFO	Listening on port 60866
+1520316820578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520316820719	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520316929750	geckodriver	INFO	geckodriver 0.19.1
+1520316929767	geckodriver	INFO	Listening on 127.0.0.1:60937
+1520316931818	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.HF7fqPw8st6H"
+1520316932656	Marionette	INFO	Enabled via --marionette
+1520316934821	Marionette	INFO	Listening on port 60944
+1520316934979	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1464_21120_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery11020352478266189583_1520316936078&_=1520316936081, line 1: TypeError: jQuery11020352478266189583_1520316936078 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1464_21120_20930&req=2&csor=1&cb=jQuery11020352478266189583_1520316936078&_=1520316936080, line 1: TypeError: jQuery11020352478266189583_1520316936078 is not a function
+1520316937984	geckodriver	INFO	geckodriver 0.19.1
+1520316937996	geckodriver	INFO	Listening on 127.0.0.1:61005
+1520316940038	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.YmzgxgyDKbHH"
+1520316940815	Marionette	INFO	Enabled via --marionette
+1520316943061	Marionette	INFO	Listening on port 61013
+1520316943268	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1465_21126_20927&req=2&csor=1&cb=jQuery110209906034049687826_1520316944253&_=1520316944255, line 1: TypeError: jQuery110209906034049687826_1520316944253 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1465_21126_20927&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110209906034049687826_1520316944253&_=1520316944256, line 1: TypeError: jQuery110209906034049687826_1520316944253 is not a function
+[Parent 11988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520316948674	geckodriver	INFO	geckodriver 0.19.1
+1520316948692	geckodriver	INFO	Listening on 127.0.0.1:61115
+1520316950724	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.DggdfPEN4SMr"
+1520316951493	Marionette	INFO	Enabled via --marionette
+1520316953942	Marionette	INFO	Listening on port 61121
+1520316954500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520316954603	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520317057120	geckodriver	INFO	geckodriver 0.19.1
+1520317057131	geckodriver	INFO	Listening on 127.0.0.1:61189
+1520317059227	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.vXAutLyh1R4N"
+1520317060108	Marionette	INFO	Enabled via --marionette
+1520317062586	Marionette	INFO	Listening on port 61196
+1520317062888	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1445_25810_13551_21114_20929&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110206988712266375956_1520317063672&_=1520317063675, line 1: TypeError: jQuery110206988712266375956_1520317063672 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1445_25810_13551_21114_20929&req=2&csor=1&cb=jQuery110206988712266375956_1520317063672&_=1520317063674, line 1: TypeError: jQuery110206988712266375956_1520317063672 is not a function
+[Child 4468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520317066512	geckodriver	INFO	geckodriver 0.19.1
+1520317066524	geckodriver	INFO	Listening on 127.0.0.1:61255
+1520317068579	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.oqlT6QBfkMLi"
+1520317069309	Marionette	INFO	Enabled via --marionette
+1520317071405	Marionette	INFO	Listening on port 61261
+1520317071727	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1447_19036_21099_17001_20930&req=2&csor=1&cb=jQuery110207638121272702393_1520317072588&_=1520317072590, line 1: TypeError: jQuery110207638121272702393_1520317072588 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1447_19036_21099_17001_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110207638121272702393_1520317072588&_=1520317072591, line 1: TypeError: jQuery110207638121272702393_1520317072588 is not a function
+1520317076836	geckodriver	INFO	geckodriver 0.19.1
+1520317076847	geckodriver	INFO	Listening on 127.0.0.1:61356
+1520317078876	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.B1afM5io35UP"
+1520317079774	Marionette	INFO	Enabled via --marionette
+1520317081921	Marionette	INFO	Listening on port 61366
+1520317082022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520317082125	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520317858807	geckodriver	INFO	geckodriver 0.19.1
+1520317858819	geckodriver	INFO	Listening on 127.0.0.1:62616
+1520317860857	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.eYTJQeYQzTrq"
+1520317861693	Marionette	INFO	Enabled via --marionette
+1520317863976	Marionette	INFO	Listening on port 62629
+1520317864026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1469_19036_21079_17001_22157&req=2&csor=1&cb=jQuery110202917249514551131_1520317865144&_=1520317865145, line 1: TypeError: jQuery110202917249514551131_1520317865144 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1469_19036_21079_17001_22157&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110202917249514551131_1520317865144&_=1520317865146, line 1: TypeError: jQuery110202917249514551131_1520317865144 is not a function
+1520317866985	geckodriver	INFO	geckodriver 0.19.1
+1520317867010	geckodriver	INFO	Listening on 127.0.0.1:62699
+1520317869075	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.flLOW8zTChN8"
+1520317869823	Marionette	INFO	Enabled via --marionette
+1520317872091	Marionette	INFO	Listening on port 62707
+1520317872210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1462_25809_21124_17001_22160&req=2&csor=1&cb=jQuery1102014027073409514457_1520317873495&_=1520317873497, line 1: TypeError: jQuery1102014027073409514457_1520317873495 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1462_25809_21124_17001_22160&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102014027073409514457_1520317873495&_=1520317873498, line 1: TypeError: jQuery1102014027073409514457_1520317873495 is not a function
+[Parent 7684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520317876814	geckodriver	INFO	geckodriver 0.19.1
+1520317876823	geckodriver	INFO	Listening on 127.0.0.1:62814
+1520317878896	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.5vsd5QcTpfR3"
+1520317879651	Marionette	INFO	Enabled via --marionette
+1520317881844	Marionette	INFO	Listening on port 62824
+1520317882042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520317882146	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520317929031	geckodriver	INFO	geckodriver 0.19.1
+1520317929042	geckodriver	INFO	Listening on 127.0.0.1:62936
+1520317931138	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.G91mSPVIWNbD"
+1520317931871	Marionette	INFO	Enabled via --marionette
+1520317934255	Marionette	INFO	Listening on port 62944
+1520317934313	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1442_21095_20927&req=2&csor=1&cb=jQuery1102042902808888988975_1520317935413&_=1520317935415, line 1: TypeError: jQuery1102042902808888988975_1520317935413 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1442_21095_20927&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102042902808888988975_1520317935413&_=1520317935416, line 1: TypeError: jQuery1102042902808888988975_1520317935413 is not a function
+[Child 15392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520317937565	geckodriver	INFO	geckodriver 0.19.1
+1520317937578	geckodriver	INFO	Listening on 127.0.0.1:63011
+1520317939637	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.gNHLnYmZRNhk"
+1520317940377	Marionette	INFO	Enabled via --marionette
+1520317942501	Marionette	INFO	Listening on port 63020
+1520317942777	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1457_21089_22158&req=2&sugId=f3c2819800057e181&cb=jQuery110207561461825776298_1520317943821&_=1520317943823, line 1: TypeError: jQuery110207561461825776298_1520317943821 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1457_21089_22158&req=2&sugId=f3c2819800057e182&cb=jQuery110207561461825776298_1520317943821&_=1520317943824, line 1: TypeError: jQuery110207561461825776298_1520317943821 is not a function
+1520317947250	geckodriver	INFO	geckodriver 0.19.1
+1520317947261	geckodriver	INFO	Listening on 127.0.0.1:63125
+1520317949289	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.OgcF6BfEP5Iy"
+1520317950063	Marionette	INFO	Enabled via --marionette
+1520317952170	Marionette	INFO	Listening on port 63134
+1520317952435	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520317952537	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+[Parent 9464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520318079233	geckodriver	INFO	geckodriver 0.19.1
+1520318079244	geckodriver	INFO	Listening on 127.0.0.1:63371
+1520318081330	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.vZntFP0ELqGo"
+1520318082063	Marionette	INFO	Enabled via --marionette
+1520318084129	Marionette	INFO	Listening on port 63381
+1520318084460	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1457_19036_21111_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110204828064564621901_1520318085340&_=1520318085343, line 1: TypeError: jQuery110204828064564621901_1520318085340 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1457_19036_21111_20930&req=2&csor=1&cb=jQuery110204828064564621901_1520318085340&_=1520318085342, line 1: TypeError: jQuery110204828064564621901_1520318085340 is not a function
+1520318087258	geckodriver	INFO	geckodriver 0.19.1
+1520318087283	geckodriver	INFO	Listening on 127.0.0.1:63448
+1520318089345	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.7VkaViNXlqM6"
+1520318090108	Marionette	INFO	Enabled via --marionette
+1520318092444	Marionette	INFO	Listening on port 63459
+1520318092489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1447_25810_12896_21099_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery11020657673637602794_1520318093688&_=1520318093691, line 1: TypeError: jQuery11020657673637602794_1520318093688 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1447_25810_12896_21099_20930&req=2&csor=1&cb=jQuery11020657673637602794_1520318093688&_=1520318093690, line 1: TypeError: jQuery11020657673637602794_1520318093688 is not a function
+1520318096965	geckodriver	INFO	geckodriver 0.19.1
+1520318096987	geckodriver	INFO	Listening on 127.0.0.1:63563
+1520318099054	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.QxueIdAROde6"
+1520318099826	Marionette	INFO	Enabled via --marionette
+1520318102508	Marionette	INFO	Listening on port 63571
+1520318102711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520318102859	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520318133028	geckodriver	INFO	geckodriver 0.19.1
+1520318133039	geckodriver	INFO	Listening on 127.0.0.1:63649
+1520318135128	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wLjv4QBSqFLc"
+1520318135908	Marionette	INFO	Enabled via --marionette
+1520318138225	Marionette	INFO	Listening on port 63657
+1520318138262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1461_21091_17001_20927&req=2&csor=1&cb=jQuery110200897392980122117_1520318139494&_=1520318139496, line 1: TypeError: jQuery110200897392980122117_1520318139494 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1461_21091_17001_20927&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110200897392980122117_1520318139494&_=1520318139497, line 1: TypeError: jQuery110200897392980122117_1520318139494 is not a function
+1520318141498	geckodriver	INFO	geckodriver 0.19.1
+1520318141512	geckodriver	INFO	Listening on 127.0.0.1:63725
+1520318143518	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.gKWTE61jRvxD"
+1520318144290	Marionette	INFO	Enabled via --marionette
+1520318146512	Marionette	INFO	Listening on port 63737
+1520318146712	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1447_21101_18559_17001&req=2&csor=1&cb=jQuery1102012406177870965152_1520318147632&_=1520318147634, line 1: TypeError: jQuery1102012406177870965152_1520318147632 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1447_21101_18559_17001&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102012406177870965152_1520318147632&_=1520318147635, line 1: TypeError: jQuery1102012406177870965152_1520318147632 is not a function
+1520318152000	geckodriver	INFO	geckodriver 0.19.1
+1520318152014	geckodriver	INFO	Listening on 127.0.0.1:63841
+1520318154085	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.HMAfVQ3DPRtz"
+1520318154860	Marionette	INFO	Enabled via --marionette
+1520318157053	Marionette	INFO	Listening on port 63851
+1520318157222	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520318157329	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520318297591	geckodriver	INFO	geckodriver 0.19.1
+1520318297602	geckodriver	INFO	Listening on 127.0.0.1:64121
+1520318299672	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.hHnrzwyCaVh4"
+1520318300476	Marionette	INFO	Enabled via --marionette
+1520318302926	Marionette	INFO	Listening on port 64132
+1520318303311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1446_21084_17001_20927&req=2&csor=1&cb=jQuery110207349846591829635_1520318304063&_=1520318304065, line 1: TypeError: jQuery110207349846591829635_1520318304063 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1446_21084_17001_20927&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110207349846591829635_1520318304063&_=1520318304066, line 1: TypeError: jQuery110207349846591829635_1520318304063 is not a function
+1520318306000	geckodriver	INFO	geckodriver 0.19.1
+1520318306010	geckodriver	INFO	Listening on 127.0.0.1:64211
+1520318308065	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.1QytXPD09weX"
+1520318308804	Marionette	INFO	Enabled via --marionette
+1520318310983	Marionette	INFO	Listening on port 64219
+1520318311198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=25745_1420_25810_21098_18560_20927&req=2&csor=1&cb=jQuery1102012883803545258998_1520318312351&_=1520318312352, line 1: TypeError: jQuery1102012883803545258998_1520318312351 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=25745_1420_25810_21098_18560_20927&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102012883803545258998_1520318312351&_=1520318312353, line 1: TypeError: jQuery1102012883803545258998_1520318312351 is not a function
+[Parent 4776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520318315930	geckodriver	INFO	geckodriver 0.19.1
+1520318315941	geckodriver	INFO	Listening on 127.0.0.1:64322
+1520318317968	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.nKDcD5c8cKO3"
+1520318318743	Marionette	INFO	Enabled via --marionette
+1520318321067	Marionette	INFO	Listening on port 64333
+1520318321137	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520318321284	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520318584531	geckodriver	INFO	geckodriver 0.19.1
+1520318584543	geckodriver	INFO	Listening on 127.0.0.1:64806
+1520318586581	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Gt7j1ReSE6Hi"
+1520318587402	Marionette	INFO	Enabled via --marionette
+1520318589687	Marionette	INFO	Listening on port 64817
+1520318589728	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1434_21127_17001_20930&req=2&csor=1&cb=jQuery110209482217506953144_1520318590918&_=1520318590920, line 1: TypeError: jQuery110209482217506953144_1520318590918 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1434_21127_17001_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110209482217506953144_1520318590918&_=1520318590921, line 1: TypeError: jQuery110209482217506953144_1520318590918 is not a function
+[Parent 9460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520318592763	geckodriver	INFO	geckodriver 0.19.1
+1520318592774	geckodriver	INFO	Listening on 127.0.0.1:64885
+1520318594820	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.XbIQZIMqqKp0"
+1520318595579	Marionette	INFO	Enabled via --marionette
+1520318597972	Marionette	INFO	Listening on port 64894
+1520318598671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1440_21127_17001_22159&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110203350054757861024_1520318599344&_=1520318599346, line 1: TypeError: jQuery110203350054757861024_1520318599344 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1440_21127_17001_22159&req=2&csor=1&cb=jQuery110203350054757861024_1520318599344&_=1520318599345, line 1: TypeError: jQuery110203350054757861024_1520318599344 is not a function
+[Parent 9092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520318602524	geckodriver	INFO	geckodriver 0.19.1
+1520318602534	geckodriver	INFO	Listening on 127.0.0.1:64994
+1520318604613	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.sNS6zkQ6EHFL"
+1520318605388	Marionette	INFO	Enabled via --marionette
+1520318607528	Marionette	INFO	Listening on port 65002
+1520318607757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520318607887	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520318903422	geckodriver	INFO	geckodriver 0.19.1
+1520318903434	geckodriver	INFO	Listening on 127.0.0.1:49153
+1520318905478	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.qXMSSCVftyiJ"
+1520318906380	Marionette	INFO	Enabled via --marionette
+1520318908688	Marionette	INFO	Listening on port 49164
+1520318909405	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1468_21078_18560_17001_22074&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102002003451415878954_1520318910107&_=1520318910109, line 1: TypeError: jQuery1102002003451415878954_1520318910107 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1468_21078_18560_17001_22074&req=2&csor=1&cb=jQuery1102002003451415878954_1520318910107&_=1520318910108, line 1: TypeError: jQuery1102002003451415878954_1520318910107 is not a function
+[Parent 8984, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520318911920	geckodriver	INFO	geckodriver 0.19.1
+1520318911931	geckodriver	INFO	Listening on 127.0.0.1:49231
+1520318913969	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.QuiXkFZ7OHWq"
+1520318914703	Marionette	INFO	Enabled via --marionette
+1520318917088	Marionette	INFO	Listening on port 49241
+1520318917112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1458_19035_21088_22074&req=2&csor=1&cb=jQuery110202723216931929888_1520318918158&_=1520318918160, line 1: TypeError: jQuery110202723216931929888_1520318918158 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1458_19035_21088_22074&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110202723216931929888_1520318918158&_=1520318918161, line 1: TypeError: jQuery110202723216931929888_1520318918158 is not a function
+1520318921604	geckodriver	INFO	geckodriver 0.19.1
+1520318921618	geckodriver	INFO	Listening on 127.0.0.1:49345
+1520318923660	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.nGbgPw12PRFC"
+1520318924374	Marionette	INFO	Enabled via --marionette
+1520318926528	Marionette	INFO	Listening on port 49353
+1520318926793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520318926904	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+[Child 8172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520320354747	geckodriver	INFO	geckodriver 0.19.1
+1520320354759	geckodriver	INFO	Listening on 127.0.0.1:52839
+1520320356851	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.I3YQ4Beio6FE"
+1520320357948	Marionette	INFO	Enabled via --marionette
+1520320360258	Marionette	INFO	Listening on port 52850
+1520320360507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1466_21087_22074&req=2&csor=1&cb=jQuery110208449383422036972_1520320361871&_=1520320361873, line 1: TypeError: jQuery110208449383422036972_1520320361871 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1466_21087_22074&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110208449383422036972_1520320361871&_=1520320361874, line 1: TypeError: jQuery110208449383422036972_1520320361871 is not a function
+[Parent 16448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520320364029	geckodriver	INFO	geckodriver 0.19.1
+1520320364043	geckodriver	INFO	Listening on 127.0.0.1:52921
+1520320366059	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.aPPKU63Jh8cH"
+1520320366835	Marionette	INFO	Enabled via --marionette
+1520320369368	Marionette	INFO	Listening on port 52933
+1520320369696	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1467_21090_22159&req=2&csor=1&cb=jQuery110205159882603867509_1520320370851&_=1520320370853, line 1: TypeError: jQuery110205159882603867509_1520320370851 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1467_21090_22159&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110205159882603867509_1520320370851&_=1520320370854, line 1: TypeError: jQuery110205159882603867509_1520320370851 is not a function
+1520320374439	geckodriver	INFO	geckodriver 0.19.1
+1520320374459	geckodriver	INFO	Listening on 127.0.0.1:53035
+1520320376506	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.7vVnuGdaJ4W5"
+1520320377310	Marionette	INFO	Enabled via --marionette
+1520320379901	Marionette	INFO	Listening on port 53046
+1520320380146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520320380259	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520320667185	geckodriver	INFO	geckodriver 0.19.1
+1520320667197	geckodriver	INFO	Listening on 127.0.0.1:53617
+1520320669272	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Nnv75VWHLER3"
+1520320670083	Marionette	INFO	Enabled via --marionette
+1520320672827	Marionette	INFO	Listening on port 53628
+1520320672925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1446_13550_21114_18559&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery110200036304770347486137_1520320673859&_=1520320673862, line 1: TypeError: jQuery110200036304770347486137_1520320673859 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1446_13550_21114_18559&req=2&csor=1&cb=jQuery110200036304770347486137_1520320673859&_=1520320673861, line 1: TypeError: jQuery110200036304770347486137_1520320673859 is not a function
+[Parent 16496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1520320675886	geckodriver	INFO	geckodriver 0.19.1
+1520320675896	geckodriver	INFO	Listening on 127.0.0.1:53695
+1520320677916	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.ZlIKoI981uNf"
+1520320678709	Marionette	INFO	Enabled via --marionette
+1520320681088	Marionette	INFO	Listening on port 53705
+1520320681640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98&json=1&p=3&sid=1434_25549_21116_18559_17001_20930&req=2&csor=1&cb=jQuery1102043750862940725366_1520320682331&_=1520320682333, line 1: TypeError: jQuery1102043750862940725366_1520320682331 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7%98%E5%AE%9D&json=1&p=3&sid=1434_25549_21116_18559_17001_20930&req=2&csor=2&pwd=%E6%B7%98&cb=jQuery1102043750862940725366_1520320682331&_=1520320682334, line 1: TypeError: jQuery1102043750862940725366_1520320682331 is not a function
+1520320685787	geckodriver	INFO	geckodriver 0.19.1
+1520320685798	geckodriver	INFO	Listening on 127.0.0.1:53807
+1520320687836	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.gdnoD9jz8USE"
+1520320688838	Marionette	INFO	Enabled via --marionette
+1520320691330	Marionette	INFO	Listening on port 53817
+1520320691524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520320691647	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
