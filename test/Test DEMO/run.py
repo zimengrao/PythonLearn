@@ -6,12 +6,15 @@
 @Data: 2018/2/1
 """
 
-# lib 中间插件，每个lib文件都要一个__init__.py；当做工具类来使用的时候，每个类只做一个功能
-# tests 所有的casetests 所有的case
-# run.py load所有路径下的文件
+"""
+1、lib中间插件，每个lib模块下都要有__init__.py；如果用python package会自带此问文件
+2、tests所有的case放在这个路径下
+3、report测试报告放在这个路径下
+4、run.py 通过unitest去load下所有指定路径下的case，把程序执行起来
+"""
+
 # root path 是TestDemo这个文件下的路径
 # 如果需要引入package 或module的工具类或者模块， 引入层级的第一级为root path
-# 我们当前项目root path中包含1个run文件 和3个文件夹
 # 如果tests文件夹需要load lib和config文件下的文件，必须有__init__.py文件
 
 # 1、driver 句柄
@@ -21,7 +24,7 @@
 1、类下面的每一方法只做一个功能，比如说click、截图等
 2、原子化层级：WebDiverClient，config；
    业务封装层级：page object，Buniness， 封装多个业务方法
-   测试方法层级：他只调用业务层级的逻辑关系，除非业务逻辑和顺序发生变化，负责不做修改
+   测试方法层级：他只调用业务层级的逻辑关系，除非业务逻辑和顺序发生变化，否则不做修改
 """
 
 
