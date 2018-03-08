@@ -10,7 +10,7 @@
 1、lib中间插件，每个lib模块下都要有__init__.py；如果用python package会自带此问文件
 2、tests所有的case放在这个路径下
 3、report测试报告放在这个路径下
-4、run.py 通过unitest去load下所有指定路径下的case，把程序执行起来
+4、run.py 通过unitest去load下所有指定路径下的case，把程序执行起来; 启动器
 """
 
 # root path 是TestDemo这个文件下的路径
