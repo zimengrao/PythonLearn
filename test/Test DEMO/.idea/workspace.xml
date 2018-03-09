@@ -173,8 +173,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="220" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="26" />
     <option name="width" value="1386" />
     <option name="height" value="728" />
   </component>
@@ -681,7 +681,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="0" width="1386" height="728" extended-state="0" />
+    <frame x="26" y="0" width="1386" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1729927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
