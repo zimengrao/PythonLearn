@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HqsUiTest/.idea/HqsUiTest.iml" filepath="$PROJECT_DIR$/../HqsUiTest/.idea/HqsUiTest.iml" />
       <module fileurl="file://D:/Program Files/Python/SeleniumUiTest/.idea/SeleniumUi.iml" filepath="D:/Program Files/Python/SeleniumUiTest/.idea/SeleniumUi.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SeleniumUiTest/.idea/SeleniumUiTest.iml" filepath="$PROJECT_DIR$/../SeleniumUiTest/.idea/SeleniumUiTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Test DEMO.iml" filepath="$PROJECT_DIR$/.idea/Test DEMO.iml" />
