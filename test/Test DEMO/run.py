@@ -25,6 +25,7 @@
 2、原子化层级：WebDiverClient，config；
    业务封装层级：page object，Buniness， 封装多个业务方法
    测试方法层级：他只调用业务层级的逻辑关系，除非业务逻辑和顺序发生变化，否则不做修改
+   PageObject,PO模式
 """
 
 

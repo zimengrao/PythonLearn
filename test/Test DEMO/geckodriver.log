@@ -1335,3 +1335,16 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%B7
 1520320691330	Marionette	INFO	Listening on port 53817
 1520320691524	Marionette	WARN	TLS certificate errors will be ignored for this session
 1520320691647	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1520687754561	geckodriver	INFO	geckodriver 0.19.1
+1520687754587	geckodriver	INFO	Listening on 127.0.0.1:54626
+1520687757656	mozrunner::runner	INFO	Running command: "D:\\Program File\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.hwd1uCXZ1Y76"
+[GFX1-]: Mismatched driver versions between the registry 8.951.0.0 and DLL(s) 8.15.10.2476,  reported.
+1520687759239	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.951.0.0 and DLL(s) 8.15.10.2476,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.951.0.0 and DLL(s) 8.15.10.2476,  reported.
+1520687762417	Marionette	INFO	Listening on port 54638
+[GFX1-]: Mismatched driver versions between the registry 8.951.0.0 and DLL(s) 8.15.10.2476,  reported.
+1520687763054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520687823894	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1520687891471	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520688001396	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
