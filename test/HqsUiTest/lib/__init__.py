@@ -6,4 +6,4 @@
 @Data: 2018/3/9
 """
 
-from selenium import WebDriver
+from .WebDriverClient import WebDriver

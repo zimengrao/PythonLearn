@@ -1,0 +1,58 @@
+1521114766042	geckodriver	INFO	geckodriver 0.19.1
+1521114766057	geckodriver	INFO	Listening on 127.0.0.1:49562
+1521114768248	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.lk3HRlKBe0mq"
+1521114770059	Marionette	INFO	Enabled via --marionette
+1521114773782	Marionette	INFO	Listening on port 49590
+1521114774080	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521114774449	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1521114774668	geckodriver	INFO	geckodriver 0.19.1
+1521114774677	geckodriver	INFO	Listening on 127.0.0.1:49666
+1521114776719	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.AssDj86gr1UK"
+1521114777507	Marionette	INFO	Enabled via --marionette
+1521114779915	Marionette	INFO	Listening on port 49689
+1521114780725	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net:8080/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+[Parent 17844, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1521114883803	geckodriver	INFO	geckodriver 0.19.1
+1521114883812	geckodriver	INFO	Listening on 127.0.0.1:50652
+1521114885869	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.D7QWQ3SF1CR6"
+1521114887006	Marionette	INFO	Enabled via --marionette
+1521114890002	Marionette	INFO	Listening on port 50675
+1521114891179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521114891553	geckodriver	INFO	geckodriver 0.19.1
+1521114891564	geckodriver	INFO	Listening on 127.0.0.1:50749
+1521114893599	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.2tXT6ExlfF54"
+1521114894774	Marionette	INFO	Enabled via --marionette
+1521114897228	Marionette	INFO	Listening on port 50766
+1521114897242	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net:8080/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+1521115029862	geckodriver	INFO	geckodriver 0.19.1
+1521115029872	geckodriver	INFO	Listening on 127.0.0.1:52087
+1521115031958	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.MK9ZKZNEUtBm"
+1521115033212	Marionette	INFO	Enabled via --marionette
+1521115035588	Marionette	INFO	Listening on port 52113
+1521115035613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521115035720	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1521115035969	geckodriver	INFO	geckodriver 0.19.1
+1521115035994	geckodriver	INFO	Listening on 127.0.0.1:52163
+1521115038002	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.hk2EvNSDh4bQ"
+1521115039081	Marionette	INFO	Enabled via --marionette
+1521115041452	Marionette	INFO	Listening on port 52189
+1521115041637	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net:8080/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+1521115169779	geckodriver	INFO	geckodriver 0.19.1
+1521115169788	geckodriver	INFO	Listening on 127.0.0.1:53361
+1521115171825	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.WMaA7FPztw8W"
+1521115173157	Marionette	INFO	Enabled via --marionette
+1521115175579	Marionette	INFO	Listening on port 53383
+1521115175955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521115176053	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1521115176284	geckodriver	INFO	geckodriver 0.19.1
+1521115176311	geckodriver	INFO	Listening on 127.0.0.1:53442
+1521115178314	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.fEElxA61HzbY"
+1521115179254	Marionette	INFO	Enabled via --marionette
+1521115181595	Marionette	INFO	Listening on port 53465
+1521115181945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net:8080/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
