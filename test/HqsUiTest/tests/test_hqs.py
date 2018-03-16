@@ -19,6 +19,7 @@ class HqsTestCases(unittest.TestCase):
         cls.username  = cls.config.get('username')
         cls.password = cls.config.get('password')
         cls.click_login_button1, cls.input_username, cls.input_password, cls.click_login_button2 = cls.config.get('xpath')
+        cls.url_login = cls.config.get('url_login')
         cls.assert_info = cls.config.get('assert_xpath')
 
     def setUp(self):
@@ -38,9 +39,10 @@ class HqsTestCases(unittest.TestCase):
         self.lib.click(self.click_login_button1)
         self.lib.send_keys(self.input_username, self.username)
         self.lib.send_keys(self.input_password, self.password)
-        time.sleep(5)
         self.lib.click(self.click_login_button2)
-        time.sleep(10)
+        time.sleep(2)
+        self.lib.get(self.url_login)
+        time.sleep(2)
         self.assert_info =self.lib.parse(self.assert_info)
 
 

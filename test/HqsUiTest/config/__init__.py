@@ -18,6 +18,7 @@ class Config:
                 '//input[@id="password"]',
                 '//input[@id="submit"]',
             ],
+            'url_login': 'http://test.greattone.net:8080/e/zhiyin/ListInfo.php?mid=10',
             'assert_xpath': [
                 '/html/body/div[10]/div[2]/div/div[1]/div/div[2]/span[1]/text()',   # 用户名element
             ]

@@ -7097,24 +7097,27 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "testName": "测试default报告",
+    "beginTime": "2018-03-16 13:49:39",
+    "testPass": 1,
+    "totalTime": "19s",
+    "testError": 0,
+    "testFail": 1,
     "testAll": 2,
+    "testName": "测试default报告",
     "testResult": [
         {
-            "className": "HqsTestCases",
-            "status": "成功",
             "methodName": "test_config_enum_is_ok",
-            "description": null,
+            "spendTime": "11.8 s",
             "log": [
                 ""
             ],
-            "spendTime": "6.5 s"
+            "description": null,
+            "status": "成功",
+            "className": "HqsTestCases"
         },
         {
-            "className": "HqsTestCases",
-            "status": "失败",
             "methodName": "test_hqs_login",
-            "description": null,
+            "spendTime": "7.91 s",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
@@ -7128,15 +7131,12 @@ body.skin-3 {
                 "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 237, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
                 "selenium.common.exceptions.ElementClickInterceptedException: Message: Element <input id=\"submit\" name=\"Submit\" type=\"submit\"> is not clickable at point (632,317) because another element <label> obscures it\n\n"
             ],
-            "spendTime": "12.9 s"
+            "description": null,
+            "status": "失败",
+            "className": "HqsTestCases"
         }
     ],
-    "beginTime": "2018-03-15 19:59:29",
-    "testSkip": 0,
-    "testError": 0,
-    "testPass": 1,
-    "totalTime": "20s",
-    "testFail": 1
+    "testSkip": 0
 };
     function details(obj) {
         if ($(obj).text() == '展开') {
