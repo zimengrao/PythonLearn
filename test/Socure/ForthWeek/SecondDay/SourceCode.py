@@ -11,20 +11,21 @@ import json
 from lxml import etree
 
 
-url = 'http://v.juhe.cn/weather/index?format=2&cityname={}&key={}'
-city_name = '北京'
-key = '8914a2e03dc4cbed5178b9b5464496fc'
 
-url = url.format(city_name, key)
-
+# url = 'http://v.juhe.cn/weather/index?format=2&cityname={}&key={}'
+# city_name = '北京'
+# key = '8914a2e03dc4cbed5178b9b5464496fc'
+#
+# url = url.format(city_name, key)
+#
 # response.json()返回的是一个字典类型的数据结构
-result = requests.get(url).json()
+# result = requests.get(url).json()
 
 # print(result)
-print(result.get('result').keys())
+# print(result.get('result').keys())
 # for item in (result.get('result').get('future')):
 #     print(item)
-print(result.get('result').get('today'))
+# print(result.get('result').get('today'))
 
 # # 如何去断言一个接口是否成功
 # assert result.get('reason') == 'successed!'

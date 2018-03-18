@@ -1,0 +1,62 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "string",
+      "title": "The Id Schema ",
+      "default": "",
+      "examples": [
+        "1521368862"
+      ]
+    },
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema ",
+      "default": "",
+      "examples": [
+        "热梗丨论戏精，我只服艳压微博评论区的那些神操作老司机"
+      ]
+    },
+    "source": {
+      "$id": "/properties/source",
+      "type": "string",
+      "title": "The Source Schema ",
+      "default": "",
+      "examples": [
+        "字媒体"
+      ]
+    },
+    "firstImg": {
+      "$id": "/properties/firstImg",
+      "type": "string",
+      "title": "The Firstimg Schema ",
+      "default": "",
+      "examples": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/lcaq0oMjdFxcYKuhroDDq4GJwphJeBajKB5q6Z2wKS6wdNse3XcRmSgGibACJWEjx2SAYI21bfGJC661HicGKMWw/0?wx_fmt=jpeg"
+      ]
+    },
+    "mark": {
+      "$id": "/properties/mark",
+      "type": "string",
+      "title": "The Mark Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "url": {
+      "$id": "/properties/url",
+      "type": "string",
+      "title": "The Url Schema ",
+      "default": "",
+      "examples": [
+        "http://mp.weixin.qq.com/s?src=11×tamp=1521375139&ver=762&signature=S9UxGv-5V7TA20Wob-zumBXHgoBfcuAAacmPF1RTwHPhaCTakaQqV5pgnpG6sS2Pikgas6AmLSCSjQtyPfLZtPClIW-5Ycu4nAgcpDqDlTpwVUcN5eaiibW9D6rXG9EW&new=1"
+      ]
+    }
+  }
+}
