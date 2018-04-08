@@ -929,3 +929,43 @@ JavaScript warning: http://security.iqiyi.com/static/cook/v1/cooksdk.js, line 16
 JavaScript warning: http://security.iqiyi.com/static/cook/v1/cooksdk.js, line 16: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: http://security.iqiyi.com/static/cook/v1/cooksdk.js, line 16: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: http://security.iqiyi.com/static/cook/v1/cooksdk.js, line 16: Error: WebGL warning: Disallowing antialiased backbuffers due to blacklisting.
+1523177380699	geckodriver	INFO	geckodriver 0.19.1
+1523177380723	geckodriver	INFO	Listening on 127.0.0.1:51775
+1523177382853	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.jLuNiOEJwBUH"
+1523177384608	Marionette	INFO	Enabled via --marionette
+1523177388825	Marionette	INFO	Listening on port 51795
+1523177389221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5%E5%A4%B4&json=1&p=3&sid=1432_21086_20928&req=2&csor=3&pwd=%E4%BB%8A%E6%97%A5&cb=jQuery1102018045448239221573_1523177391457&_=1523177391461, line 1: TypeError: jQuery1102018045448239221573_1523177391457 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A&json=1&p=3&sid=1432_21086_20928&req=2&csor=1&cb=jQuery1102018045448239221573_1523177391457&_=1523177391459, line 1: TypeError: jQuery1102018045448239221573_1523177391457 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5&json=1&p=3&sid=1432_21086_20928&req=2&csor=2&pwd=%E4%BB%8A&cb=jQuery1102018045448239221573_1523177391457&_=1523177391460, line 1: TypeError: jQuery1102018045448239221573_1523177391457 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1&json=1&p=3&sid=1432_21086_20928&req=2&csor=4&pwd=%E4%BB%8A%E6%97%A5%E5%A4%B4&cb=jQuery1102018045448239221573_1523177391457&_=1523177391462, line 1: TypeError: jQuery1102018045448239221573_1523177391457 is not a function
+[Parent 8900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523177394498	geckodriver	INFO	geckodriver 0.19.1
+1523177394510	geckodriver	INFO	Listening on 127.0.0.1:51894
+1523177396565	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.mskZG3g80xyh"
+1523177397513	Marionette	INFO	Enabled via --marionette
+1523177400079	Marionette	INFO	Listening on port 51907
+1523177400211	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A&json=1&p=3&sid=1455_21115_22157&req=2&csor=1&cb=jQuery1102003246309108439949_1523177401905&_=1523177401907, line 1: TypeError: jQuery1102003246309108439949_1523177401905 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5%E5%A4%B4&json=1&p=3&sid=1455_21115_22157&req=2&csor=3&pwd=%E4%BB%8A%E6%97%A5&cb=jQuery1102003246309108439949_1523177401905&_=1523177401909, line 1: TypeError: jQuery1102003246309108439949_1523177401905 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1&json=1&p=3&sid=1455_21115_22157&req=2&csor=4&pwd=%E4%BB%8A%E6%97%A5%E5%A4%B4&cb=jQuery1102003246309108439949_1523177401905&_=1523177401910, line 1: TypeError: jQuery1102003246309108439949_1523177401905 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E4%BB%8A%E6%97%A5&json=1&p=3&sid=1455_21115_22157&req=2&csor=2&pwd=%E4%BB%8A&cb=jQuery1102003246309108439949_1523177401905&_=1523177401908, line 1: TypeError: jQuery1102003246309108439949_1523177401905 is not a function
+1523177405927	geckodriver	INFO	geckodriver 0.19.1
+1523177405938	geckodriver	INFO	Listening on 127.0.0.1:52010
+1523177407999	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.sliqBnbkGwIv"
+1523177408743	Marionette	INFO	Enabled via --marionette
+1523177411295	Marionette	INFO	Listening on port 52025
+1523177411640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pos.baidu.com/jcpm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1523177414019&ti=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1251x670&pss=1251x7312&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1523177414&prot=2&rw=670&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E4%25BB%258A%25E6%2597%25A5%25E5%25A4%25B4%25E6%259D%25A1%2F4169373%3Ffr%3Daladdin&ecd=1&uc=1440x860&pis=-1x-1&sr=1440x900&tcn=1523177414&qn=2b8552ad53ce39a6&tt=1523177413990.34.193.193, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/jcpm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1523177414019&ti=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1251x670&pss=1251x7312&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1523177414&prot=2&rw=670&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E4%25BB%258A%25E6%2597%25A5%25E5%25A4%25B4%25E6%259D%25A1%2F4169373%3Ffr%3Daladdin&ecd=1&uc=1440x860&pis=-1x-1&sr=1440x900&tcn=1523177414&qn=2b8552ad53ce39a6&tt=1523177413990.34.193.193, line 119: unreachable code after return statement
+[Parent 9076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523177415725	geckodriver	INFO	geckodriver 0.19.1
+1523177415737	geckodriver	INFO	Listening on 127.0.0.1:52146
+1523177417803	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.CHR1A8rA4UXL"
+1523177418589	Marionette	INFO	Enabled via --marionette
+1523177421241	Marionette	INFO	Listening on port 52161
+1523177421459	Marionette	WARN	TLS certificate errors will be ignored for this session

@@ -7097,56 +7097,71 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "testPass": 4,
     "testResult": [
         {
+            "spendTime": "14.3 s",
+            "status": "成功",
+            "description": "[百度][主页] 测试主页请求正确",
             "className": "TestBaiDu",
             "methodName": "test_baidu_home_page",
-            "description": "[百度][主页] 测试主页请求正确",
-            "spendTime": "17.2 s",
-            "status": "成功",
             "log": [
                 ""
             ]
         },
         {
+            "spendTime": "11.5 s",
+            "status": "失败",
+            "description": "[百度][主页] 从百度主页点击按钮进入百度百科",
             "className": "TestBaiDu",
             "methodName": "test_click_baike",
-            "description": "[百度][主页] 从百度主页点击按钮进入百度百科",
-            "spendTime": "16.8 s",
-            "status": "成功",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 601, in run\n    testMethod()\n",
+                "  File \"F:\\python\\PythonLearn\\test\\SeleniumUiTest\\tests\\test_baidu.py\", line 42, in test_click_baike\n    self.assertEqual(self.lib.parse(self.assert_xpath)[0], '{}_百度百科'.format(self.lib.keywords))\n",
+                "IndexError: list index out of range\n"
             ]
         },
         {
+            "spendTime": "9.82 s",
+            "status": "成功",
+            "description": "[百度][百科] 从百科页面直接进入，查询app名字正确",
             "className": "TestBaiDu",
             "methodName": "test_get_baike_appname",
-            "description": "[百度][百科] 从百科页面直接进入，查询app名字正确",
-            "spendTime": "25.5 s",
-            "status": "成功",
             "log": [
                 ""
             ]
         },
         {
+            "spendTime": "9.72 s",
+            "status": "失败",
+            "description": null,
             "className": "TestIQiYi",
             "methodName": "test_iqiyi_home_page",
-            "description": null,
-            "spendTime": "31.3 s",
-            "status": "成功",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 601, in run\n    testMethod()\n",
+                "  File \"F:\\python\\PythonLearn\\test\\SeleniumUiTest\\tests\\test_iqiyi.py\", line 42, in test_iqiyi_home_page\n    self.lib.click(self.iqiyi_element)\n",
+                "  File \"F:\\python\\PythonLearn\\test\\SeleniumUiTest\\lib\\WebDriverClient.py\", line 27, in click\n    self.driver.find_element_by_xpath(xpath).click()\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 368, in find_element_by_xpath\n    return self.find_element(by=By.XPATH, value=xpath)\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 858, in find_element\n    'value': value})['value']\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 311, in execute\n    self.error_handler.check_response(response)\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 237, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+                "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id=\"block-C\"]/div/div/div/div/div/ul[2]/li[1]/a\n\n"
             ]
         }
     ],
-    "testName": "测试deafult报告",
     "testAll": 4,
-    "testFail": 0,
-    "beginTime": "2018-03-10 23:55:32",
-    "totalTime": "91s",
+    "totalTime": "45s",
+    "testError": 0,
+    "beginTime": "2018-04-08 16:49:40",
     "testSkip": 0,
-    "testError": 0
+    "testFail": 2,
+    "testName": "测试deafult报告",
+    "testPass": 2
 };
     function details(obj) {
         if ($(obj).text() == '展开') {
