@@ -21,13 +21,13 @@ class HttpHandler(GetDictParam):
         }
 
     def get(self, url):
-        resp = self.session.get(url, headers=self.headers).json()
+        resp = self.session.get(url, headers=self.headers).text
         return resp
 
     def post(self, url, data=None, json=None):
         if json:
-            return self.session.post(url, json=json).json()
-        return self.session.post(url, data=data).json()
+            return self.session.post(url, json=json).text
+        return self.session.post(url, data=data).text
 
     @classmethod
     def valid_json(cls, myjson, class_name, schname):
