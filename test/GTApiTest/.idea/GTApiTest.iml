@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.5.3 (C:\Users\wangmin\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ApiTest" />
+    <orderEntry type="module" module-name="V2ex" />
+    <orderEntry type="module" module-name="SeleniumUiTest" />
   </component>
 </module>

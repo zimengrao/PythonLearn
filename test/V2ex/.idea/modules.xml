@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../ApiTest/.idea/ApiTest.iml" filepath="$PROJECT_DIR$/../ApiTest/.idea/ApiTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../GTApiTest/.idea/GTApiTest.iml" filepath="$PROJECT_DIR$/../GTApiTest/.idea/GTApiTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/V2ex.iml" filepath="$PROJECT_DIR$/.idea/V2ex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/test.iml" filepath="$PROJECT_DIR$/../.idea/test.iml" />
     </modules>
   </component>
 </project>

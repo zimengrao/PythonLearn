@@ -6,5 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="GTApiTest" />
     <orderEntry type="module" module-name="ApiTest" />
+    <orderEntry type="module" module-name="GTApiTest" />
+    <orderEntry type="module" module-name="ApiTest" />
+    <orderEntry type="module" module-name="test" />
   </component>
 </module>
