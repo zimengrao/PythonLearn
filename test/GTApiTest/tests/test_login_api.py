@@ -8,22 +8,20 @@
 import json
 import unittest
 from lib.client import HttpHandler
+from config import Config
 
 class GreatToneApi(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.url = 'http://m.greattone.net/e/appapi/'
+        cls.config = Config.enum.get('GTApi')
+        cls.url = cls.config.get('base_url')
+        cls.data = cls.config.get('login')
         cls.http = HttpHandler()
 
     def test_login_is_ok(self):
-        """ [GreatTone][login] 接口通过测试"""
-        data = {
-            'api': 'user/login',
-            'username': '贾老师',
-            'password': '123456'
-        }
-        resp = json.loads(self.http.post(self.url, data=data))
+        """ [GreatTone][login] 正确的用户名、密码"""
+        resp = json.loads(self.http.post(self.url, data=self.data))
         print(json.dumps(resp, indent=4, ensure_ascii=False))
         self.assertEqual(resp.get('info'), '登录成功!')
         self.assertEqual(resp.get('err_msg'), 'success')
@@ -39,15 +37,27 @@ class GreatToneApi(unittest.TestCase):
         resp = json.loads(self.http.post(self.url, data=data))
         print(resp)
         self.assertEqual(resp.get('err_msg'), 'error')
-        self.assertEqual(resp.get('info'), '\u7528\u6237\u540d\u548c\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a')
+        self.assertEqual(resp.get('info'), '用户名和密码不能为空')
 
     def test_login_is_username_null(self):
-        """ [GreatTone][login] 用户名和密码为空"""
+        """ [GreatTone][login] 用户名填写，密码为空"""
         data = {
             'api': 'user/login',
-            'username': '贾老师'
+            'username': '读后感客户端上老师'
         }
         resp = json.loads(self.http.post(self.url, data=data))
         print(resp)
         self.assertEqual(resp.get('err_msg'), 'error')
-        self.assertEqual(resp.get('info'), '\u7528\u6237\u540d\u548c\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a')
+        self.assertEqual(resp.get('info'), '用户名和密码不能为空')
+
+    def test_login_password_false(self):
+        """ [GreatTone][login] 用户名填写，密码为空"""
+        data = {
+            'api': 'user/login',
+            'username': '贾老师',
+            'password': '565699'
+        }
+        resp = json.loads(self.http.post(self.url, data=data))
+        print(resp)
+        self.assertEqual(resp.get('err_msg'), 'error')
+        self.assertEqual(resp.get('info'), '您的用户名或密码有误!')
