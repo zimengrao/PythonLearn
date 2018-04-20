@@ -1,0 +1,516 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "canvote": {
+      "$id": "/properties/canvote",
+      "type": "integer",
+      "title": "The Canvote Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "isfava": {
+      "$id": "/properties/isfava",
+      "type": "integer",
+      "title": "The Isfava Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "classname": {
+      "$id": "/properties/classname",
+      "type": "string",
+      "title": "The Classname Schema ",
+      "default": "",
+      "examples": [
+        "海选报名_图片"
+      ]
+    },
+    "isurl": {
+      "$id": "/properties/isurl",
+      "type": "string",
+      "title": "The Isurl Schema ",
+      "default": "",
+      "examples": [
+        "0"
+      ]
+    },
+    "onclick": {
+      "$id": "/properties/onclick",
+      "type": "integer",
+      "title": "The Onclick Schema ",
+      "default": 0,
+      "examples": [
+        192
+      ]
+    },
+    "hai_petition": {
+      "$id": "/properties/hai_petition",
+      "type": "string",
+      "title": "The Hai_petition Schema ",
+      "default": "",
+      "examples": [
+        "1参加222"
+      ]
+    },
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "timetext": {
+      "$id": "/properties/timetext",
+      "type": "string",
+      "title": "The Timetext Schema ",
+      "default": "",
+      "examples": [
+        "2天之前"
+      ]
+    },
+    "hai_title": {
+      "$id": "/properties/hai_title",
+      "type": "string",
+      "title": "The Hai_title Schema ",
+      "default": "",
+      "examples": [
+        "222"
+      ]
+    },
+    "resendnum": {
+      "$id": "/properties/resendnum",
+      "type": "string",
+      "title": "The Resendnum Schema ",
+      "default": "",
+      "examples": [
+        "0"
+      ]
+    },
+    "hai_division": {
+      "$id": "/properties/hai_division",
+      "type": "string",
+      "title": "The Hai_division Schema ",
+      "default": "",
+      "examples": [
+        "222"
+      ]
+    },
+    "isend": {
+      "$id": "/properties/isend",
+      "type": "null",
+      "title": "The Isend Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "hai_name": {
+      "$id": "/properties/hai_name",
+      "type": "string",
+      "title": "The Hai_name Schema ",
+      "default": "",
+      "examples": [
+        "1"
+      ]
+    },
+    "huodong_2": {
+      "$id": "/properties/huodong_2",
+      "type": "string",
+      "title": "The Huodong_2 Schema ",
+      "default": "",
+      "examples": [
+        "1970-01-01 08:00"
+      ]
+    },
+    "timestamp": {
+      "$id": "/properties/timestamp",
+      "type": "string",
+      "title": "The Timestamp Schema ",
+      "default": "",
+      "examples": [
+        "1524116815"
+      ]
+    },
+    "classid": {
+      "$id": "/properties/classid",
+      "type": "string",
+      "title": "The Classid Schema ",
+      "default": "",
+      "examples": [
+        "104"
+      ]
+    },
+    "notimg": {
+      "$id": "/properties/notimg",
+      "type": "string",
+      "title": "The Notimg Schema ",
+      "default": "",
+      "examples": [
+        "http://test.greattone.net/e/data/images/notimg.gif"
+      ]
+    },
+    "tbname": {
+      "$id": "/properties/tbname",
+      "type": "string",
+      "title": "The Tbname Schema ",
+      "default": "",
+      "examples": [
+        "photo"
+      ]
+    },
+    "titlepic": {
+      "$id": "/properties/titlepic",
+      "type": "string",
+      "title": "The Titlepic Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "userid": {
+      "$id": "/properties/userid",
+      "type": "string",
+      "title": "The Userid Schema ",
+      "default": "",
+      "examples": [
+        "213372"
+      ]
+    },
+    "diggtop": {
+      "$id": "/properties/diggtop",
+      "type": "string",
+      "title": "The Diggtop Schema ",
+      "default": "",
+      "examples": [
+        "1"
+      ]
+    },
+    "username": {
+      "$id": "/properties/username",
+      "type": "string",
+      "title": "The Username Schema ",
+      "default": "",
+      "examples": [
+        "帅"
+      ]
+    },
+    "morepic": {
+      "$id": "/properties/morepic",
+      "type": "array",
+      "items": {
+        "$id": "/properties/morepic/items",
+        "type": "object",
+        "properties": {
+          "thumbnail": {
+            "$id": "/properties/morepic/items/properties/thumbnail",
+            "type": "string",
+            "title": "The Thumbnail Schema ",
+            "default": "",
+            "examples": [
+              "http://greattone.oss-cn-shanghai.aliyuncs.com/haixuan/images/2018041951521021.jpg?x-oss-process=style/pc-userpic"
+            ]
+          },
+          "url": {
+            "$id": "/properties/morepic/items/properties/url",
+            "type": "string",
+            "title": "The Url Schema ",
+            "default": "",
+            "examples": [
+              "http://greattone.oss-cn-shanghai.aliyuncs.com/haixuan/images/2018041951521021.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "thumbnail": {
+      "$id": "/properties/thumbnail",
+      "type": "string",
+      "title": "The Thumbnail Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "hai_video": {
+      "$id": "/properties/hai_video",
+      "type": "string",
+      "title": "The Hai_video Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "isguanzhu": {
+      "$id": "/properties/isguanzhu",
+      "type": "integer",
+      "title": "The Isguanzhu Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "smalltext": {
+      "$id": "/properties/smalltext",
+      "type": "string",
+      "title": "The Smalltext Schema ",
+      "default": "",
+      "examples": [
+        "11"
+      ]
+    },
+    "titleurl": {
+      "$id": "/properties/titleurl",
+      "type": "string",
+      "title": "The Titleurl Schema ",
+      "default": "",
+      "examples": [
+        "http://test.greattone.net/e/action/ShowInfo.php?classid=104&id=18470"
+      ]
+    },
+    "ismember": {
+      "$id": "/properties/ismember",
+      "type": "string",
+      "title": "The Ismember Schema ",
+      "default": "",
+      "examples": [
+        "1"
+      ]
+    },
+    "shipin": {
+      "$id": "/properties/shipin",
+      "type": "string",
+      "title": "The Shipin Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "id": {
+      "$id": "/properties/id",
+      "type": "string",
+      "title": "The Id Schema ",
+      "default": "",
+      "examples": [
+        "18470"
+      ]
+    },
+    "hai_id": {
+      "$id": "/properties/hai_id",
+      "type": "string",
+      "title": "The Hai_id Schema ",
+      "default": "",
+      "examples": [
+        "4131"
+      ]
+    },
+    "hai_photo": {
+      "$id": "/properties/hai_photo",
+      "type": "string",
+      "title": "The Hai_photo Schema ",
+      "default": "",
+      "examples": [
+        "http://test.greattone.nete/data/images/nouserpic.gif"
+      ]
+    },
+    "newstime": {
+      "$id": "/properties/newstime",
+      "type": "string",
+      "title": "The Newstime Schema ",
+      "default": "",
+      "examples": [
+        "2018-04-19"
+      ]
+    },
+    "userinfo": {
+      "$id": "/properties/userinfo",
+      "type": "object",
+      "properties": {
+        "verification": {
+          "$id": "/properties/userinfo/properties/verification",
+          "type": "string",
+          "title": "The Verification Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "address": {
+          "$id": "/properties/userinfo/properties/address",
+          "type": "string",
+          "title": "The Address Schema ",
+          "default": "",
+          "examples": [
+            "北京"
+          ]
+        },
+        "level": {
+          "$id": "/properties/userinfo/properties/level",
+          "type": "object",
+          "properties": {
+            "pic": {
+              "$id": "/properties/userinfo/properties/level/properties/pic",
+              "type": "string",
+              "title": "The Pic Schema ",
+              "default": "",
+              "examples": [
+                "http://test.greattone.net/images/hui2.png"
+              ]
+            },
+            "name": {
+              "$id": "/properties/userinfo/properties/level/properties/name",
+              "type": "string",
+              "title": "The Name Schema ",
+              "default": "",
+              "examples": [
+                "二级"
+              ]
+            }
+          }
+        },
+        "groupid": {
+          "$id": "/properties/userinfo/properties/groupid",
+          "type": "string",
+          "title": "The Groupid Schema ",
+          "default": "",
+          "examples": [
+            "1"
+          ]
+        },
+        "userid": {
+          "$id": "/properties/userinfo/properties/userid",
+          "type": "string",
+          "title": "The Userid Schema ",
+          "default": "",
+          "examples": [
+            "213372"
+          ]
+        },
+        "music_star": {
+          "$id": "/properties/userinfo/properties/music_star",
+          "type": "string",
+          "title": "The Music_star Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "username": {
+          "$id": "/properties/userinfo/properties/username",
+          "type": "string",
+          "title": "The Username Schema ",
+          "default": "",
+          "examples": [
+            "帅"
+          ]
+        },
+        "follownum": {
+          "$id": "/properties/userinfo/properties/follownum",
+          "type": "string",
+          "title": "The Follownum Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ]
+        },
+        "putong_shenfen": {
+          "$id": "/properties/userinfo/properties/putong_shenfen",
+          "type": "string",
+          "title": "The Putong_shenfen Schema ",
+          "default": "",
+          "examples": [
+            "爱乐人"
+          ]
+        },
+        "cked": {
+          "$id": "/properties/userinfo/properties/cked",
+          "type": "string",
+          "title": "The Cked Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ]
+        },
+        "groupname": {
+          "$id": "/properties/userinfo/properties/groupname",
+          "type": "string",
+          "title": "The Groupname Schema ",
+          "default": "",
+          "examples": [
+            "普通会员"
+          ]
+        },
+        "classroom_type": {
+          "$id": "/properties/userinfo/properties/classroom_type",
+          "type": "string",
+          "title": "The Classroom_type Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        },
+        "userfen": {
+          "$id": "/properties/userinfo/properties/userfen",
+          "type": "string",
+          "title": "The Userfen Schema ",
+          "default": "",
+          "examples": [
+            "190"
+          ]
+        },
+        "feednum": {
+          "$id": "/properties/userinfo/properties/feednum",
+          "type": "string",
+          "title": "The Feednum Schema ",
+          "default": "",
+          "examples": [
+            "0"
+          ]
+        },
+        "userpic": {
+          "$id": "/properties/userinfo/properties/userpic",
+          "type": "string",
+          "title": "The Userpic Schema ",
+          "default": "",
+          "examples": [
+            "http://greattone.oss-cn-shanghai.aliyuncs.com/userpic/1522152359125.jpg?x-oss-process=style/pc-liebiao"
+          ]
+        },
+        "teacher_type": {
+          "$id": "/properties/userinfo/properties/teacher_type",
+          "type": "string",
+          "title": "The Teacher_type Schema ",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      }
+    },
+    "plnum": {
+      "$id": "/properties/plnum",
+      "type": "string",
+      "title": "The Plnum Schema ",
+      "default": "",
+      "examples": [
+        "0"
+      ]
+    },
+    "huodong_1": {
+      "$id": "/properties/huodong_1",
+      "type": "string",
+      "title": "The Huodong_1 Schema ",
+      "default": "",
+      "examples": [
+        "1970-01-01 08:00"
+      ]
+    }
+  }
+}
