@@ -24,7 +24,7 @@ class BusinessApi(HttpHandler):
         self.data_true = self.config.get('login')[4]
 
         self.guang_url = self.config.get('guangchang').get('guang_url')
-        self.guang, self.tuijian, self.nian, self.ji, self.zhou = self.config.get('guangchang').get('value')
+        self.guang, self.tuijian, self.nian, self.ji, self.zhou, self.jj = self.config.get('guangchang').get('value')
 
     def login(self, data=None):
         resp = json.loads(self.post(self.base_url, data=data))
