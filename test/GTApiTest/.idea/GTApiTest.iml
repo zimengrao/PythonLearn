@@ -8,5 +8,7 @@
     <orderEntry type="module" module-name="V2ex" />
     <orderEntry type="module" module-name="SeleniumUiTest" />
     <orderEntry type="module" module-name="Test DEMO" />
+    <orderEntry type="module" module-name="Socure" />
+    <orderEntry type="module" module-name="MysqlData" />
   </component>
 </module>
