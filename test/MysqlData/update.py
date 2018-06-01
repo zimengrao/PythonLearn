@@ -19,16 +19,26 @@ config = {
     'charset': 'utf8',
 }
 
+# config = {
+#     'host': '47.100.60.152',
+#     'port': 3306,
+#     'user': 'gttest',
+#     'password': 'COk+Y5.g8FDxJ5s',
+#     'db': 'ceshihao3.6',
+#     'charset': 'utf8',
+# }
+
+
 root = Tk()
 root.title("hello world")                #是x 不是*
 
 
-id_before = Label(root, text="before_change_hai_id:").grid(row = 0, column = 0)
+id_before = Label(root, text="before_change_shop_id:").grid(row = 0, column = 0)
 before_data = StringVar()
 id_before_data = Entry(root, textvariable = before_data).grid(row = 0, column = 1)
 before_data.set(" ")
 
-id_behind = Label(root, text='behind_change_hai_id:').grid(row = 1, column = 0)
+id_behind = Label(root, text='behind_change_shop_id:').grid(row = 1, column = 0)
 behind_data = StringVar()
 id_behind_data = Entry(root, textvariable = behind_data).grid(row = 1, column = 1)
 behind_data.set(" ")

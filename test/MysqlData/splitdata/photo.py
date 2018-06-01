@@ -20,14 +20,14 @@ config = {
 }
 
 # photo表中的动态图片和报名图片导入到tc019_photo表中
-# news_photo 存放了图片动态和图片报名
+# news_photo 存放了图片动态和图片报名（type=1）
 sql = """
 
           SELECT id,newstime,new_photo from phome_ecms_photo where new_photo!=''
 
       """
 
-# 分割用户表中的相册
+# 分割用户表中的相册（type=4）
 sql1 = """
             SELECT userid, '' newstime, photo FROM phome_enewsmemberadd WHERE photo != ''
        """

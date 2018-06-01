@@ -9,41 +9,56 @@ import lib
 import time
 import unittest
 from config import Config
-from BeautifulReport import  BeautifulReport
 
 class HqsTestCases(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.config = Config.enum.get('login')
+
+
+        cls.config = Config.enum.get('hqs')
         cls.url = cls.config.get('url')
-        cls.username  = cls.config.get('username')
-        cls.password = cls.config.get('password')
-        cls.click_login_button1, cls.input_username, cls.input_password, cls.click_login_button2 = cls.config.get('xpath')
-        cls.url_login = cls.config.get('url_login')
-        cls.assert_info = cls.config.get('assert_xpath')
+        cls.login = cls.config.get('login')
+        cls.username  = cls.login.get('username')
+        cls.password = cls.login.get('password')
+
+        cls.dynamic = cls.config.get('dynamic')
+        cls.video_input, cls.video_file = cls.dynamic.get('xpath_video')
+
+        cls.value = cls.dynamic.get('value')
+        cls.send = cls.dynamic.get('send')
+
+        cls.assert_url, cls.assert_login = cls.config.get('assert_xpath')
 
     def setUp(self):
-        self.lib = lib.WebDriver()
+        self.lib = lib.BusinessApi(self.config)
         self.driver = self.lib.driver
 
     def tearDown(self):
         self.driver.quit()
 
+    def test_hqs_is_ok(self):
+        ''' 好琴声网站 is ok'''
+        self.lib.get(self.url)
+        self.assertIn(self.url, self.lib.parse(self.assert_url)[0])
+
     def test_config_enum_is_ok(self):
+        '''判断参数不为空'''
         self.assertIsNotNone(self.config)
-        self.assertIsNotNone(self.url)
+        self.assertIsNotNone(self.username)
         self.assertIsNotNone(self.password)
 
-    def test_hqs_login(self):
-        self.lib.get(self.url)
-        self.lib.click(self.click_login_button1)
-        self.lib.send_keys(self.input_username, self.username)
-        self.lib.send_keys(self.input_password, self.password)
-        self.lib.click(self.click_login_button2)
-        time.sleep(2)
-        self.lib.get(self.url_login)
-        time.sleep(2)
-        self.assert_info =self.lib.parse(self.assert_info)
+    def test_login_is_ok(self):
+        '''login is ok'''
+        self.lib.hqs_login()
+        self.assertEqual('退出', self.lib.parse(self.assert_login)[0])
+
+    def test_video_is_ok(self):
+        self.lib.hqs_dynamic()
+        self.lib.send_keys(self.video_input, self.video_file)
+        time.sleep(5)
+        self.lib.send_keys(self.video_input, self.video_file)
+        self.lib.click(self.send)
+
 
 
 

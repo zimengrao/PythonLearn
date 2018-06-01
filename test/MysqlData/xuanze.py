@@ -4,6 +4,9 @@ import tkinter.filedialog
 import pymysql
 import threading
 import tkinter.messagebox #这个是消息框，对话框的关键
+import datetime
+# import io
+# import sys
 
 # config = {
 #     'host': '47.100.60.152',
@@ -13,6 +16,8 @@ import tkinter.messagebox #这个是消息框，对话框的关键
 #     'db': 'ceshihao3.6',
 #     'charset': 'utf8'
 # }
+
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8') #改变标准输出的默认编码
 
 config = {
     'host': '192.168.1.27',
@@ -26,10 +31,12 @@ config = {
 	
 filename=''
 threadStatus='true'
+f = open('E:\桌面\log.txt', 'a', encoding='utf-8')
 
 def selectPath():
     global filename
-    filename = tkinter.filedialog.askopenfilename(filetypes = [('TXT', 'txt')])
+    # filename = tkinter.filedialog.askopenfilename(filetypes = [('TXT', 'txt')])
+    filename = tkinter.filedialog.askopenfilename()
     if filename != '':
         path.set(filename)
     else:
@@ -61,46 +68,51 @@ def getTableName(sql):
     return result
 	
 def readfile(fileurl):
-    for line in open(fileurl,encoding='UTF-8'):  
-        print(line)
-        global threadStatus
-        threading.Thread(target=insertDate,args=(getItemName(line)[0],getItemName(line)[1],getTableName(line),line.split(';')[0],)).start()
+    print(fileurl)
+    for line in open(fileurl, encoding='UTF-8'):
+        # print(line)
+        if 'SELECT' in line:
+            print(line)
+            global threadStatus
+            threading.Thread(target=insertDate,args=(getItemName(line)[0],getItemName(line)[1],getTableName(line),line.split(';')[0],)).start()
 
 def showErr(str):
-    tkinter.messagebox.showerror('Report error',str)
+    tkinter.messagebox.showinfo('Report error',str)
 	
 		
 def insertDate(field_name, place,table,sql):
-        if threadStatus == 'false':
-            print(table+'Stop success')
-            return
-        conn = pymysql.connect(**config) # 注意传入的数据为字典类型
-        cur = conn.cursor()
-        cur.execute(sql)
-        data = cur.fetchall()
-        j=0
-        k=len(data)
-        print(k,place,sql)
-        for items in data:
-            if type(items) == tuple:
-                len(items)
-                # print(items)
-                try:
-                    i = 'insert into '+table+'('+field_name+') values('+place+')'
-                    cur.execute(i, items)
-                    print(items)
-                    print('\n')
-                    print(i)
-                    print('\n')
-                    conn.commit()
-                except Exception as err:
-                    print(err)
-                    conn.rollback()
-                    threading.Thread(target=showErr,args=(err,)).start()
-                j += 1
-        conn.close()
-        print(table+'Finish ' +  'selcet:%d'%k + ' insert:%d'%j)
-        tkinter.messagebox.showinfo('info', table + 'finish'  + 'selcet:%d'%k + ' insert:%d'%j)
+    if threadStatus == 'false':
+        print(table+'Stop success')
+        return
+    conn = pymysql.connect(**config) # 注意传入的数据为字典类型
+    cur = conn.cursor()
+    cur.execute(sql)
+    data = cur.fetchall()
+    j=0
+    k=len(data)
+    print(k,place,sql)
+    for items in data:
+        if type(items) == tuple:
+            len(items)
+            # print(items)
+            try:
+                i = 'insert into '+table+'('+field_name+') values('+place+')'
+                cur.execute(i, items)
+                print(items)
+                print('\n')
+                print(i)
+                print('\n')
+                conn.commit()
+            except Exception as err:
+                print(err)
+                conn.rollback()
+                threading.Thread(target=showErr,args=(err,)).start()
+            j += 1
+    nowTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    print((nowTime + table+'Finish ' +  'selcet:%d'%k +  '\000' + ' insert:%d'%j), file = f)
+    tkinter.messagebox.showinfo('info', table + 'finish'  + 'selcet:%d'%k + ' insert:%d'%j)
+    conn.close()
+
 
 root = Tk()
 path = StringVar()
@@ -112,5 +124,9 @@ Button(root, text = "path choice", command = selectPath).grid(row = 0, column = 
 Button(root, text = "Start run", command = startInsertData).grid(row = 1, column = 1)
 Button(root, text = "Stop run", command = stopThread).grid(row = 1, column = 2)
 
-root.mainloop()
+if __name__ == '__main__':
+    print((datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '开始'), file = f)
+    root.mainloop()
+    print((datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '结束' + '\n'), file = f)
+
 

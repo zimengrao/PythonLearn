@@ -13,15 +13,16 @@
     <SUITE FILE_PATH="coverage/MysqlData$photo.coverage" NAME="photo Coverage Results" MODIFIED="1525932712170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分号切割" />
     <SUITE FILE_PATH="coverage/MysqlData$photo__1_.coverage" NAME="photo (1) Coverage Results" MODIFIED="1526028471060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/splitdata" />
     <SUITE FILE_PATH="coverage/MysqlData$jk.coverage" NAME="jk Coverage Results" MODIFIED="1525326109815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
-    <SUITE FILE_PATH="coverage/MysqlData$xuanze.coverage" NAME="xuanze Coverage Results" MODIFIED="1526035273057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MysqlData$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1525418709435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
+    <SUITE FILE_PATH="coverage/MysqlData$xuanze.coverage" NAME="xuanze Coverage Results" MODIFIED="1526956660139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MysqlData$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1526540236549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/splitdata" />
     <SUITE FILE_PATH="coverage/MysqlData$xuanze__1_.coverage" NAME="xuanze (1) Coverage Results" MODIFIED="1525855151931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MysqlData$err.coverage" NAME="err Coverage Results" MODIFIED="1525931763829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pymysql" />
     <SUITE FILE_PATH="coverage/MysqlData$run1.coverage" NAME="run1 Coverage Results" MODIFIED="1525430427509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MysqlData$user.coverage" NAME="user Coverage Results" MODIFIED="1525856610630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
     <SUITE FILE_PATH="coverage/MysqlData$AllTest.coverage" NAME="AllTest Coverage Results" MODIFIED="1525862236456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分号切割" />
     <SUITE FILE_PATH="coverage/MysqlData$review.coverage" NAME="review Coverage Results" MODIFIED="1525862779873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分号切割" />
-    <SUITE FILE_PATH="coverage/MysqlData$like.coverage" NAME="like Coverage Results" MODIFIED="1525862206771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/分号切割" />
+    <SUITE FILE_PATH="coverage/MysqlData$update.coverage" NAME="update Coverage Results" MODIFIED="1526353361613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MysqlData$like.coverage" NAME="like Coverage Results" MODIFIED="1526540959086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/splitdata" />
     <SUITE FILE_PATH="coverage/MysqlData$run.coverage" NAME="run Coverage Results" MODIFIED="1525859145694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MysqlData$xuanze_1_.coverage" NAME="xuanze(1) Coverage Results" MODIFIED="1525834659019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MysqlData$review__1_.coverage" NAME="review (1) Coverage Results" MODIFIED="1525942161066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/splitdata" />
@@ -39,66 +40,47 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67138106">
+    <splitter split-orientation="horizontal" split-proportion="0.36846277">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="vote.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/splitdata/vote.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="38" column="45" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="38" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#83#97#0" expanded="true" />
-                    <marker date="1525941013414" expanded="true" signature="340:401" ph="SELECT id,to... phome_ecms_photo" />
-                    <marker date="1525941013414" expanded="true" signature="916:970" ph="SELECT usern... phome_enewsmember" />
-                    <marker date="1525941013414" expanded="true" signature="1157:1286" ph="insert into gt030_vote" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="like.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/splitdata/like.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="26" />
-                  <folding>
-                    <marker date="1525948600831" expanded="true" signature="400:506" ph="SELECT id,za... phome_ecms_photo" />
-                    <marker date="1525948600831" expanded="true" signature="1110:1197" ph="insert into gt021_like" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/run.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#152#173#0" expanded="true" />
-                    <element signature="e#493#629#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="photo.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/splitdata/photo.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1470">
-                  <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+                <state relative-caret-position="385">
+                  <caret line="102" column="19" lean-forward="false" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
                   <folding>
                     <element signature="e#85#99#0" expanded="true" />
-                    <element signature="e#329#425#0" expanded="false" />
-                    <element signature="e#671#1755#0" expanded="false" />
-                    <marker date="1526035581276" expanded="true" signature="344:414" ph="SELECT id,ne... phome_ecms_photo" />
-                    <marker date="1526035581276" expanded="true" signature="462:539" ph="SELECT useri... phome_enewsmemberadd" />
-                    <marker date="1526035581276" expanded="true" signature="577:627" ph="SELECT id, z... phome_ecms_photo" />
-                    <marker date="1526035581276" expanded="true" signature="1397:1514" ph="insert into gt019_photo" />
-                    <marker date="1526035581276" expanded="true" signature="2119:2173" ph="SELECT usern... phome_enewsmember" />
-                    <marker date="1526035581276" expanded="true" signature="2338:2446" ph="insert into gt021_like" />
+                    <marker date="1526262195989" expanded="true" signature="352:422" ph="SELECT id,ne... phome_ecms_photo" />
+                    <marker date="1526262195989" expanded="true" signature="478:555" ph="SELECT useri... phome_enewsmemberadd" />
+                    <marker date="1526262195989" expanded="true" signature="593:643" ph="SELECT id, z... phome_ecms_photo" />
+                    <marker date="1526262195989" expanded="true" signature="1413:1530" ph="insert into gt019_photo" />
+                    <marker date="1526262195989" expanded="true" signature="2135:2189" ph="SELECT usern... phome_enewsmember" />
+                    <marker date="1526262195989" expanded="true" signature="2354:2462" ph="insert into gt021_like" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="update.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/update.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="567">
+                  <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+                  <folding>
+                    <marker date="1526353361414" expanded="true" signature="1390:1530" ph="UPDATE phome... " />
+                    <marker date="1526353361414" expanded="true" signature="1457:1501" ph="SELECT title... phome_ecms_shop" />
+                    <marker date="1526353361414" expanded="true" signature="1558:1623" ph="UPDATE phome... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xuanze(1).py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/xuanze(1).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1491">
+                  <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -136,12 +118,13 @@
           <file leaf-file-name="ceshi.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/splitdata/ceshi.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1260">
-                  <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                <state relative-caret-position="588">
+                  <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
                   <folding>
-                    <element signature="e#168#182#0" expanded="true" />
-                    <marker date="1525934376484" expanded="true" signature="581:651" ph="SELECT id,ne... phome_ecms_photo" />
-                    <marker date="1525934376484" expanded="true" signature="1209:1310" ph="insert into gt019_photo" />
+                    <marker date="1526540958985" expanded="true" signature="563:643" ph="SELECT tc090... gt090_global_type" />
+                    <marker date="1526540958985" expanded="true" signature="886:965" ph="update gt090... " />
+                    <marker date="1526540958985" expanded="true" signature="1155:1230" ph="SELECT tc090... gt090_global_type" />
+                    <marker date="1526540958985" expanded="true" signature="1487:1592" ph="update gt090... " />
                   </folding>
                 </state>
               </provider>
@@ -154,11 +137,10 @@
           <file leaf-file-name="xuanze.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xuanze.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="197">
-                  <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+                <state relative-caret-position="336">
+                  <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
-                    <element signature="e#356#492#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -167,7 +149,7 @@
           <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/run.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
+                <state relative-caret-position="420">
                   <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
                   <folding>
                     <element signature="e#152#173#0" expanded="true" />
@@ -199,7 +181,6 @@
         <option value="E:/桌面/xuanze.py" />
         <option value="E:/桌面/xuanze(1).py" />
         <option value="$PROJECT_DIR$/run1.py" />
-        <option value="$PROJECT_DIR$/update.py" />
         <option value="$PROJECT_DIR$/xuanze(1).py" />
         <option value="$PROJECT_DIR$/database/user.py" />
         <option value="$PROJECT_DIR$/run.py" />
@@ -210,11 +191,12 @@
         <option value="$PROJECT_DIR$/splitdata/__init__.py" />
         <option value="$PROJECT_DIR$/splitdata/config.py" />
         <option value="$PROJECT_DIR$/config/__init__.py" />
-        <option value="$PROJECT_DIR$/splitdata/ceshi.py" />
         <option value="$PROJECT_DIR$/splitdata/review.py" />
-        <option value="$PROJECT_DIR$/splitdata/like.py" />
+        <option value="$PROJECT_DIR$/update.py" />
         <option value="$PROJECT_DIR$/xuanze.py" />
         <option value="$PROJECT_DIR$/splitdata/photo.py" />
+        <option value="$PROJECT_DIR$/splitdata/ceshi.py" />
+        <option value="$PROJECT_DIR$/splitdata/like.py" />
       </list>
     </option>
   </component>
@@ -246,7 +228,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,6 +294,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,42 +332,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分号切割" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MysqlData" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分号切割/photo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="err" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pymysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="GTApiTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pymysql/err.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="photo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,7 +350,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="review (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysqlData" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/update.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -417,7 +381,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MysqlData" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\python\PythonLearn\test\MysqlData\splitdata\vote.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/splitdata/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="like" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/splitdata" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysqlData" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\python\PythonLearn\test\MysqlData\splitdata\FieldSplices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -638,18 +620,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.xuanze" />
-      <item index="1" class="java.lang.String" itemvalue="Python.photo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.err" />
-      <item index="3" class="java.lang.String" itemvalue="Python.photo (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.review (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.photo (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.update" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ceshi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.like" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.xuanze" />
-        <item index="1" class="java.lang.String" itemvalue="Python.photo (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.review (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.photo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.err" />
+        <item index="1" class="java.lang.String" itemvalue="Python.like" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ceshi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.update" />
+        <item index="4" class="java.lang.String" itemvalue="Python.photo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -670,13 +652,13 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16527778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12361111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3656051" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37834394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -689,6 +671,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.307772" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123958334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -701,7 +703,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xuanze.py</url>
-          <line>7</line>
+          <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -711,11 +713,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xuanze.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="7" />
+          <line>22</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -829,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/tkinter/messagebox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b330500a-d352-4218-9820-7a335d0c178e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,28 +857,6 @@
     <entry file="file://$PROJECT_DIR$/database/review.py" />
     <entry file="file://$PROJECT_DIR$/database/like.py" />
     <entry file="file://$PROJECT_DIR$/分号切割/user.py" />
-    <entry file="file://$PROJECT_DIR$/xuanze(1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1207222775/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-293">
-          <caret line="4682" column="8" lean-forward="false" selection-start-line="4682" selection-start-column="8" selection-end-line="4682" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -897,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="913" column="0" lean-forward="false" selection-start-line="913" selection-start-column="0" selection-end-line="913" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,21 +915,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/1207222775/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="475" column="4" lean-forward="false" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/tkinter/messagebox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitdata/vote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanze(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="76" column="26" lean-forward="false" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <marker date="1526353361414" expanded="true" signature="1390:1530" ph="UPDATE phome... " />
+            <marker date="1526353361414" expanded="true" signature="1457:1501" ph="SELECT title... phome_ecms_shop" />
+            <marker date="1526353361414" expanded="true" signature="1558:1623" ph="UPDATE phome... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/splitdata/ceshi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <element signature="e#168#182#0" expanded="true" />
-            <marker date="1525934376484" expanded="true" signature="581:651" ph="SELECT id,ne... phome_ecms_photo" />
-            <marker date="1525934376484" expanded="true" signature="1209:1310" ph="insert into gt019_photo" />
+            <marker date="1526540958985" expanded="true" signature="563:643" ph="SELECT tc090... gt090_global_type" />
+            <marker date="1526540958985" expanded="true" signature="886:965" ph="update gt090... " />
+            <marker date="1526540958985" expanded="true" signature="1155:1230" ph="SELECT tc090... gt090_global_type" />
+            <marker date="1526540958985" expanded="true" signature="1487:1592" ph="update gt090... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitdata/FieldSplices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="420">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="e#152#173#0" expanded="true" />
@@ -966,62 +994,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splitdata/vote.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="38" column="45" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#83#97#0" expanded="true" />
-            <marker date="1525941013414" expanded="true" signature="340:401" ph="SELECT id,to... phome_ecms_photo" />
-            <marker date="1525941013414" expanded="true" signature="916:970" ph="SELECT usern... phome_enewsmember" />
-            <marker date="1525941013414" expanded="true" signature="1157:1286" ph="insert into gt030_vote" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitdata/like.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <marker date="1525948600831" expanded="true" signature="400:506" ph="SELECT id,za... phome_ecms_photo" />
-            <marker date="1525948600831" expanded="true" signature="1110:1197" ph="insert into gt021_like" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splitdata/photo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="102" column="19" lean-forward="false" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
           <folding>
             <element signature="e#85#99#0" expanded="true" />
-            <element signature="e#329#425#0" expanded="false" />
-            <element signature="e#671#1755#0" expanded="false" />
-            <marker date="1526035581276" expanded="true" signature="344:414" ph="SELECT id,ne... phome_ecms_photo" />
-            <marker date="1526035581276" expanded="true" signature="462:539" ph="SELECT useri... phome_enewsmemberadd" />
-            <marker date="1526035581276" expanded="true" signature="577:627" ph="SELECT id, z... phome_ecms_photo" />
-            <marker date="1526035581276" expanded="true" signature="1397:1514" ph="insert into gt019_photo" />
-            <marker date="1526035581276" expanded="true" signature="2119:2173" ph="SELECT usern... phome_enewsmember" />
-            <marker date="1526035581276" expanded="true" signature="2338:2446" ph="insert into gt021_like" />
+            <marker date="1526262195989" expanded="true" signature="352:422" ph="SELECT id,ne... phome_ecms_photo" />
+            <marker date="1526262195989" expanded="true" signature="478:555" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1526262195989" expanded="true" signature="593:643" ph="SELECT id, z... phome_ecms_photo" />
+            <marker date="1526262195989" expanded="true" signature="1413:1530" ph="insert into gt019_photo" />
+            <marker date="1526262195989" expanded="true" signature="2135:2189" ph="SELECT usern... phome_enewsmember" />
+            <marker date="1526262195989" expanded="true" signature="2354:2462" ph="insert into gt021_like" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xuanze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="93" column="18" lean-forward="false" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        <state relative-caret-position="336">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#356#492#0" expanded="false" />
           </folding>
         </state>
       </provider>

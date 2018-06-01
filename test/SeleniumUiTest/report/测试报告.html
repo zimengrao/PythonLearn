@@ -7097,23 +7097,31 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
+    "testSkip": 0,
+    "totalTime": "41s",
+    "testFail": 2,
+    "testName": "测试deafult报告",
+    "testPass": 2,
+    "testError": 0,
+    "beginTime": "2018-05-29 15:53:59",
+    "testAll": 4,
     "testResult": [
         {
-            "spendTime": "14.3 s",
+            "methodName": "test_baidu_home_page",
             "status": "成功",
             "description": "[百度][主页] 测试主页请求正确",
+            "spendTime": "10.3 s",
             "className": "TestBaiDu",
-            "methodName": "test_baidu_home_page",
             "log": [
                 ""
             ]
         },
         {
-            "spendTime": "11.5 s",
+            "methodName": "test_click_baike",
             "status": "失败",
             "description": "[百度][主页] 从百度主页点击按钮进入百度百科",
+            "spendTime": "11.1 s",
             "className": "TestBaiDu",
-            "methodName": "test_click_baike",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
@@ -7124,21 +7132,21 @@ body.skin-3 {
             ]
         },
         {
-            "spendTime": "9.82 s",
+            "methodName": "test_get_baike_appname",
             "status": "成功",
             "description": "[百度][百科] 从百科页面直接进入，查询app名字正确",
+            "spendTime": "9.19 s",
             "className": "TestBaiDu",
-            "methodName": "test_get_baike_appname",
             "log": [
                 ""
             ]
         },
         {
-            "spendTime": "9.72 s",
+            "methodName": "test_iqiyi_home_page",
             "status": "失败",
             "description": null,
+            "spendTime": "10.6 s",
             "className": "TestIQiYi",
-            "methodName": "test_iqiyi_home_page",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
@@ -7153,15 +7161,7 @@ body.skin-3 {
                 "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id=\"block-C\"]/div/div/div/div/div/ul[2]/li[1]/a\n\n"
             ]
         }
-    ],
-    "testAll": 4,
-    "totalTime": "45s",
-    "testError": 0,
-    "beginTime": "2018-04-08 16:49:40",
-    "testSkip": 0,
-    "testFail": 2,
-    "testName": "测试deafult报告",
-    "testPass": 2
+    ]
 };
     function details(obj) {
         if ($(obj).text() == '展开') {

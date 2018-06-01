@@ -8,6 +8,8 @@
 
 from selenium import webdriver
 from lxml.html import fromstring
+from selenium.webdriver.support.select import Select
+
 
 class WebDriver:
     def __init__(self):

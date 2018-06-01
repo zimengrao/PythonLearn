@@ -7097,46 +7097,46 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "beginTime": "2018-03-16 13:49:39",
-    "testPass": 1,
-    "totalTime": "19s",
-    "testError": 0,
-    "testFail": 1,
-    "testAll": 2,
-    "testName": "测试default报告",
+    "beginTime": "2018-06-01 14:17:59",
     "testResult": [
         {
+            "className": "HqsTestCases",
             "methodName": "test_config_enum_is_ok",
-            "spendTime": "11.8 s",
             "log": [
                 ""
             ],
-            "description": null,
             "status": "成功",
-            "className": "HqsTestCases"
+            "spendTime": "6.31 s",
+            "description": "判断参数不为空"
         },
         {
-            "methodName": "test_hqs_login",
-            "spendTime": "7.91 s",
+            "className": "HqsTestCases",
+            "methodName": "test_hqs_is_ok",
             "log": [
-                "",
-                "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 601, in run\n    testMethod()\n",
-                "  File \"F:\\python\\PythonLearn\\test\\HqsUiTest\\tests\\test_hqs.py\", line 42, in test_hqs_login\n    self.lib.click(self.click_login_button2)\n",
-                "  File \"F:\\python\\PythonLearn\\test\\HqsUiTest\\lib\\WebDriverClient.py\", line 26, in click\n    self.driver.find_element_by_xpath(xpath).click()\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 501, in _execute\n    return self._parent.execute(command, params)\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 311, in execute\n    self.error_handler.check_response(response)\n",
-                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 237, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
-                "selenium.common.exceptions.ElementClickInterceptedException: Message: Element <input id=\"submit\" name=\"Submit\" type=\"submit\"> is not clickable at point (632,317) because another element <label> obscures it\n\n"
+                ""
             ],
-            "description": null,
-            "status": "失败",
-            "className": "HqsTestCases"
+            "status": "成功",
+            "spendTime": "8.47 s",
+            "description": " 好琴声网站 is ok"
+        },
+        {
+            "className": "HqsTestCases",
+            "methodName": "test_login_is_ok",
+            "log": [
+                ""
+            ],
+            "status": "成功",
+            "spendTime": "13.5 s",
+            "description": "login is ok"
         }
     ],
-    "testSkip": 0
+    "testFail": 0,
+    "testSkip": 0,
+    "totalTime": "28s",
+    "testPass": 3,
+    "testAll": 3,
+    "testName": "测试default报告",
+    "testError": 0
 };
     function details(obj) {
         if ($(obj).text() == '展开') {
