@@ -32,10 +32,10 @@ class WebDriver:
     def check(self, xpath):
         return bool(self.parse(xpath))
 
-    def switch_tabs(self):
-        # 当前窗口
-        now_handel = self.driver.current_window_handle
-        handlers = self.driver.window_handles
-        for handler in handlers:
-            if handler != now_handel:
-                self.driver.switch_to_window(handler)
+    # def switch_tabs(self):
+    #     # 当前窗口
+    #     now_handel = self.driver.current_window_handle
+    #     handlers = self.driver.window_handles
+    #     for handler in handlers:
+    #         if handler != now_handel:
+    #             self.driver.switch_to_window(handler)

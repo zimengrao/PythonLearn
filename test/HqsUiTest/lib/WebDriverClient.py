@@ -8,8 +8,6 @@
 
 from selenium import webdriver
 from lxml.html import fromstring
-from selenium.webdriver.support.select import Select
-
 
 class WebDriver:
     def __init__(self):
@@ -32,3 +30,8 @@ class WebDriver:
 
     def check(self, xpath):
         return bool(self.parse(xpath))
+
+    def max_window(self):
+        self.driver.maximize_window()
+
+

@@ -6,24 +6,40 @@
 @Data: 2018/5/4
 """
 
-import pymysql
-import uuid
-import unittest
-# config = {
-#     'host': '47.100.60.152',
-#     'port': 3306,
-#     'user': 'gttest',
-#     'password': 'COk+Y5.g8FDxJ5s',
-#     'db': 'ceshihao3.6',
-#     'charset': 'utf8'
-# }
+import xlrd
 
-config = {
-    'host': '192.168.1.27',
-    'port': 3306,
-    'user': 'root',
-    'password': '123456',
-    'db': 'beidi',
-    'charset': 'utf8'
-}
 
+class ExcelUtil(object):
+    def __init__(self, excelPath, sheetName):
+        self.data = xlrd.open_workbook(excelPath)
+        self.table = self.data.sheet_by_name(sheetName)
+
+        # get titles
+        self.row = self.table.row_values(0)
+
+        # get rows number
+        self.rowNum = self.table.nrows
+
+        # get columns number
+        self.colNum = self.table.ncols
+
+        # the current column
+        self.curRowNo = 1
+
+    def next(self):
+        r = []
+        while self.hasNext():
+            s = {}
+            col = self.table.row_values(self.curRowNo)
+            i = self.colNum
+            for x in range(i):
+                s[self.row[x]] = col[x]
+            r.append(s)
+            self.curRowNo += 1
+        return r
+
+    def hasNext(self):
+        if self.rowNum == 0 or self.rowNum <= self.curRowNo:
+            return False
+        else:
+            return True

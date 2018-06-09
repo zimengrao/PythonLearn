@@ -8,6 +8,7 @@
 
 from lib.WebDriverClient import WebDriver
 import time
+import os
 
 class BusinessApi(WebDriver):
     def __init__(self, config):
@@ -21,7 +22,10 @@ class BusinessApi(WebDriver):
         self.click_login_button1, self.input_username, self.input_password, \
             self.click_login_button2 = self.login.get('xpath_login')
 
-        self.guangchang, self.dynamic = self.config.get('dynamic').get('xpath_dynamic')
+        self.dynamic = self.config.get('dynamic')
+        self.guangchang, self.fatie_xpath = self.dynamic.get('xpath_dynamic')
+
+        self.click_video, self.click_music, self.click_photo = self.dynamic.get('click_dynamic')
 
     def hqs_login(self):
         self.get(self.url)
@@ -32,8 +36,14 @@ class BusinessApi(WebDriver):
         self.click(self.click_login_button2)
         time.sleep(4)
 
-    def hqs_dynamic(self):
+    def hqs_guangchang(self):
+        ''' 从音乐广场 点击到发帖界面'''
         self.hqs_login()
         self.click(self.guangchang)
-        self.click(self.dynamic)
+        self.click(self.fatie_xpath)
+        time.sleep(3)
+
+    def hqs_uploads(self,file):
+        os.system("upload.exe %s" %file)
+
 

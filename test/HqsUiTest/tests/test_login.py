@@ -22,12 +22,11 @@ class HqsTestCases(unittest.TestCase):
         cls.password = cls.login.get('password')
 
         cls.dynamic = cls.config.get('dynamic')
-        cls.video_input, cls.video_file = cls.dynamic.get('xpath_video')
+        cls.video_xpath, cls.video = cls.dynamic.get('video').get('video')
+        cls.photo_input, cls.photo_file = cls.dynamic.get('photo').get('xpath_photo')
+        cls.music_input, cls.music_file = cls.dynamic.get('music').get('xpath_music')
 
-        cls.value = cls.dynamic.get('value')
-        cls.send = cls.dynamic.get('send')
-
-        cls.assert_url, cls.assert_login = cls.config.get('assert_xpath')
+        cls.assert_url, cls.assert_login, cls.assert_dynamic = cls.config.get('assert_xpath')
 
     def setUp(self):
         self.lib = lib.BusinessApi(self.config)
@@ -51,13 +50,6 @@ class HqsTestCases(unittest.TestCase):
         '''login is ok'''
         self.lib.hqs_login()
         self.assertEqual('退出', self.lib.parse(self.assert_login)[0])
-
-    def test_video_is_ok(self):
-        self.lib.hqs_dynamic()
-        self.lib.send_keys(self.video_input, self.video_file)
-        time.sleep(5)
-        self.lib.send_keys(self.video_input, self.video_file)
-        self.lib.click(self.send)
 
 
 

@@ -8,25 +8,25 @@ import datetime
 # import io
 # import sys
 
-# config = {
-#     'host': '47.100.60.152',
-#     'port': 3306,
-#     'user': 'gttest',
-#     'password': 'COk+Y5.g8FDxJ5s',
-#     'db': 'ceshihao3.6',
-#     'charset': 'utf8'
-# }
+config = {
+    'host': '47.100.60.152',
+    'port': 3306,
+    'user': 'gttest',
+    'password': 'COk+Y5.g8FDxJ5s',
+    'db': 'ceshihao3.6',
+    'charset': 'utf8'
+}
 
 # sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8') #改变标准输出的默认编码
 
-config = {
-    'host': '192.168.1.27',
-    'port': 3306,
-    'user': 'root',
-    'password': '123456',
-    'db': 'beidi',
-    'charset': 'utf8'
-}
+# config = {
+#     'host': '192.168.1.27',
+#     'port': 3306,
+#     'user': 'root',
+#     'password': '123456',
+#     'db': 'beidi',
+#     'charset': 'utf8'
+# }
 
 	
 filename=''
