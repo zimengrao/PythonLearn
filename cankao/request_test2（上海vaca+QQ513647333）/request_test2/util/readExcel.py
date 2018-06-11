@@ -8,7 +8,7 @@ __mtime__:2016/6/9
 '''
 
 import xlrd
-from readConfig import ReadConfig
+from .readConfig import ReadConfig
 
 localReadConfig = ReadConfig()
 

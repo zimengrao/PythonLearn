@@ -7097,27 +7097,47 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "testName": "测试default报告",
-    "testAll": 1,
-    "testFail": 0,
-    "testPass": 1,
-    "totalTime": "35s",
-    "testSkip": 0,
+    "testAll": 3,
+    "testPass": 3,
     "testResult": [
         {
-            "className": "HqsTestCases",
-            "methodName": "test_music_is_ok",
-            "spendTime": "34.4 s",
-            "status": "成功",
             "description": "发布音乐动态 is ok",
+            "className": "HqsTestCases",
+            "spendTime": "37.4 s",
             "log": [
                 "F:\\CloudMusic\\自由.mp3",
                 ""
-            ]
+            ],
+            "status": "成功",
+            "methodName": "test_music_is_ok"
+        },
+        {
+            "description": "发布音乐动态 is ok",
+            "className": "HqsTestCases",
+            "spendTime": "63.6 s",
+            "log": [
+                ""
+            ],
+            "status": "成功",
+            "methodName": "test_photo_is_ok"
+        },
+        {
+            "description": "发布视频动态 is ok",
+            "className": "HqsTestCases",
+            "spendTime": "32.4 s",
+            "log": [
+                ""
+            ],
+            "status": "成功",
+            "methodName": "test_video_is_ok"
         }
     ],
     "testError": 0,
-    "beginTime": "2018-06-08 18:07:21"
+    "totalTime": "133s",
+    "beginTime": "2018-06-11 16:17:30",
+    "testSkip": 0,
+    "testName": "测试default报告",
+    "testFail": 1
 };
     function details(obj) {
         if ($(obj).text() == '展开') {

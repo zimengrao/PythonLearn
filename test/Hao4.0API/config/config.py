@@ -12,7 +12,7 @@ import configparser
 pro_dir = os.path.split(os.path.realpath(__file__))[0]
 config_path = os.path.join(pro_dir, 'config.ini')
 
-class ReadConfig:
+class Config:
     def __init__(self):
         self.cf = configparser.ConfigParser()
         self.cf.read(config_path)

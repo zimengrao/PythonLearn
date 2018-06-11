@@ -32,7 +32,7 @@ class GetToken:
         log.debug('加密后的密码是：%s' % hase_password)
         self.data = {"loginName": username, "password": hase_password}
 
-    def get_token(self):
+    def get_token(self, data=None):
         '''获取登录的token'''
         global token
         r = requests.post(self.hostname + self.login_path, data=self.data)

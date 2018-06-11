@@ -4310,3 +4310,158 @@ JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1:
 1528512210968	Marionette	INFO	Listening on port 53259
 1528512211090	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+1528702845803	geckodriver	INFO	geckodriver 0.19.1
+1528702845847	geckodriver	INFO	Listening on 127.0.0.1:62332
+1528702847895	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.ZMVrBShmxyoF"
+1528702850947	Marionette	INFO	Listening on port 62338
+1528702851055	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1528703105052	geckodriver	INFO	geckodriver 0.19.1
+1528703105060	geckodriver	INFO	Listening on 127.0.0.1:62616
+1528703107147	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.VfuwLchcyVZh"
+1528703110178	Marionette	INFO	Listening on port 62623
+1528703110339	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 10620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528703140044	geckodriver	INFO	geckodriver 0.19.1
+1528703140051	geckodriver	INFO	Listening on 127.0.0.1:62756
+1528703142136	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.uadQjTCHUQ1B"
+1528703145175	Marionette	INFO	Listening on port 62762
+1528703145247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1528703200063	geckodriver	INFO	geckodriver 0.19.1
+1528703200071	geckodriver	INFO	Listening on 127.0.0.1:62914
+1528703202110	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.xF9urMjzv0VQ"
+1528703205029	Marionette	INFO	Listening on port 62921
+1528703205224	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 1516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528703606443	geckodriver	INFO	geckodriver 0.19.1
+1528703606450	geckodriver	INFO	Listening on 127.0.0.1:63464
+1528703608544	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.19gQhxtuiTRg"
+1528703611764	Marionette	INFO	Listening on port 63470
+1528703612164	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1528703643736	geckodriver	INFO	geckodriver 0.19.1
+1528703643744	geckodriver	INFO	Listening on 127.0.0.1:63625
+1528703645789	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.T3JUndvCTRFY"
+1528703648952	Marionette	INFO	Listening on port 63633
+1528703649467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Parent 5688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528703663888	geckodriver	INFO	geckodriver 0.19.1
+1528703663896	geckodriver	INFO	Listening on 127.0.0.1:63740
+1528703665991	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.1U4SjtOLaDSI"
+1528703669229	Marionette	INFO	Listening on port 63746
+1528703669610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+1528703874094	geckodriver	INFO	geckodriver 0.19.1
+1528703874103	geckodriver	INFO	Listening on 127.0.0.1:63942
+1528703876200	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.KG4CfIguDgT8"
+1528703879344	Marionette	INFO	Listening on port 63948
+1528703879813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 6820, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528703908860	geckodriver	INFO	geckodriver 0.19.1
+1528703908867	geckodriver	INFO	Listening on 127.0.0.1:64093
+1528703910940	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Vf9P1UaxvaT1"
+1528703914163	Marionette	INFO	Listening on port 64100
+1528703914558	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 1520, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528703969493	geckodriver	INFO	geckodriver 0.19.1
+1528703969500	geckodriver	INFO	Listening on 127.0.0.1:64269
+1528703971569	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.yo8xisMlIx2k"
+1528703974819	Marionette	INFO	Listening on port 64275
+1528703975205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 10728, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528705050549	geckodriver	INFO	geckodriver 0.19.1
+1528705050559	geckodriver	INFO	Listening on 127.0.0.1:64887
+1528705052597	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.rT8YphLjiW9A"
+1528705057372	Marionette	INFO	Listening on port 64893
+1528705057963	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 4176, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528705087988	geckodriver	INFO	geckodriver 0.19.1
+1528705087998	geckodriver	INFO	Listening on 127.0.0.1:65040
+1528705090037	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.afMDeFrisqKI"
+1528705094699	Marionette	INFO	Listening on port 65050
+1528705095280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1528705151568	geckodriver	INFO	geckodriver 0.19.1
+1528705151579	geckodriver	INFO	Listening on 127.0.0.1:65218
+1528705153590	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.XucXI2poTnRu"
+1528705158244	Marionette	INFO	Listening on port 65226
+1528705158845	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined

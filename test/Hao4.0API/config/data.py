@@ -1,5 +1,5 @@
 """
-@Name: excelutil
+@Name: tool
 @Version: 
 @Project: PyCharm
 @Author: wangmin
@@ -7,11 +7,16 @@
 """
 
 import xlrd
+from .config import Config
 
-class ExcelUtil(object):
-    def __init__(self, excelPath, sheetName):
-        self.data = xlrd.open_workbook(excelPath)
-        self.table = self.data.sheet_by_name(sheetName)
+
+class ExcelData(Config):
+    def __init__(self):
+        super(ExcelData, self).__init__()
+        self.read_config = Config()
+        self.data_address = self.read_config.get_config('DATABASE', 'data_address')
+        self.workbook = xlrd.open_workbook(self.data_address)
+        self.table = self.data_address.sheet_by_name('Sheet1')
 
         # get titles
         self.row = self.table.row_values(0)
@@ -42,6 +47,3 @@ class ExcelUtil(object):
             return False
         else:
             return True
-
-# if __name__ == "__main__":
-#     ExcelUtil()

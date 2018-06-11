@@ -3,25 +3,21 @@
 @Version: 
 @Project: PyCharm
 @Author: wangmin
-@Data: 2018/6/9
+@Data: 2018/6/11
 """
 
 import unittest
-
-import ddt
-
-from lib.business import BusinessApi
-from lib.client import HttpHandler
+# from lib.client import  HttpHandler
+# from config.config import Config
+from lib.token import GetToken
 
 
 class DynamicApply(unittest.TestCase):
-
     @classmethod
     def setUpClass(cls):
-        cls.http = HttpHandler()
-        cls.lib = BusinessApi()
-        cls.excel = cls.lib.excel
+        # cls.http = HttpHandler()
+        # cls.config = Config()
+        cls.token = GetToken()
 
-    @ddt.data(*.next())
-    def test_dynamic_Apply(self):
-
+    def test_login_is_ok(self):
+        self.token.get_token()
