@@ -7,16 +7,18 @@
 """
 
 import xlrd
-from .config import Config
-
+from config.cnf import Config
+import json
+# table_name = 'Sheet1'
 
 class ExcelData(Config):
-    def __init__(self):
+    def __init__(self, table_name):
         super(ExcelData, self).__init__()
-        self.read_config = Config()
-        self.data_address = self.read_config.get_config('DATABASE', 'data_address')
-        self.workbook = xlrd.open_workbook(self.data_address)
-        self.table = self.data_address.sheet_by_name('Sheet1')
+        self.config = Config()
+        self.data_address = self.config.get_config('DATABASE', 'data_address')
+        # print(self.data_address)
+        self.workbook = xlrd.open_workbook(self.data_address, 'utf-8-')
+        self.table = self.workbook.sheet_by_name(table_name)
 
         # get titles
         self.row = self.table.row_values(0)
@@ -30,6 +32,7 @@ class ExcelData(Config):
         # the current column
         self.curRowNo = 1
 
+
     def next(self):
         r = []
         while self.hasNext():
@@ -40,6 +43,10 @@ class ExcelData(Config):
                 s[self.row[x]] = col[x]
             r.append(s)
             self.curRowNo += 1
+            # print(r)
+            # print(s)
+            # j = json.loads(s.get('gifts'))
+            # print(type(s.get('gifts')))
         return r
 
     def hasNext(self):
@@ -47,3 +54,10 @@ class ExcelData(Config):
             return False
         else:
             return True
+
+# def main():
+#     excel_data = ExcelData(table_name)
+#     excel_data.next()
+#
+# if __name__ == '__main__':
+#     main()
