@@ -15,8 +15,9 @@ from config.data import ExcelData
 from lib.business import BusinessApi
 from config.cnf import Config
 
-data_login = ExcelData('login').next()
-data_giftlist = ExcelData('giftlist').next()
+data_login = ExcelData().readData('login')
+data_giftlist = ExcelData().readData('giftlist')
+# data_user = ExcelData().readData('user')
 
 @ddt.ddt
 class DynamicApply(unittest.TestCase):
@@ -58,3 +59,4 @@ class DynamicApply(unittest.TestCase):
         result = json.loads(self.http.post(self.bus.url_dev + data_giftlist['api'], data = data))
         self.assertEqual(self.http.get_value(result, 'info'), data_giftlist['err_msg'])
         self.assertListEqual(self.http.get_value(result,'gifts'), eval(data_giftlist['gifts']))
+

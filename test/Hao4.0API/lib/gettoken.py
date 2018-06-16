@@ -6,52 +6,60 @@
 @Data: 2018/6/11
 """
 
+import xlrd
+from config.cnf import Config
 import json
 
-#
-# from config.cnf import Config
-from lib.client import HttpHandler
-# from lib.business import BusinessApi
-from config.data import ExcelData
-import ddt
-import unittest
+class ExcelData(Config):
+    def __init__(self):
+        super(ExcelData, self).__init__()
+        self.config = Config()
+        self.data_address = self.config.get_config('DATABASE', 'data_address')
+        self.workbook = xlrd.open_workbook(self.data_address, 'utf-8')
 
+    def readData(self, table_name):
 
-# data_login = ExcelData('login').next()
-data_giftlist = ExcelData('giftlist').next()
-# token = None
-# loginuid = None
-# print(self.loginuid, self.token)
-# @ddt.ddt
-# class DynamicApply(unittest.TestCase):
-#     def __init__(self):
-#         pass
+        """
 
-# @ddt.data(*data_giftlist)
-def yy():
-    http = HttpHandler()
-    data = {
-        "loginuid": 647550,
-        "logintoken": 'VfghYy92wZEqHbYKxGCk',
-        "params": {
-            "activity_id": "2f0fc929-58cd-bbc5-403a-0c6d7d18c376"
-        }
-    }
+        :param table_name: 工作表名称
+        :return: 以list返回每个工作表中的所有数据
+        """
+        self.table = self.workbook.sheet_by_name(table_name)
+        self.row = self.table.row_values(0)  # 获取行title
+        self.rowNum = self.table.nrows  # 获取行数量
+        self.colNum = self.table.ncols  # 获取列数量
+        self.curRowNo = 1  # the current column
 
-    data = json.dumps(data)
+        r = []
+        while self.hasNext():
+            s = {}
+            col = self.table.row_values(self.curRowNo)
+            i = self.colNum
+            for x in range(i):
+                s[self.row[x]] = col[x]
+            r.append(s)
+            self.curRowNo += 1
+        return r
 
-    result = json.loads(http.post('http://dev4.0.greattone.net/index.php?r=activity-gift/index', data=data))
-    # print(result)
-    # pp = data_giftlist['gifts']
-    # print(pp)
-    # print(type(data_giftlist['gifts']))
+    def next(self):
+        r = []
+        while self.hasNext():
+            s = {}
+            col = self.table.row_values(self.curRowNo)
+            i = self.colNum
+            for x in range(i):
+                s[self.row[x]] = col[x]
+            r.append(s)
+            self.curRowNo += 1
 
-    # self.assertEqual(self.http.get_value(result, 'info'), data_giftlist['err_msg'])
-    print(http.get_value(result, 'gifts'))
-    print(type(http.get_value(result, 'gifts')))
+        return r
 
+    def hasNext(self):
+        if self.rowNum == 0 or self.rowNum <= self.curRowNo:
+            return False
+        else:
+            return True
 
-    # gifts_data = json.loads(http.get_value(result, 'gifts'))
+    def writeData(self,table_name):
+        self.table = self.workbook.sheet_by_name(table_name)
 
-if __name__ == '__main__':
-    yy()

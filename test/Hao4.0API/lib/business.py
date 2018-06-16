@@ -7,18 +7,25 @@
 """
 
 
-from .client import HttpHandler
+from lib.client import HttpHandler
 from config.cnf import Config
+from config.data import ExcelData
 import json
+import ddt
 
 token = None
 loginuid = None
 
+data_user = ExcelData().readData('user')
+
+
+@ddt.ddt
 class BusinessApi(HttpHandler):
     def __init__(self):
         super(BusinessApi, self).__init__()
         self.http = HttpHandler()
         self.config = Config()
+        self.excel = ExcelData()
 
         self.url = self.config.get_config('HTTP', 'baseurl')
         self.url_dev = self.config.get_config('HTTP', 'baseurl_dev')
@@ -46,6 +53,7 @@ class BusinessApi(HttpHandler):
         # print(resp)
         token = str(self.http.get_value(resp, 'token'))
         loginuid = str(self.http.get_value(resp, 'userid'))
+        return token, loginuid
 
     def set_token(self):
 
@@ -54,3 +62,18 @@ class BusinessApi(HttpHandler):
         self.config.set_config('DATABASE', 'loginuid', loginuid)
         return token, loginuid
 
+    def get_all_user(self):
+        # print(len(data_user))
+        # print(data_user[0])
+        for data in data_user:
+            data = data.get('body')
+            data = json.loads(data)
+            resp = json.loads(self.http.post(self.url, data = data))
+            if self.http.get_value(resp, 'err_msg') == 'success':
+                self.excel.writeData()
+            print(resp)
+        # print(resp)
+
+if __name__ == '__main__':
+    lib = BusinessApi()
+    lib.get_all_user()
