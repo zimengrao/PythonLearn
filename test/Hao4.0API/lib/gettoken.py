@@ -8,7 +8,7 @@
 
 import xlrd
 from config.cnf import Config
-import json
+# import json
 
 class ExcelData(Config):
     def __init__(self):
@@ -59,7 +59,4 @@ class ExcelData(Config):
             return False
         else:
             return True
-
-    def writeData(self,table_name):
-        self.table = self.workbook.sheet_by_name(table_name)
 
