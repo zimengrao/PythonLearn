@@ -10,7 +10,7 @@ import ast
 import ddt
 import unittest
 import json
-from lib.client import  HttpHandler
+from lib.client import HttpHandler
 from config.ReadExcel import ExcelData
 from lib.business import BusinessApi
 
@@ -37,23 +37,12 @@ class HqsApi(unittest.TestCase):
     @ddt.data(*data_giftlist)
     def test_giftlist_is_ok(self, data_giftlist):
         """获取礼物列表接口"""
-        # self.bus.set_token()
-        # self.loginuid = self.bus.set_token()[1]
-        # self.token = self.bus.set_token()[0]
-        #
-        # print(self.loginuid, self.token)
-        # data = {
-        #     "loginuid": self.loginuid,
-        #     "logintoken": self.token,
-        #     "params":{
-        #         "activity_id": "2f0fc929-58cd-bbc5-403a-0c6d7d18c376"
-        #     }
-        # }
-        #
-        # data = json.dumps(data)
 
         print(data_giftlist['body'])
         result = json.loads(self.http.post(self.lib.url_dev + data_giftlist['api'], data = data_giftlist['body']))
         self.assertEqual(self.http.get_value(result, 'info'), data_giftlist['err_msg'])
         self.assertListEqual(self.http.get_value(result,'gifts'), eval(data_giftlist['gifts']))
+
+
+
 

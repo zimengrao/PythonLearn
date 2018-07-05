@@ -10,23 +10,23 @@
 from tkinter import *
 import pymysql
 
-config = {
-    'host': 'rm-bp11g1br1u79795y5.mysql.rds.aliyuncs.com',
-    'port': 3306,
-    'user': 'zjk',
-    'password': 'zjk940915++',
-    'db': 'hao',
-    'charset': 'utf8',
-}
-
 # config = {
-#     'host': '47.100.60.152',
+#     'host': 'rm-bp11g1br1u79795y5.mysql.rds.aliyuncs.com',
 #     'port': 3306,
-#     'user': 'gttest',
-#     'password': 'COk+Y5.g8FDxJ5s',
-#     'db': 'ceshihao3.6',
+#     'user': 'zjk',
+#     'password': 'zjk940915++',
+#     'db': 'hao',
 #     'charset': 'utf8',
 # }
+
+config = {
+    'host': '47.100.60.152',
+    'port': 3306,
+    'user': 'gttest',
+    'password': 'COk+Y5.g8FDxJ5s',
+    'db': 'ceshihao3.6',
+    'charset': 'utf8',
+}
 
 
 root = Tk()

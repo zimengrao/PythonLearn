@@ -4,13 +4,22 @@ import tkinter.filedialog
 import pymysql
 import threading
 import tkinter.messagebox #这个是消息框，对话框的关键
+#
+# config = {
+#     'host': '192.168.1.27',
+#     'port': 3306,
+#     'user': 'root',
+#     'password': '123456',
+#     'db': 'beidi',
+#     'charset': 'utf8'
+# }
 
 config = {
-    'host': '192.168.1.27',
+    'host': '47.100.60.152',
     'port': 3306,
-    'user': 'root',
-    'password': '123456',
-    'db': 'beidi',
+    'user': 'gttest',
+    'password': 'COk+Y5.g8FDxJ5s',
+    'db': 'ceshihao3.6',
     'charset': 'utf8'
 }
 	

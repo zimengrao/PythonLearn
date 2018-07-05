@@ -76,6 +76,7 @@ class BusinessApi(HttpHandler):
         self.write0 = WriteData(num)
         i = 2
         j = 3
+        l = 4
         k = 1
         for data in self.data_user:
             data = data.get('body')
@@ -87,6 +88,8 @@ class BusinessApi(HttpHandler):
                 # print(k,j,self.http.get_value(resp, 'userid'))
                 self.write0.write(k,i, self.http.get_value(resp, 'token'))
                 # print(k,i,self.http.get_value(resp, 'token'))
+
+            self.write0.write(k,l, self.http.get_value(resp, 'err_msg'))
             k += 1
 
         bookname = random.randint(0,100)
