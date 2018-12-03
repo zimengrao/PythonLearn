@@ -4465,3 +4465,808 @@ JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55
 JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
 JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
 JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+1531120548379	geckodriver	INFO	geckodriver 0.19.1
+1531120548430	geckodriver	INFO	Listening on 127.0.0.1:60719
+1531120550327	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Bosf4VolKGBf"
+1531120556762	Marionette	INFO	Listening on port 60737
+1531120556974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 10124, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531120586445	geckodriver	INFO	geckodriver 0.19.1
+1531120586456	geckodriver	INFO	Listening on 127.0.0.1:61016
+1531120588492	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Uin3TsO633sZ"
+1531120592019	Marionette	INFO	Listening on port 61029
+1531120592232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Child 10004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531120639377	geckodriver	INFO	geckodriver 0.19.1
+1531120639387	geckodriver	INFO	Listening on 127.0.0.1:61347
+1531120641411	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.UHTJHlgqpJbw"
+1531120645584	Marionette	INFO	Listening on port 61361
+1531120645811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+1531292487249	geckodriver	INFO	geckodriver 0.19.1
+1531292487302	geckodriver	INFO	Listening on 127.0.0.1:57979
+1531292489146	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.LJKcBbYm2muN"
+1531292494153	Marionette	INFO	Listening on port 57992
+1531292494658	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2440, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1531292670921	geckodriver	INFO	geckodriver 0.19.1
+1531292670934	geckodriver	INFO	Listening on 127.0.0.1:58688
+1531292672886	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.iJpCWXuMoxnr"
+1531292678859	Marionette	INFO	Listening on port 58697
+1531292679044	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531292779426	geckodriver	INFO	geckodriver 0.19.1
+1531292779438	geckodriver	INFO	Listening on 127.0.0.1:58998
+1531292781467	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.eJ4irVgvZumz"
+1531292786482	Marionette	INFO	Listening on port 59009
+1531292786851	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10276, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531294999728	geckodriver	INFO	geckodriver 0.19.1
+1531294999741	geckodriver	INFO	Listening on 127.0.0.1:63399
+1531295001771	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.SgDLmnistOLz"
+1531295173511	geckodriver	INFO	geckodriver 0.19.1
+1531295173524	geckodriver	INFO	Listening on 127.0.0.1:63860
+1531295175567	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.TpGkw2w1w3qz"
+1531295180419	Marionette	INFO	Listening on port 63871
+1531295180991	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9912, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9912, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531295230957	geckodriver	INFO	geckodriver 0.19.1
+1531295230970	geckodriver	INFO	Listening on 127.0.0.1:64080
+1531295232999	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wTb0LUVTtuob"
+1531295237244	Marionette	INFO	Listening on port 64088
+1531295237284	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531296750622	geckodriver	INFO	geckodriver 0.19.1
+1531296750633	geckodriver	INFO	Listening on 127.0.0.1:50790
+1531296752669	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.ESi9n7rNHizf"
+1531296756445	Marionette	INFO	Listening on port 50800
+1531296756946	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531296835340	geckodriver	INFO	geckodriver 0.19.1
+1531296835352	geckodriver	INFO	Listening on 127.0.0.1:51037
+1531296837387	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.NI9BN4yxdgc6"
+1531296841032	Marionette	INFO	Listening on port 51048
+1531296841193	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531296989853	geckodriver	INFO	geckodriver 0.19.1
+1531296989866	geckodriver	INFO	Listening on 127.0.0.1:51413
+1531296991893	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.HcGRDaNqtQ1k"
+1531296995827	Marionette	INFO	Listening on port 51425
+1531296996142	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531297167496	geckodriver	INFO	geckodriver 0.19.1
+1531297167508	geckodriver	INFO	Listening on 127.0.0.1:51878
+1531297169531	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.QhOQ1h3J8mmT"
+1531297173646	Marionette	INFO	Listening on port 51889
+1531297173844	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531297435927	geckodriver	INFO	geckodriver 0.19.1
+1531297435938	geckodriver	INFO	Listening on 127.0.0.1:52652
+1531297437977	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.Set5v3Z9ekFf"
+1531297442224	Marionette	INFO	Listening on port 52660
+1531297442452	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10048, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 10048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531297508605	geckodriver	INFO	geckodriver 0.19.1
+1531297508617	geckodriver	INFO	Listening on 127.0.0.1:52898
+1531297510663	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.rP6GUrCnK2YJ"
+1531297514642	Marionette	INFO	Listening on port 52908
+1531297514901	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10792, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298105873	geckodriver	INFO	geckodriver 0.19.1
+1531298105886	geckodriver	INFO	Listening on 127.0.0.1:54384
+1531298107910	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.vjnzSArzU2Hh"
+1531298112032	Marionette	INFO	Listening on port 54395
+1531298112285	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9796, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298244467	geckodriver	INFO	geckodriver 0.19.1
+1531298244480	geckodriver	INFO	Listening on 127.0.0.1:54813
+1531298246510	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.kfwrPCjvwLLu"
+1531298250242	Marionette	INFO	Listening on port 54825
+1531298250301	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298560033	geckodriver	INFO	geckodriver 0.19.1
+1531298560046	geckodriver	INFO	Listening on 127.0.0.1:55487
+1531298562072	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.WAbcgCZPjawL"
+1531298565647	Marionette	INFO	Listening on port 55496
+1531298565809	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298695708	geckodriver	INFO	geckodriver 0.19.1
+1531298695721	geckodriver	INFO	Listening on 127.0.0.1:55981
+1531298697745	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.xeTnTlQWJjEG"
+1531298705452	Marionette	INFO	Listening on port 55990
+1531298705560	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298873300	geckodriver	INFO	geckodriver 0.19.1
+1531298873311	geckodriver	INFO	Listening on 127.0.0.1:56418
+1531298875359	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wLsPLUdmHGZ7"
+1531298879492	Marionette	INFO	Listening on port 56430
+1531298879601	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531298944018	geckodriver	INFO	geckodriver 0.19.1
+1531298944030	geckodriver	INFO	Listening on 127.0.0.1:56692
+1531298946068	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.WBJZh4s26kDF"
+1531298950045	Marionette	INFO	Listening on port 56704
+1531298950342	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531299218192	geckodriver	INFO	geckodriver 0.19.1
+1531299218203	geckodriver	INFO	Listening on 127.0.0.1:57438
+1531299220200	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.OtH3AnS5gOCI"
+1531299224778	Marionette	INFO	Listening on port 57447
+1531299225540	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531299534963	geckodriver	INFO	geckodriver 0.19.1
+1531299534987	geckodriver	INFO	Listening on 127.0.0.1:58234
+1531299536983	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.YdUFXlKVmMYD"
+1531299541950	Marionette	INFO	Listening on port 58244
+1531299542318	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531299749307	geckodriver	INFO	geckodriver 0.19.1
+1531299749320	geckodriver	INFO	Listening on 127.0.0.1:58875
+1531299751351	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.xMpxIlBUovmr"
+1531299756404	Marionette	INFO	Listening on port 58883
+1531299756704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531299965687	geckodriver	INFO	geckodriver 0.19.1
+1531299965700	geckodriver	INFO	Listening on 127.0.0.1:59483
+1531299967678	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.1GftYeYJCEBp"
+1531299972379	Marionette	INFO	Listening on port 59491
+1531299973064	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10396, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531300356870	geckodriver	INFO	geckodriver 0.19.1
+1531300356881	geckodriver	INFO	Listening on 127.0.0.1:60425
+1531300358862	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.hu5hqhTnRFAE"
+1531300363375	Marionette	INFO	Listening on port 60437
+1531300364249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531300609520	geckodriver	INFO	geckodriver 0.19.1
+1531300609546	geckodriver	INFO	Listening on 127.0.0.1:61075
+1531300611551	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.XovcepKK0PWU"
+1531300618165	Marionette	INFO	Listening on port 61094
+1531300618303	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12140, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531300660985	geckodriver	INFO	geckodriver 0.19.1
+1531300660996	geckodriver	INFO	Listening on 127.0.0.1:61391
+1531300663025	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.r2XUGNEQY7z1"
+1531300669805	Marionette	INFO	Listening on port 61414
+1531300670241	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531301856747	geckodriver	INFO	geckodriver 0.19.1
+1531301856764	geckodriver	INFO	Listening on 127.0.0.1:63748
+1531301858727	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.XiWSP8E6uRzO"
+1531301864166	Marionette	INFO	Listening on port 63758
+1531301864548	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12620, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531303147985	geckodriver	INFO	geckodriver 0.19.1
+1531303148036	geckodriver	INFO	Listening on 127.0.0.1:49785
+1531303149880	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.2k4EBdQLdmC0"
+1531303161021	Marionette	INFO	Listening on port 49795
+1531303161512	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1531303196894	geckodriver	INFO	geckodriver 0.19.1
+1531303197027	geckodriver	INFO	Listening on 127.0.0.1:50048
+1531303198924	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.q92EbAmJUtvw"
+1531303205891	Marionette	INFO	Listening on port 50058
+1531303206105	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531303385152	geckodriver	INFO	geckodriver 0.19.1
+1531303385163	geckodriver	INFO	Listening on 127.0.0.1:50765
+1531303387168	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.gUOdI9AlVouQ"
+1531303391755	Marionette	INFO	Listening on port 50777
+1531303392619	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531361549123	geckodriver	INFO	geckodriver 0.19.1
+1531361549134	geckodriver	INFO	Listening on 127.0.0.1:51217
+1531361551242	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.yuIRTgWBDxa9"
+1531361556659	Marionette	INFO	Listening on port 51227
+1531361556751	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531361691299	geckodriver	INFO	geckodriver 0.19.1
+1531361691315	geckodriver	INFO	Listening on 127.0.0.1:51545
+1531361693398	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.mXQc1LczCkNz"
+1531361697170	Marionette	INFO	Listening on port 51552
+1531361697331	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4692, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531361715913	geckodriver	INFO	geckodriver 0.19.1
+1531361715924	geckodriver	INFO	Listening on 127.0.0.1:51669
+1531361717978	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.ej8fNuhyHAP7"
+1531361721443	Marionette	INFO	Listening on port 51676
+1531361721697	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531361736968	geckodriver	INFO	geckodriver 0.19.1
+1531361736983	geckodriver	INFO	Listening on 127.0.0.1:51774
+1531361739050	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.LxebDjP3NNFs"
+1531361742437	Marionette	INFO	Listening on port 51781
+1531361742757	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531361758031	geckodriver	INFO	geckodriver 0.19.1
+1531361758042	geckodriver	INFO	Listening on 127.0.0.1:51885
+1531361760119	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.H3SWsUq0PRGZ"
+1531361764124	Marionette	INFO	Listening on port 51892
+1531361764713	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531361842089	geckodriver	INFO	geckodriver 0.19.1
+1531361842101	geckodriver	INFO	Listening on 127.0.0.1:52017
+1531361844201	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.dtY7EU1p3nZf"
+1531361847686	Marionette	INFO	Listening on port 52024
+1531361847936	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531361867038	geckodriver	INFO	geckodriver 0.19.1
+1531361867049	geckodriver	INFO	Listening on 127.0.0.1:52137
+1531361869088	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.rVOv6YuMD2Iu"
+1531361872694	Marionette	INFO	Listening on port 52145
+1531361872891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Child 6316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531361887632	geckodriver	INFO	geckodriver 0.19.1
+1531361887634	geckodriver	INFO	Listening on 127.0.0.1:52244
+1531361889718	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.VQQI3jWwgRGW"
+1531362047997	geckodriver	INFO	geckodriver 0.19.1
+1531362048009	geckodriver	INFO	Listening on 127.0.0.1:52362
+1531362050087	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.u7Y4UI6TTgLU"
+1531362053708	Marionette	INFO	Listening on port 52368
+1531362053888	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362073518	geckodriver	INFO	geckodriver 0.19.1
+1531362073518	geckodriver	INFO	Listening on 127.0.0.1:52493
+1531362075592	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.25Ys9v4n9Dws"
+1531362078858	Marionette	INFO	Listening on port 52500
+1531362078866	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Parent 5624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362094050	geckodriver	INFO	geckodriver 0.19.1
+1531362094073	geckodriver	INFO	Listening on 127.0.0.1:52602
+1531362096144	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.zGllQhNZN8rd"
+1531362099444	Marionette	INFO	Listening on port 52609
+1531362099914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531362113834	geckodriver	INFO	geckodriver 0.19.1
+1531362113834	geckodriver	INFO	Listening on 127.0.0.1:52708
+1531362115956	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wBeiWsaQ1kZ2"
+1531362119187	Marionette	INFO	Listening on port 52715
+1531362119246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531362152684	geckodriver	INFO	geckodriver 0.19.1
+1531362152700	geckodriver	INFO	Listening on 127.0.0.1:52823
+1531362154802	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.18lQ1Ze3Zy1K"
+1531362158198	Marionette	INFO	Listening on port 52830
+1531362158576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531362177774	geckodriver	INFO	geckodriver 0.19.1
+1531362177774	geckodriver	INFO	Listening on 127.0.0.1:52948
+1531362179851	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.jCAVaAd13Get"
+1531362183167	Marionette	INFO	Listening on port 52955
+1531362183585	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531362209392	geckodriver	INFO	geckodriver 0.19.1
+1531362209414	geckodriver	INFO	Listening on 127.0.0.1:53093
+1531362211446	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.4E12nWcyfzlY"
+1531362293508	geckodriver	INFO	geckodriver 0.19.1
+1531362293523	geckodriver	INFO	Listening on 127.0.0.1:53146
+1531362295628	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.2QZ9yRXAt2CO"
+1531362299312	Marionette	INFO	Listening on port 53152
+1531362299528	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531362318061	geckodriver	INFO	geckodriver 0.19.1
+1531362318072	geckodriver	INFO	Listening on 127.0.0.1:53274
+1531362320137	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.2F1heBRkrTIc"
+1531362323361	Marionette	INFO	Listening on port 53280
+1531362323371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Child 3224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362348854	geckodriver	INFO	geckodriver 0.19.1
+1531362348867	geckodriver	INFO	Listening on 127.0.0.1:53425
+1531362350906	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.pP6RxouMgskR"
+1531362354165	Marionette	INFO	Listening on port 53433
+1531362354606	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+1531362368015	geckodriver	INFO	geckodriver 0.19.1
+1531362368025	geckodriver	INFO	Listening on 127.0.0.1:53546
+1531362370058	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.0siu2gQRs0zf"
+1531362373383	Marionette	INFO	Listening on port 53553
+1531362373775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 4808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362706195	geckodriver	INFO	geckodriver 0.19.1
+1531362706210	geckodriver	INFO	Listening on 127.0.0.1:53818
+1531362708319	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.DdLC37FzH8Tp"
+1531362711994	Marionette	INFO	Listening on port 53825
+1531362712226	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362731045	geckodriver	INFO	geckodriver 0.19.1
+1531362731065	geckodriver	INFO	Listening on 127.0.0.1:53938
+1531362733075	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.eBbJtprjqNUs"
+1531362736745	Marionette	INFO	Listening on port 53945
+1531362736844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Child 3384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362761468	geckodriver	INFO	geckodriver 0.19.1
+1531362761468	geckodriver	INFO	Listening on 127.0.0.1:54073
+1531362763546	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.5p713B2plkjg"
+1531362766962	Marionette	INFO	Listening on port 54082
+1531362767308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Parent 9560, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10152, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1531362785528	geckodriver	INFO	geckodriver 0.19.1
+1531362785539	geckodriver	INFO	Listening on 127.0.0.1:54208
+1531362787613	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.pLYBDnawXt5D"
+1531362791038	Marionette	INFO	Listening on port 54214
+1531362791391	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 4488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362845906	geckodriver	INFO	geckodriver 0.19.1
+1531362845913	geckodriver	INFO	Listening on 127.0.0.1:54360
+1531362848018	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.0ckXC3zZ4eKx"
+1531362850618	Marionette	INFO	Listening on port 54367
+1531362851142	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9772, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531362869203	geckodriver	INFO	geckodriver 0.19.1
+1531362869210	geckodriver	INFO	Listening on 127.0.0.1:54480
+1531362871303	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.vmIuEmt3Raoj"
+1531362874140	Marionette	INFO	Listening on port 54486
+1531362874417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Parent 10120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10120, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+r: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+[Parent 3256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531363189445	geckodriver	INFO	geckodriver 0.19.1
+1531363189461	geckodriver	INFO	Listening on 127.0.0.1:54894
+1531363191547	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.eXSoJey57AMV"
+1531363194361	Marionette	INFO	Listening on port 54901
+1531363194688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1531363247404	geckodriver	INFO	geckodriver 0.19.1
+1531363247411	geckodriver	INFO	Listening on 127.0.0.1:55132
+1531363249502	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.kMz5fvb3UpLI"
+1531363252233	Marionette	INFO	Listening on port 55139
+1531363252615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+1531366230895	geckodriver	INFO	geckodriver 0.19.1
+1531366230903	geckodriver	INFO	Listening on 127.0.0.1:57440
+1531366233012	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.FPt3SrfBOjNg"
+[GFX1-]: GFX: D3D11 detected a device reset in ResizeBuffers
+[GFX1-]: Could not resize the swapchain (0x504,0x3c9)
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: D3D11 swap chain failed to present: 0x887a0005
+[GFX1-]: Could not resize the swapchain (0x504,0x3c9)
+1531366235738	Marionette	INFO	Listening on port 57447
+1531366236126	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+1531366264123	geckodriver	INFO	geckodriver 0.19.1
+1531366264132	geckodriver	INFO	Listening on 127.0.0.1:57598
+1531366266230	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.uIKinWiY8EQw"
+1531366268938	Marionette	INFO	Listening on port 57604
+1531366269351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Child 5148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2980, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1531366289272	geckodriver	INFO	geckodriver 0.19.1
+1531366289279	geckodriver	INFO	Listening on 127.0.0.1:57765
+1531366291327	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wTb2F87nKxjI"
+1531366294247	Marionette	INFO	Listening on port 57772
+1531366294455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 9056, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531461351633	geckodriver	INFO	geckodriver 0.19.1
+1531461351646	geckodriver	INFO	Listening on 127.0.0.1:63637
+1531461353658	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.wZCrdKxA1qGc"
+1531461358800	Marionette	INFO	Listening on port 63647
+1531461359138	Marionette	WARN	TLS certificate errors will be ignored for this session
+Warning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=ff345de&scr=1920x1080&cna=8SzPE8V9d04CAXTiuTNLdnVO&spm-url=5176.8142029.388261.7.e9396d3eTaxRDp&spm-cnt=a2c44.11131515.0.0.dCb7C3&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=ff345de&scr=1920x1080&cna=8SzPE8V9d04CAXTiuTNLdnVO&spm-url=5176.8142029.388261.7.e9396d3eTaxRDp&spm-cnt=a2c44.11131515.0.0.dCb7C3&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=ff345de&scr=1920x1080&cna=8SzPE8V9d04CAXTiuTNLdnVO&spm-url=5176.8142029.388261.7.e9396d3eTaxRDp&spm-cnt=a2c44.11131515.0.0.dCb7C3&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=ff345de&scr=1920x1080&cna=8SzPE8V9d04CAXTiuTNLdnVO&spm-url=5176.8142029.388261.7.e9396d3eTaxRDp&spm-cnt=a2c44.11131515.0.0.dCb7C3&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceconsole.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter82"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_Rconsole.error: "stylesheets actor: fetch failed for https://g.alicdn.com/ali-mod/aliyun-common-xiaoyun-qrqm/0.0.7/index.css, using system principal instead."
+console.error: ({})
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:569:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:17
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "stylesheets actor: fetch failed for https://g.alicdn.com/ali-mod/aliyun-commonfooter-qrqm-95187/0.0.3/index.css, using system principal instead."
+console.error: ({})
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:569:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:17
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "stylesheets actor: fetch failed for https://g.alicdn.com/ali-mod/www-aliyun-xiaoyun-recommond/0.0.14/index.css, using system principal instead."
+console.error: ({})
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:569:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:17
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "stylesheets actor: fetch failed for https://g.alicdn.com/ali-mod/aliyun-common-icon/0.0.7/index.css, using system principal instead."
+console.error: ({})
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:569:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:17
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"
+JavaScript warning: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 85ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+Warning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=76a666b&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-url=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.mu8fRH&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Faccount.aliyun.com%2Flogin%2Flogin.htm%3Fspm%3D5176.8142029.388261.7.e9396d3ergQmEh%26qrCodeFirst%3Dfalse%26oauth_callback%3Dhttps%253A%252F%252Fwww.aliyun.com%252F&cache=131398&scr=1440x900&cna=NjLPE6TR+AcCAXTiuTP/vEUE&spm-pre=5176.8142029.388261.7.e9396d3ergQmEh&spm-cnt=a2c44.11131515.0.0.EmcIcl&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1440x900&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceconsole.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/memoryActor11"
+[Child 10176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531464145780	geckodriver	INFO	geckodriver 0.19.1
+1531464145792	geckodriver	INFO	Listening on 127.0.0.1:49993
+1531464147813	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.OsKmKk3I6dKg"
+1531464151487	Marionette	INFO	Listening on port 50017
+1531464151634	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 764, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessa[Parent 3044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8212, Chrome_ChildThread] WJavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1266: TypeError: currentPanel is undefined
+JavaScript error: chrome://global/content/browser-child.js, line 400: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommand]
+JavaScript error: chrome://global/content/browser-child.js, line 400: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommand]
+JavaScript error: chrome://global/content/browser-child.js, line 400: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommand]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mmon/ipc_channel_win.cc, line 346
+[Child 2012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 10880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/sr1531472704077	Marionette	INFO	Listening on port 54566
+1531472704597	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter83"
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 5692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/vendor/react-dom.js, line 32: Error: Minified React error #188; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=188 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+Warning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=7e2aae0&scr=1920x1080&cna=tl3PE5zq2l8CAXTiuTPD1bPM&spm-url=5176.8142029.388261.7.e9396d3eqKd18y&spm-cnt=a2c44.11131515.0.0.zXx1fd&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=7e2aae0&scr=1920x1080&cna=tl3PE5zq2l8CAXTiuTPD1bPM&spm-url=5176.8142029.388261.7.e9396d3eqKd18y&spm-cnt=a2c44.11131515.0.0.zXx1fd&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrlPath failed to get a Unicode URL from?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=7e2aae0&scr=1920x1080&cna=tl3PE5zq2l8CAXTiuTPD1bPM&spm-url=5176.8142029.388261.7.e9396d3eqKd18y&spm-cnt=a2c44.11131515.0.0.zXx1fd&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceWarning: getUnicodeUrl failed to get a Unicode URL fromhttps://log.mmstat.com/c.gif?logtype=1&title=%u767B%u5F55&pre=https%3A%2F%2Fwww.aliyun.com%2F&cache=7e2aae0&scr=1920x1080&cna=tl3PE5zq2l8CAXTiuTPD1bPM&spm-url=5176.8142029.388261.7.e9396d3eqKd18y&spm-cnt=a2c44.11131515.0.0.zXx1fd&category=&uidaplus=&aplus&yunid=&yunpk=&isbeta=7&p=1&o=win10&b=firefox61&s=1920x1080&w=gecko&ism=pc&lver=6.1.11&jsver=aplus_v2&fp=c06e7092385131e46b0ea175072eb1ad&fp2=d8846d6f7822ece290f9e900466cf8d4&tag=1&stag=-1, reason: URIError: malformed URI sequenceJavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1446: TypeError: this._tabPool is null
+[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2136, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531720026492	geckodriver	INFO	geckodriver 0.19.1
+1531720026502	geckodriver	INFO	Listening on 127.0.0.1:58519
+1531720028460	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.VXZbmfwwnupu"
+1531720032166	Marionette	INFO	Listening on port 58528
+1531720032256	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: chrome://global/content/browser-child.js, line 400: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDocShell.doCommand]
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 7360, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1532052924079	geckodriver	INFO	geckodriver 0.19.1
+1532052924127	geckodriver	INFO	Listening on 127.0.0.1:51668
+1532052926070	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.NmkacCkXqy5N"
+1532052932389	Marionette	INFO	Listening on port 51677
+1532052932462	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3520, Chrome_ChildThread] W[Parent 5880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5880, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 1220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+et/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 1: ReferenceError: EmpireCMSQInfoPostFun is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Parent 9296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1532053064026	geckodriver	INFO	geckodriver 0.19.1
+1532053064039	geckodriver	INFO	Listening on 127.0.0.1:52157
+1532053066068	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.kR6UixImw956"
+1532053069551	Marionette	INFO	Listening on port 52164
+1532053069796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+[Child 3156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1532053092122	geckodriver	INFO	geckodriver 0.19.1
+1532053092134	geckodriver	INFO	Listening on 127.0.0.1:52282
+1532053094193	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\wangmin\\AppData\\Local\\Temp\\rust_mozprofile.P6SJFoOJ5GIh"
+1532053097636	Marionette	INFO	Listening on port 52290
+1532053097942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://test.greattone.net/js/language.js?v=3.6, line 198: ReferenceError: zh_choose is not defined
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/js/language.js, line 152: TypeError: c.title.tran is not a function
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+JavaScript error: http://test.greattone.net/e/fatie/ListInfo.php?mid=10, line 55: ReferenceError: messageCount is not defined
+[Parent 10448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

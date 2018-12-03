@@ -30,7 +30,8 @@ class Config:
                     '/html/body/div[7]/div[1]/div[2]/a',  # 我要发帖element
                 ],
 
-                'value': '测试内容',
+                'title': '标题',
+                'content': '内容详细信息',
 
                 'click_dynamic': [
                     '/html/body/div[10]/div[3]/div[1]/div[1]/ul/li[1]',
@@ -89,5 +90,33 @@ class Config:
                 '/html/body/div[1]/div/div[4]/div/ul/li[4]/a/text()',  # 登录成功确认
                 '/html/body/div[7]/div[2]/div[1]/div/ul/li[1]/div[1]/div[2]/a/h3/text()', # 发帖成功
             ],
+        },
+        'aliyun':{
+            'aliyun': {
+                'url': 'https://www.aliyun.com/',
+                'xpath': '//*[@id="common-topbar-login-btn"]/a'
+            },
+            'login': {
+                'username': 'sandner@franzsandner.com',
+                'password': 'Haoqinsheng2016++',
+                'iframe_id': 'alibaba-login-box',
+                'xpath': [
+                    '//*[@id="fm-login-id"]',
+                    '//*[@id="fm-login-password"]',
+                    '//*[@id="nc_1_n1z"]',
+                    '//*[@id="fm-login-submit"]'
+                ],
+                'assert_info': [
+                    '/html/body/div[2]/div/div/div[3]/div[2]/div[1]/div/div[2]/div[2]/p[2]/text()'
+                ]
+            },
+            'xpath_js': [
+                '//*[@class="common-topbar-menu"]/div[2]/a',
+                '/html/body/div[1]/div/div[2]/div[1]/div/div/div[2]/ul/li[4]/a/div/span',
+                '//*[@id="app"]/div/div/div[1]/div[2]/div/div[3]/a[6]/span',
+                '//*[@id="app-content"]/main/div/div[2]/div[1]/div[2]/a',
+                '//*[@id="app-content"]/main/div/div[2]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[3]/td[3]/div',
+                '//*[@id="app-content"]/main/div/div[2]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[5]/td[3]/div/a'
+            ]
         }
     }

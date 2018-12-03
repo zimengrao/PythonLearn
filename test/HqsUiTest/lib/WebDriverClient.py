@@ -7,11 +7,15 @@
 """
 
 from selenium import webdriver
+# from selenium.webdriver.common.action_chains import ActionChains
 from lxml.html import fromstring
+import time
 
 class WebDriver:
     def __init__(self):
         self.driver = self.init_driver()
+        self.action = webdriver.ActionChains
+        # print(dir(self.driver))
 
     def init_driver(self):
         return webdriver.Firefox()
@@ -27,6 +31,21 @@ class WebDriver:
 
     def send_keys(self, xpath, value):
         self.driver.find_element_by_xpath(xpath).send_keys(value)
+
+    def switch(self, value):
+        self.driver.switch_to.frame(value)
+
+    def switch_quit(self):
+        self.driver.switch_to.default_content()
+
+    def code(self, xpath):
+        div = self.driver.find_element_by_xpath(xpath)
+        self.action(self.driver).click_and_hold(on_element=div).perform()
+        time.sleep(0.15)
+        self.action(self.driver).move_to_element_with_offset(to_element=div, xoffset=328, yoffset=40).release().perform()
+
+
+
 
     def check(self, xpath):
         return bool(self.parse(xpath))

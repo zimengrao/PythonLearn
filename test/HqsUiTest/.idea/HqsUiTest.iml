@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://E:/MyDownloads/Download/request_test2（上海vaca+QQ513647333）" />
-    <content url="file://$MODULE_DIR$/../ApiTest" />
-    <content url="file://$MODULE_DIR$/../GTApiTest" />
-    <content url="file://$MODULE_DIR$" />
-    <content url="file://$MODULE_DIR$/../MysqlData" />
-    <content url="file://$MODULE_DIR$/../SeleniumUiTest" />
-    <content url="file://$MODULE_DIR$/../Test DEMO" />
-    <content url="file://$MODULE_DIR$/../V2ex" />
     <orderEntry type="jdk" jdkName="Python 3.5.3 (C:\Users\wangmin\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ApiTest" />

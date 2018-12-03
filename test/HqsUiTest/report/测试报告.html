@@ -7097,47 +7097,71 @@ body.skin-3 {
 <script src="https://cdn.bootcss.com/chosen/1.8.2/chosen.jquery.js"></script>
 <script type="text/javascript">
     var resultData = {
-    "testAll": 3,
-    "testPass": 3,
+    "testAll": 4,
+    "beginTime": "2018-07-20 10:16:52",
     "testResult": [
         {
-            "description": "发布音乐动态 is ok",
-            "className": "HqsTestCases",
-            "spendTime": "37.4 s",
-            "log": [
-                "F:\\CloudMusic\\自由.mp3",
-                ""
-            ],
+            "className": "AliyunTestCases",
+            "description": "阿里云登录ok is ok",
+            "spendTime": "16.5 s",
+            "methodName": "test_login_is_ok",
             "status": "成功",
-            "methodName": "test_music_is_ok"
-        },
-        {
-            "description": "发布音乐动态 is ok",
-            "className": "HqsTestCases",
-            "spendTime": "63.6 s",
             "log": [
                 ""
-            ],
-            "status": "成功",
-            "methodName": "test_photo_is_ok"
+            ]
         },
         {
+            "className": "HqsTestCases",
+            "description": "发布音乐动态 is ok",
+            "spendTime": "34.9 s",
+            "methodName": "test_music_is_ok",
+            "status": "失败",
+            "log": [
+                "F:\\CloudMusic\\自由.mp3\n",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 601, in run\n    testMethod()\n",
+                "  File \"F:\\python\\PythonLearn\\test\\HqsUiTest\\tests\\test_dynamic.py\", line 71, in test_music_is_ok\n    self.assertEqual('标题', self.lib.parse(self.assert_dynamic)[0])\n",
+                "IndexError: list index out of range\n"
+            ]
+        },
+        {
+            "className": "HqsTestCases",
+            "description": "发布音乐动态 is ok",
+            "spendTime": "28.0 s",
+            "methodName": "test_photo_is_ok",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\unittest\\case.py\", line 601, in run\n    testMethod()\n",
+                "  File \"F:\\python\\PythonLearn\\test\\HqsUiTest\\tests\\test_dynamic.py\", line 90, in test_photo_is_ok\n    self.lib.click(self.photo_select2)\n",
+                "  File \"F:\\python\\PythonLearn\\test\\HqsUiTest\\lib\\WebDriverClient.py\", line 30, in click\n    self.driver.find_element_by_xpath(xpath).click()\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 501, in _execute\n    return self._parent.execute(command, params)\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 311, in execute\n    self.error_handler.check_response(response)\n",
+                "  File \"C:\\Users\\wangmin\\AppData\\Local\\Programs\\Python\\Python35\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 237, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+                "selenium.common.exceptions.ElementNotInteractableException: Message: Element <div id=\"rt_rt_1ciqnlhs3hic1qj14f55rpk7s9\"> could not be scrolled into view\n\n"
+            ]
+        },
+        {
+            "className": "HqsTestCases",
             "description": "发布视频动态 is ok",
-            "className": "HqsTestCases",
-            "spendTime": "32.4 s",
+            "spendTime": "29.9 s",
+            "methodName": "test_video_is_ok",
+            "status": "成功",
             "log": [
                 ""
-            ],
-            "status": "成功",
-            "methodName": "test_video_is_ok"
+            ]
         }
     ],
-    "testError": 0,
-    "totalTime": "133s",
-    "beginTime": "2018-06-11 16:17:30",
+    "testFail": 3,
+    "testPass": 2,
     "testSkip": 0,
+    "totalTime": "109s",
     "testName": "测试default报告",
-    "testFail": 1
+    "testError": 0
 };
     function details(obj) {
         if ($(obj).text() == '展开') {
