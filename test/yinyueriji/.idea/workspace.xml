@@ -12,12 +12,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AndriodGreat$jiexiXml.coverage" NAME="jiexiXml Coverage Results" MODIFIED="1542361925104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Socure/fouthDay" />
     <SUITE FILE_PATH="coverage/AndriodGreat$run.coverage" NAME="run Coverage Results" MODIFIED="1541751256948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yinyueriji$BeautifulReport.coverage" NAME="BeautifulReport Coverage Results" MODIFIED="1543907646868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1" />
     <SUITE FILE_PATH="coverage/AndriodGreat$Unittests_in_AndriodTest.coverage" NAME="Unittests in AndriodTest Coverage Results" MODIFIED="1540203815428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/test_ui_andriod" />
     <SUITE FILE_PATH="coverage/AndriodGreat$filename.coverage" NAME="filename Coverage Results" MODIFIED="1540549142907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MysqlData" />
     <SUITE FILE_PATH="coverage/AndriodGreat$xuanze.coverage" NAME="xuanze Coverage Results" MODIFIED="1541666671834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MysqlData" />
     <SUITE FILE_PATH="coverage/AndriodGreat$test.coverage" NAME="test Coverage Results" MODIFIED="1540196417264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppLib" />
     <SUITE FILE_PATH="coverage/AndriodGreat$AppDriverClient.coverage" NAME="AppDriverClient Coverage Results" MODIFIED="1540190702252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppLib" />
-    <SUITE FILE_PATH="coverage/yinyueriji$run.coverage" NAME="run Coverage Results" MODIFIED="1543825084451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yinyueriji$run.coverage" NAME="run Coverage Results" MODIFIED="1544179765699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,11 +29,9 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#86#101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +39,8 @@
       <file leaf-file-name="test_status.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_api_app/status/test_status.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="102" column="47" lean-forward="false" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
+            <state relative-caret-position="42">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -50,8 +49,8 @@
       <file leaf-file-name="BeautifulReport.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1/BeautifulReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="342" column="0" lean-forward="true" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+            <state relative-caret-position="327">
+              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
               <folding>
                 <element signature="e#124#133#0" expanded="true" />
               </folding>
@@ -62,23 +61,9 @@
       <file leaf-file-name="mock.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/unittest/mock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="10269">
               <caret line="494" column="32" lean-forward="false" selection-start-line="494" selection-start-column="32" selection-end-line="494" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="测试报告.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/report/测试报告.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="7144" column="24" lean-forward="false" selection-start-line="7144" selection-start-column="24" selection-end-line="7144" selection-end-column="24" />
-              <folding>
-                <marker date="1543825097062" expanded="true" signature="132184:132220" ph="..." />
-                <marker date="1543825097062" expanded="true" signature="134835:134856" ph="..." />
-                <marker date="1543825097062" expanded="true" signature="135358:135376" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,13 +84,20 @@
       <find>result_schema</find>
       <find>logs</find>
       <find>description</find>
-      <find>运行时长</find>
       <find>MakeResultJson</find>
       <find>spendTime</find>
       <find>testResult</find>
-      <find>_testMethodName</find>
       <find>__qualname__</find>
+      <find>_testMethodName</find>
+      <find>method</find>
+      <find>method_name</find>
+      <find>case</find>
+      <find>case_name</find>
+      <find>运行时长</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\wangmin\AppData\Local\Programs\Python\Python35\Lib\site-packages\BeautifulReport1</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -133,9 +125,9 @@
         <option value="$PROJECT_DIR$/tests/test_api_app/test_status.py" />
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/lib/business.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/tests/test_api_app/status/test_status.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/unittest/mock.py" />
+        <option value="$PROJECT_DIR$/tests/test_api_app/status/test_status.py" />
+        <option value="$PROJECT_DIR$/run.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1/BeautifulReport.py" />
       </list>
     </option>
@@ -167,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,8 +257,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,18 +265,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aaaaaa/SeleniumUiTest" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python\PythonLearn\test\yinyueriji\tests\test_api_app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\python\PythonLearn\test\yinyueriji\tests\test_api_app\status" />
       <recent name="F:\python\PythonLearn\test\yinyueriji" />
       <recent name="F:\python\PythonLearn\test\yinyueriji\PC" />
       <recent name="F:\python\PythonLearn\test\yinyueriji\App" />
       <recent name="F:\python\PythonLearn\test\Hao4.0API\tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python\PythonLearn\test\yinyueriji\tests\test_api_app" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -304,29 +296,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in AndriodTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_ui_andriod" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AndriodGreat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_ui_andriod/test_login.py" />
-      <option name="CLASS_NAME" value="AndriodTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="filename" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -379,6 +348,24 @@
       <module name="AndriodGreat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Socure/fouthDay/jiexiXml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BeautifulReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AndriodGreat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1/BeautifulReport.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -599,18 +586,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.run" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in AndriodTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.filename" />
-      <item index="3" class="java.lang.String" itemvalue="Python.xuanze" />
-      <item index="4" class="java.lang.String" itemvalue="Python.jiexiXml" />
+      <item index="1" class="java.lang.String" itemvalue="Python.filename" />
+      <item index="2" class="java.lang.String" itemvalue="Python.xuanze" />
+      <item index="3" class="java.lang.String" itemvalue="Python.jiexiXml" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BeautifulReport" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run" />
-        <item index="1" class="java.lang.String" itemvalue="Python.jiexiXml" />
-        <item index="2" class="java.lang.String" itemvalue="Python.xuanze" />
-        <item index="3" class="java.lang.String" itemvalue="Python.filename" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in AndriodTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BeautifulReport" />
+        <item index="2" class="java.lang.String" itemvalue="Python.jiexiXml" />
+        <item index="3" class="java.lang.String" itemvalue="Python.xuanze" />
+        <item index="4" class="java.lang.String" itemvalue="Python.filename" />
       </list>
     </recent_temporary>
   </component>
@@ -637,16 +624,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2048611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43821657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3745223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -821,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="23" column="95" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#94#124#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,9 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#91#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,9 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <marker date="1543816356621" expanded="true" signature="2601:2681" ph="SELECT tc002... gt002_user_auth" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,19 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7119">
           <caret line="364" column="35" lean-forward="false" selection-start-line="364" selection-start-column="30" selection-end-line="364" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="7144" column="24" lean-forward="false" selection-start-line="7144" selection-start-column="24" selection-end-line="7144" selection-end-column="24" />
-          <folding>
-            <marker date="1543825097062" expanded="true" signature="132184:132220" ph="..." />
-            <marker date="1543825097062" expanded="true" signature="134835:134856" ph="..." />
-            <marker date="1543825097062" expanded="true" signature="135358:135376" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,40 +937,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="413" column="29" lean-forward="true" selection-start-line="413" selection-start-column="29" selection-end-line="413" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/unittest/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10269">
+          <caret line="494" column="32" lean-forward="false" selection-start-line="494" selection-start-column="32" selection-end-line="494" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/测试报告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149457">
+          <caret line="7117" column="9" lean-forward="false" selection-start-line="7117" selection-start-column="9" selection-end-line="7117" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_api_app/status/test_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#86#101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_api_app/status/test_status.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="102" column="47" lean-forward="false" selection-start-line="102" selection-start-column="47" selection-end-line="102" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/unittest/mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="494" column="32" lean-forward="false" selection-start-line="494" selection-start-column="32" selection-end-line="494" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/BeautifulReport1/BeautifulReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="342" column="0" lean-forward="true" selection-start-line="342" selection-start-column="0" selection-end-line="342" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
           <folding>
             <element signature="e#124#133#0" expanded="true" />
           </folding>
