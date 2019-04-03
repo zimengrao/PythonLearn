@@ -20,7 +20,7 @@ import numpy as np
 import string
 
 config = {
-    'host': 'rm-bp11g1br1u79795y5.mysql.rds.aliyuncs.com',
+    'host': 'rm-uf6e3o17651w13pq28o.mysql.rds.aliyuncs.com',
     'port': 3306,
     'user': 'zjk',
     'password': 'zjk940915++',
@@ -397,71 +397,144 @@ cur = conn.cursor()
 # 		conn.commit()
 # 		print(aliyun_href)
 
-def image6():
+# def image6():
+#
+# 	cur.execute("SELECT tc028_introduce,tc028_id  FROM gt028_activity ")
+# 	# cur.execute("SELECT newstext  FROM phome_ecms_news_data_1,phome_ecms_news where phome_ecms_news.id=phome_ecms_news_data_1.id and titlepic !='' and truetime>1514736000 ")
+# 	user = cur.fetchall()
+#
+# 	# for item in user:
+# 	# 	pattern = re.compile(r'http://www(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+# 	# 	urls = re.findall(pattern, item[0])
+# 	# 	for url in urls:
+# 	# 		url=url[:-1]
+# 	# 		if url.endswith('g', len(url)-1,len(url))==True or url.endswith('f', len(url)-1,len(url))==True:
+# 	# 			with open(path, 'a') as f:
+# 	# 				f.write(url + '\n')
+# 	# 				print(url)
+#
+# 	# for item in user:
+# 	# 	pattern = re.compile(r'/ueditor.*?.\"')
+# 	# 	urls = re.findall(pattern, item[0])
+# 		# print(urls,item[1])
+# 		# for url in urls:
+# 		# 	url = url[:-2]
+# 		# 	print(url)
+# 	# 		if 'jpeg' in url:
+# 	# 			# print(url)
+# 	# 			url = url[:-2]
+# 	# 			name_pic = url.split('/')[-1]
+# 	# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/article/content/' + name_pic
+# 	# 			cur.execute(
+# 	# 				"UPDATE gt093_dynamic_long set tc093_long_text = REPLACE(tc093_long_text,'%s','%s') where tc093_id='%s'" % (url,aliyun_href, item[1]))
+# 	# 			conn.commit()
+# 	# 			print(aliyun_href)
+# 	# 		else:
+# 	# 			url=url[:-1]
+# 	# 			name_pic = url.split('/')[-1]
+# 	# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/article/content/' + name_pic
+# 	# 			cur.execute(
+# 	# 				"UPDATE gt093_dynamic_long set tc093_long_text = REPLACE(tc093_long_text,'%s','%s') where tc093_id='%s'" % (url,aliyun_href, item[1]))
+# 	# 			conn.commit()
+# 	# 			print(aliyun_href)
+#
+# 	i = 0
+#
+# 	for item in user:
+# 		pattern = re.compile(r'https://www.greattone.net/ueditor/php/upload/image/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
+# 		urls = re.findall(pattern, item[0])
+# 		# print(urls)
+# 		for url in urls:
+# 			url=url[:-1]
+# 			print(url)
+# 			# if url.endswith('g', len(url)-1,len(url))==True or url.endswith('f', len(url)-1,len(url))==True:
+# 			name_pic = url.split('/')[-1]
+# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/activity/content/' + name_pic
+# 			cur.execute(
+# 				"UPDATE gt028_activity set tc028_introduce = REPLACE(tc028_introduce,'%s','%s') where tc028_id='%s'" % (url,aliyun_href, item[1]))
+# 			conn.commit()
+# 			print(aliyun_href)
 
-	cur.execute("SELECT tc028_introduce,tc028_id  FROM gt028_activity ")
-	# cur.execute("SELECT newstext  FROM phome_ecms_news_data_1,phome_ecms_news where phome_ecms_news.id=phome_ecms_news_data_1.id and titlepic !='' and truetime>1514736000 ")
+
+# def activity028():
+#
+# 	cur.execute("SELECT tc028_introduce,tc028_id FROM gt028_activity")
+# 	user = cur.fetchall()
+# 	# print(user)
+# 	# for items in user:
+# 	# 	pattern = re.compile(r'https://www.greattone.net/ueditor.*?.\\') # /ueditor/php/upload/image/20180727/1532675917750782.jpg\\
+# 	# 	pic_names = re.findall(pattern, items[0])
+# 	# 	print(pic_names)
+# 	# 	for image in pic_names:
+# 	# 		name = image[:-1].split('/')[-1] # 图片名称
+# 	# 		print(name,items[-1])
+# 	# 		aliyun_href = 'http://greattone4.oss-cn-shanghai.aliyuncs.com/activity/content/' + name # 阿里云图片地址
+# 	# 		cur.execute("UPDATE gt028_activity set tc028_introduce = REPLACE(tc028_introduce, '%s', '%s') where tc028_id='%s'" % (
+# 	# 				image[:-1], aliyun_href, items[1]))
+# 	# 		conn.commit()
+# 	# 		print(items[1],aliyun_href)
+#
+# 	for items in user:
+# 		pattern = re.compile(
+# 			r'/ueditor.*?.\\')  # /ueditor/php/upload/image/20180727/1532675917750782.jpg\\
+# 		pic_names = re.findall(pattern, items[0])
+# 		print(pic_names)
+# 		for image in pic_names:
+# 			name = image[:-1].split('/')[-1]  # 图片名称
+# 			aliyun_href = 'http://greattone4.oss-cn-shanghai.aliyuncs.com/activity/content/' + name  # 阿里云图片地址
+#
+# 			cur.execute(
+# 				"UPDATE gt028_activity set tc028_introduce = REPLACE(tc028_introduce, '%s', '%s') where tc028_id='%s'" % (
+# 					image[:-1], aliyun_href, items[1]))
+# 			conn.commit()
+			# print(aliyun_href)
+
+
+# def dynamic_94():
+# 	cur.execute("SELECT tc094_url_photo,tc094_id FROM gt094_dynamic_apply")
+# 	user = cur.fetchall()
+# 	# print(user)
+# 	for items in user:
+# 		# print(items)
+# 		pattern = re.compile(r'https://(?:m|www).greattone.net/d.*(?:jpg|png|bmp)')
+# 		pic_names = re.findall(pattern, items[0])
+# 		if len(pic_names)>=1:
+# 			name = pic_names[0].split('/')[-1] # 图片名称
+# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/images/cover/' + name # 阿里云图片地址
+# 			cur.execute("UPDATE gt094_dynamic_apply set tc094_url_photo = '%s' where tc094_id='%s'" % (
+# 					aliyun_href, items[1]))
+# 			conn.commit()
+# 			print(pic_names)
+
+def userpic_94():
+
+	cur.execute("SELECT tc094_user_id,tc094_id FROM gt094_dynamic_apply WHERE tc028_act_id='305'")
 	user = cur.fetchall()
-
-	# for item in user:
-	# 	pattern = re.compile(r'http://www(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-	# 	urls = re.findall(pattern, item[0])
-	# 	for url in urls:
-	# 		url=url[:-1]
-	# 		if url.endswith('g', len(url)-1,len(url))==True or url.endswith('f', len(url)-1,len(url))==True:
-	# 			with open(path, 'a') as f:
-	# 				f.write(url + '\n')
-	# 				print(url)
-
-	# for item in user:
-	# 	pattern = re.compile(r'/ueditor.*?.\"')
-	# 	urls = re.findall(pattern, item[0])
-		# print(urls,item[1])
-		# for url in urls:
-		# 	url = url[:-2]
-		# 	print(url)
-	# 		if 'jpeg' in url:
-	# 			# print(url)
-	# 			url = url[:-2]
-	# 			name_pic = url.split('/')[-1]
-	# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/article/content/' + name_pic
-	# 			cur.execute(
-	# 				"UPDATE gt093_dynamic_long set tc093_long_text = REPLACE(tc093_long_text,'%s','%s') where tc093_id='%s'" % (url,aliyun_href, item[1]))
-	# 			conn.commit()
-	# 			print(aliyun_href)
-	# 		else:
-	# 			url=url[:-1]
-	# 			name_pic = url.split('/')[-1]
-	# 			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/article/content/' + name_pic
-	# 			cur.execute(
-	# 				"UPDATE gt093_dynamic_long set tc093_long_text = REPLACE(tc093_long_text,'%s','%s') where tc093_id='%s'" % (url,aliyun_href, item[1]))
-	# 			conn.commit()
-	# 			print(aliyun_href)
-
+	# print(user)
+	users=''
 	i = 0
+	for items in user:
+		users = users + "'" + items[0] + "'" + ','
+		i = i+1
+	print(i)
+	print(users)
+		# 	name = pic_names[0].split('/')[-1]  # 图片名称
+		# 	aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/images/cover/' + name  # 阿里云图片地址
+		# 	cur.execute("UPDATE gt094_dynamic_apply set tc094_url_photo = '%s' where tc094_id='%s'" % (
+		# 		aliyun_href, items[1]))
+		# 	conn.commit()
+		# 	print(pic_names)
 
-	for item in user:
-		pattern = re.compile(r'https://www.greattone.net/ueditor/php/upload/image/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-		urls = re.findall(pattern, item[0])
-		# print(urls)
-		for url in urls:
-			url=url[:-1]
-			print(url)
-			# if url.endswith('g', len(url)-1,len(url))==True or url.endswith('f', len(url)-1,len(url))==True:
-			name_pic = url.split('/')[-1]
-			aliyun_href = 'https://greattone4.oss-cn-shanghai.aliyuncs.com/activity/content/' + name_pic
-			cur.execute(
-				"UPDATE gt028_activity set tc028_introduce = REPLACE(tc028_introduce,'%s','%s') where tc028_id='%s'" % (url,aliyun_href, item[1]))
-			conn.commit()
-			print(aliyun_href)
-# #
-# # all_path('photo')
-# # upload('upload')
-# # userpic('userpic')
-# # image('image')
+
+# all_path('photo')
+# upload('upload')
+# userpic('userpic')
+# image('image')
 # image()
 # image1()
 # image2()
 # image4()
 # image5()
-image6()
+# activity028()
+# dynamic_94()
+userpic_94()

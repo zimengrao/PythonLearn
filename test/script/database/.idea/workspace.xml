@@ -10,20 +10,107 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/database$delete_repeat_user.coverage" NAME="delete_repeat_user Coverage Results" MODIFIED="1547522454725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/remove" />
+    <SUITE FILE_PATH="coverage/database$filename.coverage" NAME="filename Coverage Results" MODIFIED="1551436366262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/database$ooo.coverage" NAME="ooo Coverage Results" MODIFIED="1543828430414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/database$photo.coverage" NAME="photo Coverage Results" MODIFIED="1547177432892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/remove" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ooo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ooo.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="photo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remove/photo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="21">
+              <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+              <folding>
+                <marker date="1551345340029" expanded="true" signature="749:819" ph="SELECT id,ne... phome_ecms_photo" />
+                <marker date="1551345340029" expanded="true" signature="885:962" ph="SELECT useri... phome_enewsmemberadd" />
+                <marker date="1551345340029" expanded="true" signature="1009:1059" ph="SELECT id, z... phome_ecms_photo" />
+                <marker date="1551345340029" expanded="true" signature="1106:1178" ph="SELECT useri... phome_enewsmemberadd" />
+                <marker date="1551345340029" expanded="true" signature="2041:2158" ph="insert into gt019_photo" />
+                <marker date="1551345340029" expanded="true" signature="3999:4092" ph="insert into gt067_fans... " />
+                <marker date="1551345340029" expanded="true" signature="5349:5482" ph="SELECT useri... phome_enewsmemberadd" />
+                <marker date="1551345340029" expanded="true" signature="5849:5992" ph="insert into gt059_recommend_video... " />
+                <marker date="1551345340029" expanded="true" signature="6410:6522" ph="SELECT photo... phome_enewsmemberadd" />
+                <marker date="1551345340029" expanded="true" signature="6798:6914" ph="insert into gt069_user_photo... " />
+                <marker date="1551345340029" expanded="true" signature="7322:7407" ph="SELECT count... gt092_dynamic_short" />
+                <marker date="1551345340029" expanded="true" signature="7611:7689" ph="update gt003... " />
+                <marker date="1551345340029" expanded="true" signature="8018:8097" ph="update gt004... " />
+                <marker date="1551345340029" expanded="true" signature="8426:8503" ph="update gt005... " />
+                <marker date="1551345340029" expanded="true" signature="8832:8909" ph="update gt006... " />
+                <marker date="1551345340029" expanded="true" signature="9251:9357" ph="SELECT count... gt094_dynamic_apply" />
+                <marker date="1551345340029" expanded="true" signature="9562:9637" ph="update gt028... " />
+                <marker date="1551345340029" expanded="true" signature="10803:10918" ph="SELECT * FRO... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="10803:10922" ph="SELECT tc001... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="11137:11266" ph="SELECT tc002... gt002_user_auth" />
+                <marker date="1551345340029" expanded="true" signature="11429:11507" ph="update `cesh... " />
+                <marker date="1551345340029" expanded="true" signature="11429:11508" ph="update `cesh... " />
+                <marker date="1551345340029" expanded="true" signature="11429:11532" ph="update gt094... " />
+                <marker date="1551345340029" expanded="true" signature="11429:11553" ph="update `cesh... " />
+                <marker date="1551345340029" expanded="true" signature="11908:11915" ph="SELECT tc001... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="11908:12061" ph="SELECT * FRO... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="11908:12086" ph="SELECT tc100... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="12399:12574" ph="SELECT tc002... gt002_user_auth" />
+                <marker date="1551345340029" expanded="true" signature="12871:12951" ph="update `hao`... " />
+                <marker date="1551345340029" expanded="true" signature="13316:13494" ph="SELECT tc001... gt100_message_user" />
+                <marker date="1551345340029" expanded="true" signature="13782:13957" ph="SELECT count... gt022_review" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filename.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filename.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="516" column="50" lean-forward="true" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
+              <folding>
+                <element signature="e#413#432#0" expanded="false" />
+                <element signature="e#668#689#0" expanded="false" />
+                <marker date="1551436366178" expanded="true" signature="13770:13822" ph="SELECT tc028... gt028_activity" />
+                <marker date="1551436366178" expanded="true" signature="15999:16097" ph="UPDATE gt028... " />
+                <marker date="1551436366178" expanded="true" signature="16213:16264" ph="SELECT tc028... gt028_activity" />
+                <marker date="1551436366178" expanded="true" signature="16766:16866" ph="UPDATE gt028... " />
+                <marker date="1551436366178" expanded="true" signature="17380:17480" ph="UPDATE gt028... " />
+                <marker date="1551436366178" expanded="true" signature="17610:17666" ph="SELECT tc094... gt094_dynamic_apply" />
+                <marker date="1551436366178" expanded="true" signature="18069:18142" ph="UPDATE gt028... " />
+                <marker date="1551436366178" expanded="true" signature="18254:18333" ph="SELECT tc094... gt094_dynamic_apply" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filename_pi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filename_pi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1535889490390" expanded="true" signature="97461:97605" ph="select userp... phome_enewsmemberadd" />
+                <marker date="1535889490390" expanded="true" signature="97779:97845" ph="UPDATE phome... " />
+                <marker date="1535889490390" expanded="true" signature="98206:98348" ph="select userp... phome_enewsmemberadd" />
+                <marker date="1535889490390" expanded="true" signature="98522:98588" ph="UPDATE phome... " />
+                <marker date="1535889490390" expanded="true" signature="98948:99089" ph="select userp... phome_enewsmemberadd" />
+                <marker date="1535889490390" expanded="true" signature="99263:99329" ph="UPDATE phome... " />
+                <marker date="1535889490390" expanded="true" signature="99685:99822" ph="select userp... phome_enewsmemberadd" />
+                <marker date="1535889490390" expanded="true" signature="99996:100062" ph="UPDATE phome... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xuanze.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xuanze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,10 +124,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/ueditor/php/upload/image/20180727/1532675919163783.jpg\\</find>
+      <find>userpic</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ooo.py" />
+        <option value="$PROJECT_DIR$/remove/delete_repeat_user.py" />
+        <option value="$PROJECT_DIR$/remove/photo.py" />
+        <option value="$PROJECT_DIR$/filename.py" />
       </list>
     </option>
   </component>
@@ -71,6 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -83,10 +181,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,7 +207,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Python.ooo">
+  <component name="RunManager" selected="Python.filename">
     <configuration default="false" name="ooo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,6 +222,60 @@
       <module name="database" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ooo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/remove" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="database" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove/photo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="delete_repeat_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/remove" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="database" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove/delete_repeat_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="filename" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="database" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filename.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -205,6 +369,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -324,12 +494,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.ooo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.photo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.delete_repeat_user" />
+      <item index="3" class="java.lang.String" itemvalue="Python.filename" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.ooo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.filename" />
+        <item index="1" class="java.lang.String" itemvalue="Python.delete_repeat_user" />
+        <item index="2" class="java.lang.String" itemvalue="Python.photo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ooo" />
       </list>
     </recent_temporary>
   </component>
@@ -348,25 +524,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3044586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -381,11 +557,285 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/remove/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9492">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding>
+            <marker date="1551345340029" expanded="true" signature="749:819" ph="SELECT id,ne... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="885:962" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="1009:1059" ph="SELECT id, z... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="1106:1178" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="2041:2158" ph="insert into gt019_photo" />
+            <marker date="1551345340029" expanded="true" signature="3999:4092" ph="insert into gt067_fans... " />
+            <marker date="1551345340029" expanded="true" signature="5349:5482" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="5849:5992" ph="insert into gt059_recommend_video... " />
+            <marker date="1551345340029" expanded="true" signature="6410:6522" ph="SELECT photo... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="6798:6914" ph="insert into gt069_user_photo... " />
+            <marker date="1551345340029" expanded="true" signature="7322:7407" ph="SELECT count... gt092_dynamic_short" />
+            <marker date="1551345340029" expanded="true" signature="7611:7689" ph="update gt003... " />
+            <marker date="1551345340029" expanded="true" signature="8018:8097" ph="update gt004... " />
+            <marker date="1551345340029" expanded="true" signature="8426:8503" ph="update gt005... " />
+            <marker date="1551345340029" expanded="true" signature="8832:8909" ph="update gt006... " />
+            <marker date="1551345340029" expanded="true" signature="9251:9357" ph="SELECT count... gt094_dynamic_apply" />
+            <marker date="1551345340029" expanded="true" signature="9562:9637" ph="update gt028... " />
+            <marker date="1551345340029" expanded="true" signature="10803:10918" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="10803:10922" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11137:11266" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="11429:11507" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11508" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11532" ph="update gt094... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11553" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11908:11915" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12061" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12086" ph="SELECT tc100... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="12399:12574" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="12871:12951" ph="update `hao`... " />
+            <marker date="1551345340029" expanded="true" signature="13316:13494" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="13782:13957" ph="SELECT count... gt022_review" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#413#432#0" expanded="false" />
+            <element signature="e#668#689#0" expanded="false" />
+            <marker date="1551436366178" expanded="true" signature="13770:13822" ph="SELECT tc028... gt028_activity" />
+            <marker date="1551436366178" expanded="true" signature="15999:16097" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="16213:16264" ph="SELECT tc028... gt028_activity" />
+            <marker date="1551436366178" expanded="true" signature="16766:16866" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="17380:17480" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="17610:17666" ph="SELECT tc094... gt094_dynamic_apply" />
+            <marker date="1551436366178" expanded="true" signature="18069:18142" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="18254:18333" ph="SELECT tc094... gt094_dynamic_apply" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551345340029" expanded="true" signature="749:819" ph="SELECT id,ne... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="885:962" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="1009:1059" ph="SELECT id, z... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="1106:1178" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="2041:2158" ph="insert into gt019_photo" />
+            <marker date="1551345340029" expanded="true" signature="3999:4092" ph="insert into gt067_fans... " />
+            <marker date="1551345340029" expanded="true" signature="5349:5482" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="5849:5992" ph="insert into gt059_recommend_video... " />
+            <marker date="1551345340029" expanded="true" signature="6410:6522" ph="SELECT photo... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="6798:6914" ph="insert into gt069_user_photo... " />
+            <marker date="1551345340029" expanded="true" signature="7322:7407" ph="SELECT count... gt092_dynamic_short" />
+            <marker date="1551345340029" expanded="true" signature="7611:7689" ph="update gt003... " />
+            <marker date="1551345340029" expanded="true" signature="8018:8097" ph="update gt004... " />
+            <marker date="1551345340029" expanded="true" signature="8426:8503" ph="update gt005... " />
+            <marker date="1551345340029" expanded="true" signature="8832:8909" ph="update gt006... " />
+            <marker date="1551345340029" expanded="true" signature="9251:9357" ph="SELECT count... gt094_dynamic_apply" />
+            <marker date="1551345340029" expanded="true" signature="9562:9637" ph="update gt028... " />
+            <marker date="1551345340029" expanded="true" signature="10803:10918" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="10803:10922" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11137:11266" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="11429:11507" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11508" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11532" ph="update gt094... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11553" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11908:11915" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12061" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12086" ph="SELECT tc100... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="12399:12574" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="12871:12951" ph="update `hao`... " />
+            <marker date="1551345340029" expanded="true" signature="13316:13494" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="13782:13957" ph="SELECT count... gt022_review" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551345340029" expanded="true" signature="749:819" ph="SELECT id,ne... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="885:962" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="1009:1059" ph="SELECT id, z... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="1106:1178" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="2041:2158" ph="insert into gt019_photo" />
+            <marker date="1551345340029" expanded="true" signature="3999:4092" ph="insert into gt067_fans... " />
+            <marker date="1551345340029" expanded="true" signature="5349:5482" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="5849:5992" ph="insert into gt059_recommend_video... " />
+            <marker date="1551345340029" expanded="true" signature="6410:6522" ph="SELECT photo... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="6798:6914" ph="insert into gt069_user_photo... " />
+            <marker date="1551345340029" expanded="true" signature="7322:7407" ph="SELECT count... gt092_dynamic_short" />
+            <marker date="1551345340029" expanded="true" signature="7611:7689" ph="update gt003... " />
+            <marker date="1551345340029" expanded="true" signature="8018:8097" ph="update gt004... " />
+            <marker date="1551345340029" expanded="true" signature="8426:8503" ph="update gt005... " />
+            <marker date="1551345340029" expanded="true" signature="8832:8909" ph="update gt006... " />
+            <marker date="1551345340029" expanded="true" signature="9251:9357" ph="SELECT count... gt094_dynamic_apply" />
+            <marker date="1551345340029" expanded="true" signature="9562:9637" ph="update gt028... " />
+            <marker date="1551345340029" expanded="true" signature="10803:10918" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="10803:10922" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11137:11266" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="11429:11507" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11508" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11532" ph="update gt094... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11553" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11908:11915" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12061" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12086" ph="SELECT tc100... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="12399:12574" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="12871:12951" ph="update `hao`... " />
+            <marker date="1551345340029" expanded="true" signature="13316:13494" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="13782:13957" ph="SELECT count... gt022_review" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ooo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="882">
           <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ooo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/delete_repeat_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="168" column="21" lean-forward="false" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ooo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/vote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1532685881768" expanded="true" signature="476:537" ph="SELECT id,to... phome_ecms_photo" />
+            <marker date="1532685881768" expanded="true" signature="1041:1095" ph="SELECT usern... phome_enewsmember" />
+            <marker date="1532685881768" expanded="true" signature="1280:1425" ph="insert into gt030_vote" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/FieldSplices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1526541473484" expanded="true" signature="593:673" ph="SELECT tc090... gt090_global_type" />
+            <marker date="1526541473484" expanded="true" signature="916:995" ph="update gt090... " />
+            <marker date="1526541473484" expanded="true" signature="1185:1260" ph="SELECT tc090... gt090_global_type" />
+            <marker date="1526541473484" expanded="true" signature="1517:1622" ph="update gt090... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xuanze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remove/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding>
+            <marker date="1551345340029" expanded="true" signature="749:819" ph="SELECT id,ne... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="885:962" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="1009:1059" ph="SELECT id, z... phome_ecms_photo" />
+            <marker date="1551345340029" expanded="true" signature="1106:1178" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="2041:2158" ph="insert into gt019_photo" />
+            <marker date="1551345340029" expanded="true" signature="3999:4092" ph="insert into gt067_fans... " />
+            <marker date="1551345340029" expanded="true" signature="5349:5482" ph="SELECT useri... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="5849:5992" ph="insert into gt059_recommend_video... " />
+            <marker date="1551345340029" expanded="true" signature="6410:6522" ph="SELECT photo... phome_enewsmemberadd" />
+            <marker date="1551345340029" expanded="true" signature="6798:6914" ph="insert into gt069_user_photo... " />
+            <marker date="1551345340029" expanded="true" signature="7322:7407" ph="SELECT count... gt092_dynamic_short" />
+            <marker date="1551345340029" expanded="true" signature="7611:7689" ph="update gt003... " />
+            <marker date="1551345340029" expanded="true" signature="8018:8097" ph="update gt004... " />
+            <marker date="1551345340029" expanded="true" signature="8426:8503" ph="update gt005... " />
+            <marker date="1551345340029" expanded="true" signature="8832:8909" ph="update gt006... " />
+            <marker date="1551345340029" expanded="true" signature="9251:9357" ph="SELECT count... gt094_dynamic_apply" />
+            <marker date="1551345340029" expanded="true" signature="9562:9637" ph="update gt028... " />
+            <marker date="1551345340029" expanded="true" signature="10803:10918" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="10803:10922" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11137:11266" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="11429:11507" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11508" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11532" ph="update gt094... " />
+            <marker date="1551345340029" expanded="true" signature="11429:11553" ph="update `cesh... " />
+            <marker date="1551345340029" expanded="true" signature="11908:11915" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12061" ph="SELECT * FRO... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="11908:12086" ph="SELECT tc100... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="12399:12574" ph="SELECT tc002... gt002_user_auth" />
+            <marker date="1551345340029" expanded="true" signature="12871:12951" ph="update `hao`... " />
+            <marker date="1551345340029" expanded="true" signature="13316:13494" ph="SELECT tc001... gt100_message_user" />
+            <marker date="1551345340029" expanded="true" signature="13782:13957" ph="SELECT count... gt022_review" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filename_pi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1535889490390" expanded="true" signature="97461:97605" ph="select userp... phome_enewsmemberadd" />
+            <marker date="1535889490390" expanded="true" signature="97779:97845" ph="UPDATE phome... " />
+            <marker date="1535889490390" expanded="true" signature="98206:98348" ph="select userp... phome_enewsmemberadd" />
+            <marker date="1535889490390" expanded="true" signature="98522:98588" ph="UPDATE phome... " />
+            <marker date="1535889490390" expanded="true" signature="98948:99089" ph="select userp... phome_enewsmemberadd" />
+            <marker date="1535889490390" expanded="true" signature="99263:99329" ph="UPDATE phome... " />
+            <marker date="1535889490390" expanded="true" signature="99685:99822" ph="select userp... phome_enewsmemberadd" />
+            <marker date="1535889490390" expanded="true" signature="99996:100062" ph="UPDATE phome... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="516" column="50" lean-forward="true" selection-start-line="516" selection-start-column="50" selection-end-line="516" selection-end-column="50" />
+          <folding>
+            <element signature="e#413#432#0" expanded="false" />
+            <element signature="e#668#689#0" expanded="false" />
+            <marker date="1551436366178" expanded="true" signature="13770:13822" ph="SELECT tc028... gt028_activity" />
+            <marker date="1551436366178" expanded="true" signature="15999:16097" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="16213:16264" ph="SELECT tc028... gt028_activity" />
+            <marker date="1551436366178" expanded="true" signature="16766:16866" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="17380:17480" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="17610:17666" ph="SELECT tc094... gt094_dynamic_apply" />
+            <marker date="1551436366178" expanded="true" signature="18069:18142" ph="UPDATE gt028... " />
+            <marker date="1551436366178" expanded="true" signature="18254:18333" ph="SELECT tc094... gt094_dynamic_apply" />
+          </folding>
         </state>
       </provider>
     </entry>

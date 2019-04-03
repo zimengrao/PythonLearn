@@ -28,15 +28,6 @@ config = {
     'charset': 'utf8'
 }
 
-# config = {
-#     'host': 'rm-bp11g1br1u79795y5.mysql.rds.aliyuncs.com',
-#     'port': 3306,
-#     'user': 'zjk',
-#     'password': 'zjk940915++',
-#     'db': 'hao',
-#     'charset': 'utf8'
-# }
-
 def select_phone():
     '''
     1、查询memberadd表中，phone字段重复的数据
@@ -160,7 +151,45 @@ def userid():
     # print(userid)
 
 
+def userid_12():
+    '''
+    :return:
+    '''
+    conn = pymysql.connect(**config)
+    cur = conn.cursor()
+    sql="select b.id from (select a.id from ( SELECT MAX(tc012_id) as id,count(*) as count from gt012_user_role group by tc001_user_id having count>1) a) b"
+    cur.execute(sql)
+    rs = cur.fetchall()
+    # print(rs)
+    userid = []
+    # print(list_userid)
+    for r in rs:
+        # print(r[0])
+        cur.execute("delete from gt012_user_role where tc012_id = '%s'",r[0])
+        conn.commit()
+        print(r[0])
+
+def userid_005():
+    '''
+    :return:
+    '''
+    conn = pymysql.connect(**config)
+    cur = conn.cursor()
+    sql = "select b.id from (select a.id from ( SELECT MAX(tc005_id) as id,count(*) as count from gt005_user_store group by tc001_user_id having count>1) a) b"
+    cur.execute(sql)
+    rs = cur.fetchall()
+    # print(rs)
+    userid = []
+    # print(list_userid)
+    for r in rs:
+        # print(r[0])
+        cur.execute("delete from gt005_user_store where tc005_id = '%s'", r[0])
+        conn.commit()
+        print(r[0])
+
+
 # select_phone()
 # select_openid()
 # select_username_phone()
-userid()
+# userid_005()
+userid_12()

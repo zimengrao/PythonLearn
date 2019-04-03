@@ -14,94 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestCase1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="46" />
-              <folding>
-                <element signature="e#152#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="running.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/running/running.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readConfig.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/util/readConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="55" />
-              <folding>
-                <element signature="e#120#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/util/readExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-              <folding>
-                <element signature="e#120#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetToken.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/GetToken.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="globalvariable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/globalvariable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRequest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/TestRequest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,7 +51,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,110 +62,6 @@
               <option name="myItemId" value="cankao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testSuite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testReport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testCase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cankao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="running" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="running.py" />
-              <option name="myItemType" value="com.jetbrains.python.projectView.PyFileNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -283,20 +91,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2（上海vaca+QQ513647333）" />
+              <option name="myItemId" value="AutotestPlatform-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="request_test2" />
+              <option name="myItemId" value="AutotestPlatform-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cankao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cankao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
+              <option name="myItemId" value="AutotestPlatform-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutotestPlatform-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,7 +367,7 @@
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -571,6 +398,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#152#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/running/running.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/util/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="55" />
+          <folding>
+            <element signature="e#120#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/util/readExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#120#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/GetToken.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/globalvariable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/TestRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -733,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/util/readExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#120#131#0" expanded="true" />
           </folding>
@@ -755,27 +652,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="e#152#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/TestRequest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -791,9 +670,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/business/GetToken.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
+        <state relative-caret-position="714">
           <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutotestPlatform-master/AutotestPlatform-master/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1281">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1550738090000" expanded="true" signature="289:330" ph="select case_... tasks" />
+            <marker date="1550738090000" expanded="true" signature="390:437" ph="select case_... case_set" />
+            <marker date="1550738090000" expanded="true" signature="893:937" ph="update tasks... " />
+            <marker date="1550738090000" expanded="true" signature="1086:1130" ph="update tasks... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_test2（上海vaca+QQ513647333）/request_test2/testCase/TestCase2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#152#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

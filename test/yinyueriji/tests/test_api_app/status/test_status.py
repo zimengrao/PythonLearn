@@ -6,16 +6,17 @@
 @Author: wangmin
 @Data: 2018/9/21
 """
-import ddt
 import unittest
-import json
-from lib.client import HttpHandler
-from config.ReadExcel import ExcelData
-from lib.business import BusinessApi
-from config.mysql import MysqlData
-from config.cnf import Config
 
-data= ExcelData('webapi').readData()
+import ddt
+
+# from app.web.business import BusinessApi
+# from app.web.client import HttpHandler
+from config.ReadExcel import ExcelData
+from config.cnf import Config
+from config.mysql import MysqlData
+
+data= ExcelData('webstatus').readData()
 
 @ddt.ddt
 class HqsApi(unittest.TestCase):
@@ -26,12 +27,11 @@ class HqsApi(unittest.TestCase):
         cls.mysql = MysqlData()
         cls.config = Config()
 
-    @ddt.data(*data[116:117])
+    @ddt.data(*data[1:37])
     def test1_status(self, data):
-        """ 首页 """
-        resp = self.http.post_code(self.lib.api + data['Request_URL'], data=data['Request_Data'])
+        """ 接口状态测试 """
+        resp = self.http.post_code(self.lib.appapi_url + data['Request_URL'], data=data['Request_Data'])
         self.case_name = data['API_Purpose']
-        # print(resp)
         self.assertEqual(resp, 200)
 
     # @ddt.data(*data[117:118])
