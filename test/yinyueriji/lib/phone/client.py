@@ -27,20 +27,43 @@ class Client:
             'automationName': 'uiautomator2',
             'app': PATH("packages/apps-release.apk")
         }
-
-        self.driver = Remote("http://127.0.0.1:4723/wd/hub", self.desired_caps)
+        self.driver_url = self.config.get_config('APP_DATABASE','driver_url')
+        # self.driver = Remote("http://127.0.0.1:4723/wd/hub", self.desired_caps)
+        self.driver = Remote('{}'.format(self.driver_url), self.desired_caps)
         self.driver.implicitly_wait(15)
 
-    def find(self,resource):
-        self.driver.find_element_by_id(resource).text()
+    def find(self,xpath):
+        result=self.driver.find_element_by_xpath(xpath).text
+        return result
 
-    def click(self,resource):
+    def click(self,res):
         try:
-            self.driver.find_element_by_id(resource).click()
+            self.driver.find_element_by_id(res).click()
         except:
-            self.driver.find_element_by_name(resource).click()
+            self.driver.find_element_by_xpath(res).click()
 
+    def xpath(self, xpath):
+        self.driver.find_element_by_xpath(xpath).click()
 
-    def send_keys(self,resource,keywords):
-        self.driver.find_element_by_id(resource).send_keys(keywords)
+    def send_keys(self,res,keywords):
+        try:
+            self.driver.find_element_by_id(res).send_keys(keywords)
+        except:
+            self.driver.find_element_by_xpath(res).send_keys(keywords)
+
+    def swipe(self, res):
+        width = self.driver.get_window_rect()['width']
+        height = self.driver.get_window_rect()['height']
+        i = 0
+        while i<10:
+            try:
+                self.driver.find_element_by_id(res).click()
+                break
+            except Exception as e:
+                self.driver.swipe(width/2,height*0.8,width/2,height*0.2)
+                i = i +1
+
+    def isElemnet(self):
+        self.driver.is
+
 

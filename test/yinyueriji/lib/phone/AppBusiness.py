@@ -20,6 +20,7 @@ class AppBusiness(Client):
 
         # self.driver = self.client.driver
     def login(self):
+
         self.client.send_keys('com.greattone.greattone:id/et_name', u'艾丹特纳')
         self.client.send_keys('com.greattone.greattone:id/et_password', '123456')
         self.client.click('com.greattone.greattone:id/btn_sign_in')

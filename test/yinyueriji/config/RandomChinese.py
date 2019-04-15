@@ -57,10 +57,12 @@ class Random_Chinese:
     #
     #         return cre_names
 
-
-if __name__ == '__main__':
-    dd=Random_Chinese()
-    print(dd.cre_name())
+#
+# if __name__ == '__main__':
+#     dd=Random_Chinese()
+#     if dd.cre_name() == None:
+#         dd.cre_name()
+#
 
 
 # for x in range(10):

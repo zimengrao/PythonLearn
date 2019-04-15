@@ -8,6 +8,7 @@
 
 import unittest
 from BeautifulReport1 import BeautifulReport
+import threading
 
 def app_api():
     test_suite = unittest.defaultTestLoader.discover('tests/test_api_app/api', pattern='test1*.py')
@@ -17,20 +18,29 @@ def app_api():
 def web_api():
     test_suite = unittest.defaultTestLoader.discover('tests/test_api_web/api', pattern='test2.py')
     result = BeautifulReport(test_suite)
-    result.report(filename='appapi测试报告', description='appapi测试报告', log_path='report')
+    result.report(filename='webapi测试报告', description='webapi测试报告', log_path='report')
 
 def andriod_ui():
     test_suite = unittest.defaultTestLoader.discover('tests/test_ui_andriod', pattern='test2*.py')
     result = BeautifulReport(test_suite)
-    result.report(filename='andriod功能测试报告', description='appapi测试报告', log_path='report')
+    result.report(filename='andriod_ui测试报告', description='andriod_ui测试报告', log_path='report')
 
 def web_ui():
     test_suite = unittest.defaultTestLoader.discover('tests/test_ui_web', pattern='test*.py')
     result = BeautifulReport(test_suite)
-    result.report(filename='appapi测试报告', description='appapi测试报告', log_path='report')
+    result.report(filename='web_ui测试报告', description='web_ui测试报告', log_path='report')
 
 if __name__ == '__main__':
     # app_api()
     andriod_ui()
-
+    # threads = []
+    # t1 = threading.Thread(target=andriod_ui())
+    # threads.append(t1)
+    # t2 = threading.Thread(target=app_api())
+    # threads.append(t2)
+    # for t in threads:
+    #     t.setDaemon(True)
+    #     t.start()
+    # t.join()
+    # print('ok')
 
