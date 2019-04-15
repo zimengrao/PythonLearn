@@ -63,7 +63,7 @@ class Client:
                 self.driver.swipe(width/2,height*0.8,width/2,height*0.2)
                 i = i +1
 
-    def isElemnet(self):
-        self.driver.is
+    # def isElemnet(self):
+    #     self.driver.is
 
 
