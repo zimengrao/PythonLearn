@@ -9,6 +9,7 @@
 import os
 from config.cnf import Config
 from appium.webdriver import Remote
+from selenium.webdriver.support.ui import WebDriverWait
 
 PATH=lambda p:os.path.abspath(os.path.join(os.path.dirname(__file__),p))
 class Client:
@@ -21,6 +22,7 @@ class Client:
             'deviceName': self.config.get_config('DESIRED_CAPS', 'deviceName'),
             'appPackage': self.config.get_config('DESIRED_CAPS', 'appPackage'),
             'appActivity': self.config.get_config('DESIRED_CAPS', 'appActivity'),
+            # 'udid': '127.0.0.1:4723',
             'unicodeKeyboard': True,
             'resetKeyboard': True,
             'autoGrantPermissions': True,
@@ -31,6 +33,7 @@ class Client:
         # self.driver = Remote("http://127.0.0.1:4723/wd/hub", self.desired_caps)
         self.driver = Remote('{}'.format(self.driver_url), self.desired_caps)
         self.driver.implicitly_wait(15)
+        self.wait = WebDriverWait
 
     def find(self,xpath):
         result=self.driver.find_element_by_xpath(xpath).text
@@ -57,11 +60,12 @@ class Client:
         i = 0
         while i<10:
             try:
-                self.driver.find_element_by_id(res).click()
+                self.driver.find_element_by_id(res).is_enabled()
                 break
             except Exception as e:
                 self.driver.swipe(width/2,height*0.8,width/2,height*0.2)
                 i = i +1
+
 
     # def isElemnet(self):
     #     self.driver.is
