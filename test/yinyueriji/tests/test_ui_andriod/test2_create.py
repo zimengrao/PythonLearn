@@ -9,6 +9,7 @@ import unittest
 # from lib.app.client import Client
 from lib.phone.AppBusiness import AppBusiness
 from config.RandomChinese import Random_Chinese
+# from lxml.html import fromstring
 import time
 import random
 
@@ -24,7 +25,7 @@ class AndriodTest(unittest.TestCase):
         cls.bus = AppBusiness()
         cls.client = cls.bus.client
         cls.driver = cls.bus.client.driver
-        cls.randcs = Random_Chinese
+        cls.randcs = Random_Chinese()
 
     def tearDownclass(self):
         self.driver.close_app()
@@ -37,9 +38,9 @@ class AndriodTest(unittest.TestCase):
     #     self.client.click('com.greattone.greattone:id/tab_rb_2')
     #     self.client.click('com.greattone.greattone:id/ll_video')
     #     i = random.randint(1,6)
-    #     content = self.randcs().cre_name()
+    #     content = self.randcs.cre_name()
     #     while content == None:
-    #         content = self.randcs().cre_name()
+    #         content = self.randcs.cre_name()
     #     self.client.send_keys('com.greattone.greattone:id/et_content', '第{}个视频'.format(i) + content)
     #     self.client.click('com.greattone.greattone:id/iv_pic')
     #     self.client.click("//*[@text='从相册选择视频' and @index='2']")
@@ -58,9 +59,9 @@ class AndriodTest(unittest.TestCase):
     #     # self.bus.login()
     #     self.client.click(res='com.greattone.greattone:id/tab_rb_2')
     #     self.client.click(res='com.greattone.greattone:id/ll_picture')
-    #     content = self.randcs().cre_name()
+    #     content = self.randcs.cre_name()
     #     while content == None:
-    #         content = self.randcs().cre_name()
+    #         content = self.randcs.cre_name()
     #     self.client.send_keys('com.greattone.greattone:id/et_content', content)
     #     self.client.click('com.greattone.greattone:id/iv_pic')
     #     i = random.randint(1,9)
@@ -110,9 +111,21 @@ class AndriodTest(unittest.TestCase):
         self.bus.login()
         self.client.click('com.greattone.greattone:id/tab_rb_1')
         self.client.click('com.greattone.greattone:id/tv_btn1')
-        # self.client.click('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/'
-        #                   'android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/'
-        #                   'android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.ListView/'
-        #                   'android.widget.RelativeLayout[1]')
-        self.client.click('//*[@resource-id="com.greattone.greattone:id/tv_name" and @index="0"]')
+        self.client.click('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/'
+                          'android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/'
+                          'android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.ListView/'
+                          'android.widget.RelativeLayout[1]')
+        # self.client.swipe('//*[@text={}]'.format())
+        self.client.click('com.greattone.greattone:id/tv_sign_up')
+        # self.client.send_keys('//*[@text="姓名."]', u'ceshi')
+        self.client.send_keys('vux-x-input-il13f', 'ceshi')
+
+        # self.client.send_keys('//*[@text="年龄."]',random.randint(6,19))
+        # self.client.send_keys('//*[@text="指导老师."]', u'ceshi')
+        # self.client.send_keys('//*[@text="曲目."]', self.randcs.content())
+        # self.client.send_keys('//*[@text="内容."]', self.randcs.content())
+
+
+
+        # self.client.xpath('//*[@class="android.widget.RelativeLayout" and @index="0"]')
 

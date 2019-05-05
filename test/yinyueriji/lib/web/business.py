@@ -234,13 +234,6 @@ class BusinessApi(HttpHandler):
                 return False
 
 
-    def GBK2312(self):
-        head = random.randint(0xb0, 0xf7)
-        body = random.randint(0xa1, 0xfe)
-        val = '{head:x}{body:x}'
-        str = bytes.fromhex(val).decode('gb2312')
-        return str
-
 # if __name__ == '__main__':
 #     bus=BusinessApi()
 #     bus.login(2940,'hqs123')

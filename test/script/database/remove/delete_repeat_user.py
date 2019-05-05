@@ -187,9 +187,28 @@ def userid_005():
         conn.commit()
         print(r[0])
 
+def userid_004():
+    '''
+    :return:
+    '''
+    conn = pymysql.connect(**config)
+    cur = conn.cursor()
+    sql = "select b.id from (select a.id from ( SELECT MAX(tc004_id) as id,count(*) as count from `ceshihao3.6`.gt004_user_teacher group by tc001_user_id having count>1) a) b"
+    cur.execute(sql)
+    rs = cur.fetchall()
+    # print(rs)
+    userid = []
+    # print(list_userid)
+    for r in rs:
+        # print(r[0])
+        cur.execute("delete from gt004_user_teacher where tc004_id = '%s'", r[0])
+        conn.commit()
+        print(r[0])
+		
 
 # select_phone()
 # select_openid()
 # select_username_phone()
 # userid_005()
-userid_12()
+# userid_12()
+userid_004()

@@ -10,6 +10,7 @@
 import codecs
 import random
 from functools import reduce
+import copy
 
 # 经过山东菏泽王晓辉老师的提醒
 # 随机名称还可以用汉字区位码
@@ -41,28 +42,41 @@ class Random_Chinese:
 
     def cre_name(self):
         # print(i)
-        i = random.randint(4,63)
-        self.username = [''] * i
-        # print(i)
+        i = random.randint(4,101)
+        # self.username = [''] * i
+        self.username = ''
+        print(i)
+        t = 1
         try:
-            self.name = map(lambda x: x + self.random_gb2312_char(),self.username)
-            self.username = ''.join(list(self.name))
-            # print(self.username)
+            while t < i:
+                self.username = self.username + self.random_gb2312_char()
+            # self.name = list(map(lambda x: x + self.random_gb2312_char(),self.username))
+            # self.username = ''.join(list(self.name))
+                t = t+1
+            print(self.username)
+            print(type(self.username))
             return self.username
         except:
             return None
 
+    def content(self):
+        while self.cre_name() == None:
+            self.cre_name()
+        return self.cre_name()
     # def num(self, i):
     #     for x in range(i):
     #
     #         return cre_names
 
 #
-# if __name__ == '__main__':
-#     dd=Random_Chinese()
-#     if dd.cre_name() == None:
-#         dd.cre_name()
-#
+if __name__ == '__main__':
+    dd=Random_Chinese()
+    dd.cre_name()
+    # i = 1
+    # while i < 50:
+    #     dd.cre_name()
+    #     print(i)
+    #     i = i +1
 
 
 # for x in range(10):

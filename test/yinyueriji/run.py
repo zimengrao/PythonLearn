@@ -12,12 +12,12 @@ from BeautifulReport import BeautifulReport as be2
 import threading
 
 def app_api():
-    test_suite = unittest.defaultTestLoader.discover('tests/test_api_app/api', pattern='test1*.py')
+    test_suite = unittest.defaultTestLoader.discover('tests/test_api_app/api', pattern='test100*.py')
     result = be1(test_suite)
     result.report(filename='appapi测试报告', description='appapi测试报告', log_path='report')
 
 def web_api():
-    test_suite = unittest.defaultTestLoader.discover('tests/test_api_web/api', pattern='test2.py')
+    test_suite = unittest.defaultTestLoader.discover('tests/test_api_web/create', pattern='test2*.py')
     result = be1(test_suite)
     result.report(filename='webapi测试报告', description='webapi测试报告', log_path='report')
 
@@ -33,7 +33,8 @@ def web_ui():
 
 if __name__ == '__main__':
     # app_api()
-    andriod_ui()
+    # andriod_ui()
+    web_api()
     # threads = []
     # t1 = threading.Thread(target=andriod_ui())
     # threads.append(t1)

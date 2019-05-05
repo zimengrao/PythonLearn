@@ -41,6 +41,8 @@ class ExcelData(Config):
                 s[self.row[x]] = col[x]
             r.append(s)
             self.curRowNo += 1
+            # print(r)
+            # print('\n')
         return r
 
     def hasNext(self):
@@ -50,5 +52,5 @@ class ExcelData(Config):
             return True
 
 # if __name__ == '__main__':
-#     f = ExcelData()
-#     f.writeData()
+#     f = ExcelData('create_appapi')
+#     f.readData()
