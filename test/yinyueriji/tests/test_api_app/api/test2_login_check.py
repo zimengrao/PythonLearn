@@ -8,7 +8,6 @@
 
 import json
 import unittest
-
 import ddt
 
 # from app.web.business import BusinessApi

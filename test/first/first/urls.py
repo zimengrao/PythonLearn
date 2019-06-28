@@ -15,12 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from cmdb import views
+from cmdb import views as cmdb_views
+# from django.urls import  reverse
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.add),
-    path('add', views.add,name='add'),
+    # path('admin/', admin.site.urls),
+    path('',cmdb_views.home, name='home'),
+    # # path('add/', cmdb_views.add, name='add'),
+    # path('add/<int:a>/<int:b>', cmdb_views.add1, name='add1'),
+    # path(r'^add/(\d+)/(\d+)/$', cmdb_views.old_add1),
+    # path(r'^new_add/(\d+)/(\d+)/$', cmdb_views.add1, name='add1'),
+    path('admin/',admin.site.urls),
+
 ]
 
