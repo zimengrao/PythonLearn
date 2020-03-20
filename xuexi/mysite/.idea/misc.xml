@@ -11,9 +11,6 @@
     <other-services-enabled>false</other-services-enabled>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.3 (C:\Users\wangmin\AppData\Local\Programs\Python\Python35\python.exe)" project-jdk-type="Python SDK" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\wangmin\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="VagrantProjectSettings">
     <option name="instanceFolder" value="" />
     <option name="provider" value="" />

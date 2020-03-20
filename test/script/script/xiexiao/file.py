@@ -7,12 +7,13 @@
 """
 import os
 import re
-import numpy as np
+# import numpy as np
 # from lib.WebDriverClient import WebDriver
 
 path_js = 'dist\static\js'
 path_css = 'dist\static\css'
 html_path = 'dist\index.html'
+png = 'D://program data//weixin//WeChat Files//zimengrao//FileStorage//File//2019-11'
 
 '''
 H5项目 .js路径替换成阿里云路径
@@ -54,12 +55,28 @@ def replace():
 
     return result
 
+def gif_to_png(png):
+
+    file_names = os.listdir(png)
+    # print(file_names)
+
+    for item in file_names:
+        print(item)
+        if '.gif' in item:
+            # position = name.rfind(item)
+            new_name = item.replace('.gif', '.png')
+            # os.rename(png + '/' + item, png + '/' + new_name)
+            # print(item)
+        # print(item)
+
+
 # def write():
 #     f = open(html_path, 'w')
 #     f.write(replace())
 if __name__ == '__main__':
 
-    rep =replace()
-    f = open(html_path, 'w')
-    f.write(rep)
-    # print('替换完成')
+    # rep =replace()
+    # f = open(html_path, 'w')
+    # f.write(rep)
+
+    gif_to_png(png)
