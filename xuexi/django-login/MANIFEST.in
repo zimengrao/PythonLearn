@@ -1,5 +1,0 @@
-include LICENSE
-include README.rst
-recursive-include login/static *
-recursive-include login/templates *
-recursive-include docs *
